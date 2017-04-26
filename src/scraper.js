@@ -10,7 +10,7 @@ import type {
 const _ = require("lodash");
 const { Lokka } = require("lokka");
 const { Transport } = require("lokka-transport-http");
-const bfi = require("./scrapers/bfi");
+// const bfi = require("./scrapers/bfi");
 const imdb = require("./scrapers/imdb");
 const letterboxd = require("./scrapers/letterboxd");
 const metacritic = require("./scrapers/metacritic");
@@ -209,31 +209,59 @@ const updateRankings = async (): Promise<string[]> => {
   return rankingIds;
 };
 
-const main = async () => {
-  // const movies = await tmdb.getTopMovies();
-  // const movieIds = await updateOrCreateMovies(movies, "tmdb");
-  // const items = await bfi.getTopMovies();
-  // const movies = await searchMovies(items);
-  // const movieIds = await updateOrCreateMovies(movies, "bfi");
-  // const items = await imdb.getTopMovies();
-  // const movies = await searchMovies(items);
-  // const movieIds = await updateOrCreateMovies(movies, "imdb");
-  // const items = await letterboxd.getTopMovies();
-  // const movies = await searchMovies(items);
-  // const movieIds = await updateOrCreateMovies(movies, "letterboxd");
-  // const items = await metacritic.getTopMovies();
-  // const movies = await searchMovies(items);
-  // const movieIds = await updateOrCreateMovies(movies, "metacritic");
-  // const items = await mubi.getTopMovies();
-  // const movies = await searchMovies(items);
-  // const movieIds = await updateOrCreateMovies(movies, "mubi");
-  // const items = await rottenTomatoes.getTopMovies();
-  // const movies = await searchMovies(items);
-  // const movieIds = await updateOrCreateMovies(movies, "rottenTomatoes");
-  // console.log(`Created ${movieIds.length} movies`);
+const getSearchUpdate = async (
+  getMoviesFunc: () => Promise<SearchInfo[]>,
+  source: Sources
+) => {
+  const items = await getMoviesFunc();
+  const movies = await searchMovies(items);
+  const movieIds = await updateOrCreateMovies(movies, source);
+  return movieIds;
+};
 
+const getUpdate = async (
+  getMoviesFunc: () => Promise<(?TmdbMovie)[]>,
+  source: Sources
+) => {
+  const movies = await getMoviesFunc();
+  const movieIds = await updateOrCreateMovies(movies, source);
+  return movieIds;
+};
+
+const getMovieFuncs: Array<{
+  saveFunc: Function,
+  getFunc: Function,
+  source: Sources
+}> = [
+  { saveFunc: getSearchUpdate, getFunc: imdb.getTopMovies, source: "imdb" },
+  {
+    saveFunc: getSearchUpdate,
+    getFunc: letterboxd.getTopMovies,
+    source: "letterboxd"
+  },
+  {
+    saveFunc: getSearchUpdate,
+    getFunc: metacritic.getTopMovies,
+    source: "metacritic"
+  },
+  { saveFunc: getSearchUpdate, getFunc: mubi.getTopMovies, source: "mubi" },
+  {
+    saveFunc: getSearchUpdate,
+    getFunc: rottenTomatoes.getTopMovies,
+    source: "rottenTomatoes"
+  },
+  { saveFunc: getUpdate, getFunc: tmdb.getTopMovies, source: "tmdb" }
+];
+
+const scrapeMovies = async (index: number) => {
+  const getMovie = getMovieFuncs[index];
+  const movieIds = await getMovie.saveFunc(getMovie.getFunc, getMovie.source);
+  console.log(`Updated ${movieIds.length} movies`);
+};
+
+const rankings = async () => {
   const rankingIds = await updateRankings();
   console.log(`Updated ${rankingIds.length} rankings`);
 };
 
-main().catch((e: Error) => console.error(e));
+module.exports = { scrapeMovies, rankings };
