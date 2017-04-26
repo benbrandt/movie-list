@@ -24,7 +24,8 @@ process.env.TZ = "UTC";
 
 const client = new Lokka({
   transport: new Transport(
-    `https://api.graph.cool/simple/v1/${process.env.GRAPHCOOL_ENDPOINT || ""}`
+    `https://api.graph.cool/simple/v1/${process.env.GRAPHCOOL_ENDPOINT || ""}`,
+    { Authorization: `Bearer ${process.env.GRAPHCOOL_TOKEN || ""}` }
   )
 });
 
