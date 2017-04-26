@@ -4,9 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "build": "babel src --out-dir dist",
     "flow": "flow",
     "flow-typed": "flow-typed",
-    "start": "BABEL_ENV='scraper' babel-node scraper/scraper.js"
+    "start": "node dist/main.js"
   },
   "dependencies": {
     "isomorphic-fetch": "^2.2.1",
