@@ -42,8 +42,7 @@ const createMovie = async (
   movie: TmdbMovie,
   positions: { [id: string]: number }
 ) => {
-  const result: MovieResult = await client.mutate(
-    `{
+  const result: MovieResult = await client.mutate(`{
     movie: createMovie(
       tmdbId: ${movie.id},
       title: "${_.escape(movie.title)}",
@@ -61,8 +60,7 @@ const createMovie = async (
     ) {
       id
     }
-  }`
-  );
+  }`);
   if (!result) console.log(movie);
   return result.movie.id;
 };
@@ -73,8 +71,7 @@ const updateMovie = async (
   movie: TmdbMovie,
   positions: { [id: string]: number }
 ) => {
-  const result: MovieResult = await client.mutate(
-    `{
+  const result: MovieResult = await client.mutate(`{
     movie: updateMovie(
       id: "${id}",
       tmdbId: ${movie.id},
@@ -97,8 +94,7 @@ const updateMovie = async (
     ) {
       id
     }
-  }`
-  );
+  }`);
   if (!result) console.log(movie);
   return result.movie.id;
 };
@@ -109,16 +105,14 @@ const updateOrCreateMovie = async (
 ) => {
   const result: {
     Movie: { id: string } & RankingResult
-  } = await client.query(
-    `{
+  } = await client.query(`{
     Movie(tmdbId: ${movie.id}) {
       id
       ranking {
         id
       }
     }
-  }`
-  );
+  }`);
 
   console.log(`Saving ${movie.title}`);
   return result.Movie

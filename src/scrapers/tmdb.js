@@ -20,20 +20,20 @@ const topMoviesUrl = (page: number) =>
   `${baseUrl}movie/top_rated${apiKey}&page=${page}`;
 const searchUrl = (query: string, year: ?number) => {
   const yearParam = year ? `&year=${encodeURIComponent(year.toString())}` : "";
-  return `${baseUrl}search/movie${apiKey}&query=${encodeURIComponent(query)}${yearParam}`;
+  return `${baseUrl}search/movie${apiKey}&query=${encodeURIComponent(
+    query
+  )}${yearParam}`;
 };
 
 // TMDB API HELPERS
 
-function searchMovie({ title, year }: SearchInfo): Promise<SearchResults> {
-  return title
+const searchMovie = ({ title, year }: SearchInfo): Promise<SearchResults> =>
+  title
     ? delayedRequest(searchUrl(title, year))
     : Promise.resolve({ results: [], total: 0 });
-}
 
-function getMovie(movie: ?SearchResult): Promise<?TmdbMovie> {
-  return movie ? delayedRequest(movieUrl(movie.id)) : Promise.resolve(null);
-}
+const getMovie = (movie: ?SearchResult): Promise<?TmdbMovie> =>
+  movie ? delayedRequest(movieUrl(movie.id)) : Promise.resolve(null);
 
 async function searchMovies(info: SearchInfo): Promise<?TmdbMovie> {
   let resp = await searchMovie(info);

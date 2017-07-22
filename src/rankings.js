@@ -44,8 +44,7 @@ function avgRank({
 const getRankings = async (): Promise<Rankings[]> => {
   const result: {
     allRankings: Rankings[]
-  } = await client.query(
-    `{
+  } = await client.query(`{
     allRankings {
       id
       bfi
@@ -56,23 +55,20 @@ const getRankings = async (): Promise<Rankings[]> => {
       rottenTomatoes
       tmdb
     }
-  }`
-  );
+  }`);
 
   return result.allRankings;
 };
 
 const updateRank = async (id: string, position: number): Promise<string> => {
-  const result: RankingResult = await client.mutate(
-    `{
+  const result: RankingResult = await client.mutate(`{
     ranking: updateRanking(
       id: "${id}",
       position: ${position}
     ) {
       id
     }
-  }`
-  );
+  }`);
   if (!result) console.log(result);
   return result.ranking.id;
 };
