@@ -1,7 +1,7 @@
 // @flow
 import type { SearchInfo } from "../types";
 const scrapeIt = require("scrape-it");
-const take = require("ramda/src/take");
+const R = require("ramda");
 
 const topMoviesUrl = page =>
   `http://letterboxd.com/films/ajax/by/rating/size/small/page/${page}/`;
@@ -30,7 +30,7 @@ async function getTopMovies(): Promise<SearchInfo[]> {
   const movies2 = await getMovieList(topMoviesUrl(2));
 
   const movies = [...movies1, ...movies2];
-  return take(100, movies);
+  return R.take(100, movies);
 }
 
 getTopMovies();

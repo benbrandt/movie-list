@@ -6,11 +6,7 @@ import type {
   SearchResults
 } from "../types";
 const { delayedRequest } = require("../lib/request");
-const flatten = require("ramda/src/flatten");
-const map = require("ramda/src/map");
-const pipe = require("ramda/src/pipe");
-const range = require("ramda/src/range");
-const take = require("ramda/src/take");
+const R = require("ramda");
 
 // TMDB API URLS
 const baseUrl = "https://api.themoviedb.org/3/";
@@ -27,15 +23,18 @@ const searchUrl = (query: string, year: ?number) => {
 
 // TMDB API HELPERS
 
-const searchMovie = ({ title, year }: SearchInfo): Promise<SearchResults> =>
+const searchMovie = async ({
+  title,
+  year
+}: SearchInfo): Promise<SearchResults> =>
   title
     ? delayedRequest(searchUrl(title, year))
     : Promise.resolve({ results: [], total: 0 });
 
-const getMovie = (movie: ?SearchResult): Promise<?TmdbMovie> =>
+const getMovie = async (movie: ?SearchResult): Promise<?TmdbMovie> =>
   movie ? delayedRequest(movieUrl(movie.id)) : Promise.resolve(null);
 
-async function searchMovies(info: SearchInfo): Promise<?TmdbMovie> {
+async function searchMovies(info: SearchInfo): $await<?TmdbMovie> {
   let resp = await searchMovie(info);
   if (resp.results.length === 0) {
     resp = await searchMovie({ title: info.title, year: null });
@@ -43,29 +42,25 @@ async function searchMovies(info: SearchInfo): Promise<?TmdbMovie> {
   return getMovie(resp.results[0]);
 }
 
-async function getTopMoviesList(): Promise<SearchResults[][]> {
-  const urls = range(1, 6).map(topMoviesUrl);
+async function getTopMoviesList(): $await<SearchResult[]> {
+  const urls = R.range(1, 6).map(topMoviesUrl);
   const results = [];
 
   for (let url of urls) {
     results.push(await delayedRequest(url));
   }
 
-  return results;
+  return R.pipe(
+    R.flatten,
+    R.map(({ results }: SearchResults) => results),
+    R.flatten
+  )(results);
 }
 
-async function getTopMovies(): Promise<(?TmdbMovie)[]> {
-  const listArr = await getTopMoviesList();
+async function getTopMovies(): $await<?(TmdbMovie[])> {
+  const listArr: SearchResult[] = await getTopMoviesList();
 
-  const getResults = map(({ results }) => results);
-  const first100 = take(100);
-
-  const topMovies: SearchResult[] = pipe(
-    flatten,
-    getResults,
-    flatten,
-    first100
-  )(listArr);
+  const topMovies: SearchResult[] = R.pipe(R.take(100))(listArr);
   const movies = [];
 
   for (let movie of topMovies) {

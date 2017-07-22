@@ -1,7 +1,7 @@
 // @flow
 import type { SearchInfo } from "../types";
 const scrapeIt = require("scrape-it");
-const take = require("ramda/src/take");
+const R = require("ramda");
 
 const topMoviesUrl =
   "http://www.metacritic.com/browse/movies/score/metascore/all";
@@ -22,7 +22,7 @@ async function getTopMovies(): Promise<SearchInfo[]> {
     }
   });
   console.log(topMoviesUrl);
-  return take(100, movies);
+  return R.take(100, movies);
 }
 
 module.exports = { getTopMovies };

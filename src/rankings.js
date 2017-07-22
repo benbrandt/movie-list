@@ -2,7 +2,7 @@
 import type { Rankings, RankingResult } from "./types";
 const { Lokka } = require("lokka");
 const { Transport } = require("lokka-transport-http");
-const sum = require("ramda/src/sum");
+const R = require("ramda");
 
 // Set timezone to UTC (needed for Graphcool);
 process.env.TZ = "UTC";
@@ -36,7 +36,7 @@ function avgRank({
   if (tmdb) rankings.push(tmdb);
 
   const length = rankings.length;
-  const average = length > 0 ? sum(rankings) / length : 0;
+  const average = length > 0 ? R.sum(rankings) / length : 0;
 
   return length + 1 / average;
 }

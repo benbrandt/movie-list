@@ -1,8 +1,7 @@
 // @flow
 import type { SearchInfo } from "../types";
 const scrapeIt = require("scrape-it");
-const flatten = require("ramda/src/flatten");
-const take = require("ramda/src/take");
+const R = require("ramda");
 
 const topMoviesUrl = page => `http://mubi.com/films?page=${page}/`;
 
@@ -25,7 +24,7 @@ async function getMovieList(url): Promise<SearchInfo[]> {
   return movies;
 }
 
-async function getTopMovies(): Promise<SearchInfo[]> {
+async function getTopMovies() {
   const movies = [];
   const pages = [1, 2, 3, 4, 5];
 
@@ -33,7 +32,7 @@ async function getTopMovies(): Promise<SearchInfo[]> {
     movies.push(await getMovieList(topMoviesUrl(page)));
   }
 
-  return take(100, flatten(movies));
+  return R.take(100, R.flatten(movies));
 }
 
 module.exports = { getTopMovies };
