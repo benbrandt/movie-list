@@ -42,9 +42,7 @@ function avgRank({
 }
 
 const getRankings = async (): Promise<Rankings[]> => {
-  const result: {
-    allRankings: Rankings[]
-  } = await client.query(`{
+  const result: { allRankings: Rankings[] } = await client.query(`{
     allRankings {
       id
       bfi

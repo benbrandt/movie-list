@@ -141,24 +141,12 @@ const getTmdbMovies = async (
   return movies;
 };
 
-const scrapeMovieFuncs: Array<{
-  scrape: Function,
-  source: Sources
-}> = [
+const scrapeMovieFuncs: Array<{ scrape: Function, source: Sources }> = [
   { scrape: imdb.getTopMovies, source: "imdb" },
-  {
-    scrape: letterboxd.getTopMovies,
-    source: "letterboxd"
-  },
-  {
-    scrape: metacritic.getTopMovies,
-    source: "metacritic"
-  },
+  { scrape: letterboxd.getTopMovies, source: "letterboxd" },
+  { scrape: metacritic.getTopMovies, source: "metacritic" },
   { scrape: mubi.getTopMovies, source: "mubi" },
-  {
-    scrape: rottenTomatoes.getTopMovies,
-    source: "rottenTomatoes"
-  }
+  { scrape: rottenTomatoes.getTopMovies, source: "rottenTomatoes" }
 ];
 
 const scrapeMovies = async () => {
