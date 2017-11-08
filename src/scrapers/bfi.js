@@ -13,18 +13,19 @@ function splitTitleYear(string: string): SearchInfo {
 }
 
 async function getTopMovies(): Promise<SearchInfo[]> {
-  const {
-    movies
-  }: { movies: { titleAndYear: string }[] } = await scrapeIt(topMoviesUrl, {
-    movies: {
-      listItem: ".sas-film-list-row",
-      data: {
-        titleAndYear: {
-          selector: ".show-for-small a"
+  const { movies }: { movies: { titleAndYear: string }[] } = await scrapeIt(
+    topMoviesUrl,
+    {
+      movies: {
+        listItem: ".sas-film-list-row",
+        data: {
+          titleAndYear: {
+            selector: ".show-for-small a"
+          }
         }
       }
     }
-  });
+  );
 
   return movies.map(({ titleAndYear }) => splitTitleYear(titleAndYear));
 }

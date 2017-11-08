@@ -27,13 +27,13 @@ function avgRank({
   tmdb
 }: Rankings): number {
   let rankings = [];
-  if (bfi) rankings.push(bfi);
-  if (imdb) rankings.push(imdb);
-  if (letterboxd) rankings.push(letterboxd);
-  if (metacritic) rankings.push(metacritic);
-  if (mubi) rankings.push(mubi);
-  if (rottenTomatoes) rankings.push(rottenTomatoes);
-  if (tmdb) rankings.push(tmdb);
+  if (bfi != null) rankings.push(bfi);
+  if (imdb != null) rankings.push(imdb);
+  if (letterboxd != null) rankings.push(letterboxd);
+  if (metacritic != null) rankings.push(metacritic);
+  if (mubi != null) rankings.push(mubi);
+  if (rottenTomatoes != null) rankings.push(rottenTomatoes);
+  if (tmdb != null) rankings.push(tmdb);
 
   const length = rankings.length;
   const average = length > 0 ? R.sum(rankings) / length : 0;

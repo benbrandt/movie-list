@@ -34,7 +34,9 @@ async function checkStatus(response) {
  * @return {object}           The response data
  */
 const request = async (url: string, options?: RequestOptions) =>
-  fetch(url, options).then(checkStatus).then(parseJSON);
+  fetch(url, options)
+    .then(checkStatus)
+    .then(parseJSON);
 
 type DelayedRequest<T> = string => Promise<T>;
 const delayedRequest: DelayedRequest<*> = async url =>

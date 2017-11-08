@@ -15,10 +15,11 @@ const movieUrl = (id: number) => `${baseUrl}movie/${id}${apiKey}`;
 const topMoviesUrl = (page: number) =>
   `${baseUrl}movie/top_rated${apiKey}&page=${page}`;
 const searchUrl = (query: string, year: ?number) => {
-  const yearParam = year ? `&year=${encodeURIComponent(year.toString())}` : "";
-  return `${baseUrl}search/movie${apiKey}&query=${encodeURIComponent(
-    query
-  )}${yearParam}`;
+  const yearParam =
+    year != null ? `&year=${encodeURIComponent(year.toString())}` : "";
+  return `${baseUrl}search/movie${apiKey}&query=${encodeURIComponent(query)}${
+    yearParam
+  }`;
 };
 
 // TMDB API HELPERS
@@ -27,7 +28,7 @@ const searchMovie = async ({
   title,
   year
 }: SearchInfo): Promise<SearchResults> =>
-  title
+  title != null
     ? delayedRequest(searchUrl(title, year))
     : Promise.resolve({ results: [], total: 0 });
 
