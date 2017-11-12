@@ -4,12 +4,19 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "babel src --out-dir dist",
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "build:node": "babel src --out-dir dist",
     "flow": "flow",
     "flow-typed": "flow-typed",
-    "start": "yarn build && node dist/main.js"
+    "start": "yarn build:node && node dist/main.js"
   },
   "dependencies": {
+    "gatsby": "^1.9.108",
+    "gatsby-link": "^1.6.26",
+    "gatsby-plugin-react-helmet": "^1.0.8",
+    "gatsby-source-filesystem": "^1.5.8",
+    "gatsby-transformer-json": "^1.0.12",
     "isomorphic-fetch": "^2.2.1",
     "lodash": "^4.17.4",
     "lokka": "^1.7.0",
