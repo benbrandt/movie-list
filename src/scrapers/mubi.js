@@ -24,7 +24,7 @@ async function getMovieList(url): Promise<SearchInfo[]> {
   return movies;
 }
 
-async function getTopMovies() {
+async function getTopMovies(): $await<SearchInfo[]> {
   const movies = [];
   const pages = [1, 2, 3, 4, 5];
 

@@ -1,15 +1,7 @@
 // @flow
-import type {
-  MovieResult,
-  RankingResult,
-  SearchInfo,
-  Sources,
-  TmdbMovie
-} from "./types";
-const _ = require("lodash");
-const { Lokka } = require("lokka");
-const { Transport } = require("lokka-transport-http");
-// const bfi = require("./scrapers/bfi");
+import type { Rankings, SearchInfo, Sources, TmdbMovie } from "./types";
+const R = require("ramda");
+const bfi = require("./scrapers/bfi");
 const imdb = require("./scrapers/imdb");
 const letterboxd = require("./scrapers/letterboxd");
 const metacritic = require("./scrapers/metacritic");
@@ -17,107 +9,53 @@ const mubi = require("./scrapers/mubi");
 const rottenTomatoes = require("./scrapers/rottenTomatoes");
 const tmdb = require("./scrapers/tmdb");
 
-// Set timezone to UTC (needed for Graphcool);
-process.env.TZ = "UTC";
-const headers = {
-  Authorization: `Bearer ${process.env.GRAPHCOOL_TOKEN || ""}`
-};
+function avgRank({
+  bfi,
+  imdb,
+  letterboxd,
+  metacritic,
+  mubi,
+  rottenTomatoes,
+  tmdb
+}: Rankings): number {
+  let rankings = [];
+  if (bfi != null) rankings.push(bfi);
+  if (imdb != null) rankings.push(imdb);
+  if (letterboxd != null) rankings.push(letterboxd);
+  if (metacritic != null) rankings.push(metacritic);
+  if (mubi != null) rankings.push(mubi);
+  if (rottenTomatoes != null) rankings.push(rottenTomatoes);
+  if (tmdb != null) rankings.push(tmdb);
 
-const client = new Lokka({
-  transport: new Transport(
-    `https://api.graph.cool/simple/v1/${process.env.GRAPHCOOL_ENDPOINT || ""}`,
-    { headers }
-  )
-});
+  const length = rankings.length;
+  const average = length > 0 ? R.sum(rankings) / length : 0;
 
-const escapeEllipse = string => string.replace(/\.\.\./g, "…");
-
-const sourceParams = (positions): string => {
-  return Object.keys(positions)
-    .map(source => `${source}: ${positions[source] + 1}`)
-    .join(", ");
-};
-
-const createMovie = async (
-  movie: TmdbMovie,
-  positions: { [id: string]: number }
-) => {
-  const result: MovieResult = await client.mutate(`{
-    movie: createMovie(
-      tmdbId: ${movie.id},
-      title: "${_.escape(movie.title)}",
-      backdrop: "${movie.backdrop_path || ""}",
-      language: "${movie.original_language}",
-      originalTitle: "${_.escape(movie.original_title)}",
-      overview: "${escapeEllipse(_.escape(movie.overview))}",
-      poster: "${movie.poster_path || ""}",
-      releaseDate: "${movie.release_date}",
-      runtime: ${movie.runtime},
-      tagline: "${movie.tagline ? escapeEllipse(_.escape(movie.tagline)) : ""}",
-      ranking: {
-        ${sourceParams(positions)}
-      }
-    ) {
-      id
-    }
-  }`);
-  if (!result) console.log(movie);
-  return result.movie.id;
-};
-
-const updateMovie = async (
-  id: string,
-  rankingId: string,
-  movie: TmdbMovie,
-  positions: { [id: string]: number }
-) => {
-  const result: MovieResult = await client.mutate(`{
-    movie: updateMovie(
-      id: "${id}",
-      tmdbId: ${movie.id},
-      title: "${_.escape(movie.title)}",
-      backdrop: "${movie.backdrop_path || ""}",
-      language: "${movie.original_language}",
-      originalTitle: "${_.escape(movie.original_title)}",
-      overview: "${escapeEllipse(_.escape(movie.overview))}",
-      poster: "${movie.poster_path || ""}",
-      releaseDate: "${movie.release_date}",
-      runtime: ${movie.runtime},
-      tagline: "${movie.tagline ? escapeEllipse(_.escape(movie.tagline)) : ""}"
-    ) {
-      id
-    }
-
-    ranking: updateRanking(
-      id: "${rankingId}",
-      ${sourceParams(positions)}
-    ) {
-      id
-    }
-  }`);
-  if (!result) console.log(movie);
-  return result.movie.id;
-};
+  return length + 1 / average;
+}
 
 const updateOrCreateMovie = async (
+  db,
   movie: TmdbMovie,
-  positions: { [id: string]: number }
+  rankings: { [id: string]: number }
 ) => {
-  const result: {
-    Movie: { id: string } & RankingResult
-  } = await client.query(`{
-    Movie(tmdbId: ${movie.id}) {
-      id
-      ranking {
-        id
-      }
-    }
-  }`);
+  db
+    .set(`movies.${movie.id}`, {
+      id: movie.id,
+      title: movie.title,
+      backdrop: movie.backdrop_path || "",
+      language: movie.original_language,
+      originalTitle: movie.original_title,
+      overview: movie.overview,
+      poster: movie.poster_path || "",
+      releaseDate: movie.release_date,
+      runtime: movie.runtime,
+      tagline: movie.tagline ? movie.tagline : "",
+      rankings,
+      position: avgRank(rankings)
+    })
+    .write();
 
-  console.log(`Saving ${movie.title}`);
-  return result.Movie
-    ? updateMovie(result.Movie.id, result.Movie.ranking.id, movie, positions)
-    : createMovie(movie, positions);
+  return movie.id;
 };
 
 const searchMovies = async (
@@ -133,51 +71,53 @@ const searchMovies = async (
   return movies;
 };
 
-const getTmdbMovies = async (
+const getTmdbMovies = (
   scrapeMoviesFunc: () => Promise<SearchInfo[]>
-): Promise<Array<?TmdbMovie>> => {
+) => async (): $await<Array<?TmdbMovie>> => {
   const items = await scrapeMoviesFunc();
   const movies = await searchMovies(items);
   return movies;
 };
 
-const scrapeMovieFuncs: Array<{ scrape: Function, source: Sources }> = [
-  { scrape: imdb.getTopMovies, source: "imdb" },
-  { scrape: letterboxd.getTopMovies, source: "letterboxd" },
-  { scrape: metacritic.getTopMovies, source: "metacritic" },
-  { scrape: mubi.getTopMovies, source: "mubi" },
-  { scrape: rottenTomatoes.getTopMovies, source: "rottenTomatoes" }
+const scrapeMovieFuncs: Array<{
+  scrape: () => Promise<Array<?TmdbMovie>>,
+  source: Sources
+}> = [
+  { scrape: getTmdbMovies(bfi.getTopMovies), source: "bfi" },
+  { scrape: getTmdbMovies(imdb.getTopMovies), source: "imdb" },
+  { scrape: getTmdbMovies(letterboxd.getTopMovies), source: "letterboxd" },
+  { scrape: getTmdbMovies(metacritic.getTopMovies), source: "metacritic" },
+  { scrape: getTmdbMovies(mubi.getTopMovies), source: "mubi" },
+  {
+    scrape: getTmdbMovies(rottenTomatoes.getTopMovies),
+    source: "rottenTomatoes"
+  },
+  { scrape: tmdb.getTopMovies, source: "tmdb" }
 ];
 
-const scrapeMovies = async () => {
+const scrapeMovies = async (db: *) => {
   const movieList = {};
   const rankingList = {};
 
   for (let scraper of scrapeMovieFuncs) {
-    const movies = await getTmdbMovies(scraper.scrape);
+    console.log(`\nSCRAPING: ${scraper.source.toUpperCase()}\n===============`);
+    const movies = await scraper.scrape();
     movies.forEach((movie, index) => {
       if (movie) {
         movieList[movie.id] = movie;
         if (!rankingList[movie.id]) rankingList[movie.id] = {};
-        rankingList[movie.id][scraper.source] = index;
+        rankingList[movie.id][scraper.source] = index + 1;
       }
     });
   }
-
-  const topTmdb = await tmdb.getTopMovies();
-  topTmdb.forEach((movie, index) => {
-    if (movie) {
-      movieList[movie.id] = movie;
-      if (!rankingList[movie.id]) rankingList[movie.id] = {};
-      rankingList[movie.id].tmdb = index;
-    }
-  });
 
   const tmdbIds = Object.keys(movieList);
   const movieIds = [];
 
   for (let id of tmdbIds) {
-    movieIds.push(await updateOrCreateMovie(movieList[id], rankingList[id]));
+    movieIds.push(
+      await updateOrCreateMovie(db, movieList[id], rankingList[id])
+    );
   }
 
   console.log(`Updated ${movieIds.length} movies`);

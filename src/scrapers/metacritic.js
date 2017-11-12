@@ -21,7 +21,7 @@ async function getTopMovies(): Promise<SearchInfo[]> {
       }
     }
   });
-  console.log(topMoviesUrl);
+
   return R.take(100, movies);
 }
 
