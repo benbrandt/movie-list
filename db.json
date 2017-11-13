@@ -13,11 +13,11 @@
       "tagline": "A long time ago in a galaxy far, far away...",
       "rankings": {
         "imdb": 20,
-        "letterboxd": 98,
+        "letterboxd": 99,
         "mubi": 43,
         "tmdb": 91
       },
-      "position": 4.015873015873016
+      "position": 4.015810276679842
     },
     "12": {
       "id": 12,
@@ -83,11 +83,11 @@
       "rankings": {
         "bfi": 3,
         "imdb": 72,
-        "letterboxd": 69,
+        "letterboxd": 70,
         "mubi": 10,
         "rottenTomatoes": 2
       },
-      "position": 5.032051282051282
+      "position": 5.031847133757962
     },
     "19": {
       "id": 19,
@@ -103,9 +103,9 @@
       "rankings": {
         "mubi": 64,
         "rottenTomatoes": 9,
-        "tmdb": 96
+        "tmdb": 97
       },
-      "position": 3.0177514792899407
+      "position": 3.0176470588235293
     },
     "24": {
       "id": 24,
@@ -137,12 +137,12 @@
       "rankings": {
         "bfi": 6,
         "imdb": 50,
-        "letterboxd": 31,
+        "letterboxd": 32,
         "mubi": 8,
         "rottenTomatoes": 93,
-        "tmdb": 97
+        "tmdb": 98
       },
-      "position": 6.021052631578947
+      "position": 6.020905923344948
     },
     "38": {
       "id": 38,
@@ -175,10 +175,10 @@
       "rankings": {
         "bfi": 2,
         "imdb": 91,
-        "letterboxd": 47,
+        "letterboxd": 48,
         "mubi": 2
       },
-      "position": 4.028169014084507
+      "position": 4.027972027972028
     },
     "68": {
       "id": 68,
@@ -227,9 +227,9 @@
       "rankings": {
         "imdb": 49,
         "mubi": 57,
-        "tmdb": 79
+        "tmdb": 80
       },
-      "position": 3.016216216216216
+      "position": 3.0161290322580645
     },
     "78": {
       "id": 78,
@@ -313,12 +313,12 @@
       "rankings": {
         "bfi": 5,
         "imdb": 88,
-        "letterboxd": 68,
+        "letterboxd": 69,
         "mubi": 5,
         "rottenTomatoes": 41,
-        "tmdb": 88
+        "tmdb": 92
       },
-      "position": 6.020338983050848
+      "position": 6.02
     },
     "105": {
       "id": 105,
@@ -366,9 +366,9 @@
       "rankings": {
         "imdb": 11,
         "mubi": 66,
-        "tmdb": 90
+        "tmdb": 89
       },
-      "position": 3.0179640718562872
+      "position": 3.0180722891566263
     },
     "121": {
       "id": 121,
@@ -399,11 +399,11 @@
       "tagline": "The eye of the enemy is moving.",
       "rankings": {
         "imdb": 8,
-        "letterboxd": 83,
+        "letterboxd": 84,
         "mubi": 75,
         "tmdb": 50
       },
-      "position": 4.018518518518518
+      "position": 4.018433179723503
     },
     "128": {
       "id": 128,
@@ -436,11 +436,11 @@
       "tagline": "",
       "rankings": {
         "imdb": 29,
-        "letterboxd": 26,
+        "letterboxd": 27,
         "mubi": 15,
         "tmdb": 7
       },
-      "position": 4.0519480519480515
+      "position": 4.051282051282051
     },
     "141": {
       "id": 141,
@@ -521,12 +521,12 @@
       "tagline": "Why So Serious?",
       "rankings": {
         "imdb": 4,
-        "letterboxd": 37,
+        "letterboxd": 38,
         "mubi": 31,
         "rottenTomatoes": 70,
         "tmdb": 19
       },
-      "position": 5.031055900621118
+      "position": 5.030864197530864
     },
     "185": {
       "id": 185,
@@ -541,10 +541,10 @@
       "tagline": "Being the adventures of a young man whose principal interests are rape, ultra-violence and Beethoven.",
       "rankings": {
         "bfi": 83,
-        "imdb": 82,
+        "imdb": 83,
         "mubi": 4
       },
-      "position": 3.0177514792899407
+      "position": 3.0176470588235293
     },
     "194": {
       "id": 194,
@@ -828,11 +828,11 @@
       "tagline": "To enter the mind of a killer she must challenge the mind of a madman.",
       "rankings": {
         "imdb": 23,
-        "letterboxd": 81,
+        "letterboxd": 83,
         "mubi": 58,
-        "tmdb": 75
+        "tmdb": 76
       },
-      "position": 4.0168776371308015
+      "position": 4.016666666666667
     },
     "275": {
       "id": 275,
@@ -863,11 +863,11 @@
       "tagline": "Fear can hold you prisoner. Hope can set you free.",
       "rankings": {
         "imdb": 1,
-        "letterboxd": 24,
+        "letterboxd": 25,
         "mubi": 68,
         "tmdb": 2
       },
-      "position": 4.042105263157895
+      "position": 4.041666666666667
     },
     "279": {
       "id": 279,
@@ -914,10 +914,10 @@
       "tagline": "Movie-wise, there has never been anything like it - laugh-wise, love-wise, or otherwise-wise!",
       "rankings": {
         "bfi": 46,
-        "letterboxd": 74,
-        "tmdb": 80
+        "letterboxd": 75,
+        "tmdb": 83
       },
-      "position": 3.015
+      "position": 3.014705882352941
     },
     "288": {
       "id": 288,
@@ -948,11 +948,11 @@
       "tagline": "They had a date with fate in Casablanca!",
       "rankings": {
         "imdb": 35,
-        "letterboxd": 84,
+        "letterboxd": 85,
         "mubi": 37,
         "rottenTomatoes": 17
       },
-      "position": 4.023121387283237
+      "position": 4.022988505747127
     },
     "307": {
       "id": 307,
@@ -1017,9 +1017,9 @@
       "rankings": {
         "bfi": 44,
         "imdb": 31,
-        "letterboxd": 50,
+        "letterboxd": 51,
         "mubi": 73,
-        "tmdb": 82
+        "tmdb": 81
       },
       "position": 5.017857142857143
     },
@@ -1039,10 +1039,10 @@
         "imdb": 19,
         "letterboxd": 5,
         "mubi": 20,
-        "rottenTomatoes": 55,
+        "rottenTomatoes": 54,
         "tmdb": 32
       },
-      "position": 6.04054054054054
+      "position": 6.040816326530612
     },
     "348": {
       "id": 348,
@@ -1057,11 +1057,11 @@
       "tagline": "In space no one can hear you scream.",
       "rankings": {
         "imdb": 51,
-        "letterboxd": 49,
+        "letterboxd": 50,
         "mubi": 42,
         "rottenTomatoes": 51
       },
-      "position": 4.020725388601036
+      "position": 4.020618556701031
     },
     "387": {
       "id": 387,
@@ -1177,9 +1177,9 @@
       "tagline": "Music was his passion. Survival was his masterpiece.",
       "rankings": {
         "imdb": 40,
-        "tmdb": 99
+        "tmdb": 96
       },
-      "position": 2.014388489208633
+      "position": 2.014705882352941
     },
     "424": {
       "id": 424,
@@ -1194,11 +1194,11 @@
       "tagline": "Whoever saves one life, saves the world entire.",
       "rankings": {
         "imdb": 6,
-        "letterboxd": 41,
+        "letterboxd": 42,
         "mubi": 67,
         "tmdb": 6
       },
-      "position": 4.033333333333333
+      "position": 4.033057851239669
     },
     "426": {
       "id": 426,
@@ -1233,9 +1233,9 @@
       "rankings": {
         "bfi": 64,
         "imdb": 9,
-        "letterboxd": 16,
+        "letterboxd": 17,
         "mubi": 29,
-        "rottenTomatoes": 81,
+        "rottenTomatoes": 80,
         "tmdb": 51
       },
       "position": 6.024
@@ -1286,10 +1286,9 @@
       "tagline": "",
       "rankings": {
         "bfi": 75,
-        "letterboxd": 100,
         "mubi": 32
       },
-      "position": 3.0144927536231885
+      "position": 2.0186915887850465
     },
     "492": {
       "id": 492,
@@ -1320,9 +1319,9 @@
       "tagline": "Miracles do happen.",
       "rankings": {
         "imdb": 33,
-        "tmdb": 25
+        "tmdb": 23
       },
-      "position": 2.0344827586206895
+      "position": 2.0357142857142856
     },
     "500": {
       "id": 500,
@@ -1338,9 +1337,9 @@
       "rankings": {
         "imdb": 77,
         "mubi": 30,
-        "tmdb": 85
+        "tmdb": 87
       },
-      "position": 3.015625
+      "position": 3.015463917525773
     },
     "510": {
       "id": 510,
@@ -1356,11 +1355,11 @@
       "rankings": {
         "bfi": 48,
         "imdb": 16,
-        "letterboxd": 87,
+        "letterboxd": 88,
         "mubi": 22,
         "tmdb": 17
       },
-      "position": 5.026315789473684
+      "position": 5.026178010471204
     },
     "539": {
       "id": 539,
@@ -1376,12 +1375,12 @@
       "rankings": {
         "bfi": 50,
         "imdb": 34,
-        "letterboxd": 40,
+        "letterboxd": 41,
         "mubi": 12,
         "rottenTomatoes": 18,
         "tmdb": 16
       },
-      "position": 6.035294117647059
+      "position": 6.035087719298246
     },
     "548": {
       "id": 548,
@@ -1449,12 +1448,12 @@
       "rankings": {
         "bfi": 57,
         "imdb": 42,
-        "letterboxd": 44,
+        "letterboxd": 45,
         "mubi": 18,
         "rottenTomatoes": 40,
         "tmdb": 48
       },
-      "position": 6.024096385542169
+      "position": 6.024
     },
     "576": {
       "id": 576,
@@ -1566,11 +1565,11 @@
       "tagline": "If you run you're dead... if you stay, you're dead again. Period.",
       "rankings": {
         "imdb": 21,
-        "letterboxd": 78,
+        "letterboxd": 79,
         "mubi": 38,
         "tmdb": 55
       },
-      "position": 4.020833333333333
+      "position": 4.020725388601036
     },
     "599": {
       "id": 599,
@@ -1589,9 +1588,9 @@
         "letterboxd": 30,
         "mubi": 52,
         "rottenTomatoes": 36,
-        "tmdb": 24
+        "tmdb": 25
       },
-      "position": 6.0227272727272725
+      "position": 6.022641509433963
     },
     "600": {
       "id": 600,
@@ -1721,9 +1720,9 @@
       "tagline": "An Artistic Masterpiece And Also A Joy To Watch",
       "rankings": {
         "bfi": 24,
-        "letterboxd": 88
+        "letterboxd": 89
       },
-      "position": 2.017857142857143
+      "position": 2.017699115044248
     },
     "637": {
       "id": 637,
@@ -1804,10 +1803,10 @@
       "runtime": 145,
       "tagline": "A place for dreams. A place for heartbreak. A place to pick up the pieces.",
       "rankings": {
-        "letterboxd": 71,
+        "letterboxd": 72,
         "mubi": 100
       },
-      "position": 2.0116959064327484
+      "position": 2.011627906976744
     },
     "662": {
       "id": 662,
@@ -1871,11 +1870,11 @@
       "tagline": "Just because you are a character doesn't mean you have character.",
       "rankings": {
         "imdb": 7,
-        "letterboxd": 19,
+        "letterboxd": 20,
         "mubi": 1,
         "tmdb": 14
       },
-      "position": 4.097560975609756
+      "position": 4.095238095238095
     },
     "690": {
       "id": 690,
@@ -1907,11 +1906,11 @@
       "rankings": {
         "bfi": 80,
         "imdb": 60,
-        "letterboxd": 67,
+        "letterboxd": 68,
         "mubi": 6,
-        "tmdb": 84
+        "tmdb": 86
       },
-      "position": 5.016835016835016
+      "position": 5.016666666666667
     },
     "696": {
       "id": 696,
@@ -2023,11 +2022,11 @@
       "rankings": {
         "bfi": 58,
         "imdb": 17,
-        "letterboxd": 25,
+        "letterboxd": 26,
         "mubi": 27,
-        "tmdb": 23
+        "tmdb": 24
       },
-      "position": 5.033333333333333
+      "position": 5.032894736842105
     },
     "776": {
       "id": 776,
@@ -2075,10 +2074,10 @@
       "tagline": "An Immortal Screen Classic that will live Forever!",
       "rankings": {
         "bfi": 40,
-        "letterboxd": 23,
+        "letterboxd": 24,
         "tmdb": 28
       },
-      "position": 3.032967032967033
+      "position": 3.032608695652174
     },
     "793": {
       "id": 793,
@@ -2110,10 +2109,10 @@
       "tagline": "",
       "rankings": {
         "bfi": 13,
-        "letterboxd": 43,
+        "letterboxd": 46,
         "mubi": 34
       },
-      "position": 3.033333333333333
+      "position": 3.032258064516129
     },
     "800": {
       "id": 800,
@@ -2143,9 +2142,9 @@
       "runtime": 32,
       "tagline": "",
       "rankings": {
-        "letterboxd": 52
+        "letterboxd": 53
       },
-      "position": 1.0192307692307692
+      "position": 1.0188679245283019
     },
     "805": {
       "id": 805,
@@ -2195,10 +2194,10 @@
       "tagline": "You get tough. You get tender. You get close to each other. Maybe you even get close to the truth.",
       "rankings": {
         "bfi": 93,
-        "letterboxd": 97,
+        "letterboxd": 98,
         "mubi": 39
       },
-      "position": 3.013100436681223
+      "position": 3.0130434782608697
     },
     "832": {
       "id": 832,
@@ -2214,11 +2213,11 @@
       "rankings": {
         "bfi": 78,
         "imdb": 78,
-        "letterboxd": 63,
+        "letterboxd": 65,
         "mubi": 65,
         "rottenTomatoes": 48
       },
-      "position": 5.015060240963855
+      "position": 5.014970059880239
     },
     "843": {
       "id": 843,
@@ -2233,10 +2232,10 @@
       "tagline": "Feel the heat, keep the feeling burning, let the sensation explode.",
       "rankings": {
         "bfi": 72,
-        "letterboxd": 53,
+        "letterboxd": 54,
         "mubi": 36
       },
-      "position": 3.018633540372671
+      "position": 3.0185185185185186
     },
     "857": {
       "id": 857,
@@ -2300,10 +2299,10 @@
       "rankings": {
         "bfi": 71,
         "imdb": 92,
-        "letterboxd": 70,
+        "letterboxd": 71,
         "rottenTomatoes": 15
       },
-      "position": 4.016129032258065
+      "position": 4.016064257028113
     },
     "895": {
       "id": 895,
@@ -2318,10 +2317,10 @@
       "tagline": "",
       "rankings": {
         "bfi": 15,
-        "letterboxd": 57,
+        "letterboxd": 58,
         "tmdb": 95
       },
-      "position": 3.0179640718562872
+      "position": 3.017857142857143
     },
     "896": {
       "id": 896,
@@ -2335,9 +2334,9 @@
       "runtime": 117,
       "tagline": "",
       "rankings": {
-        "letterboxd": 76
+        "letterboxd": 77
       },
-      "position": 1.013157894736842
+      "position": 1.0129870129870129
     },
     "901": {
       "id": 901,
@@ -2405,11 +2404,11 @@
       "tagline": "The hot-line suspense comedy",
       "rankings": {
         "imdb": 54,
-        "letterboxd": 96,
+        "letterboxd": 97,
         "mubi": 9,
         "rottenTomatoes": 73
       },
-      "position": 4.017241379310345
+      "position": 4.017167381974249
     },
     "947": {
       "id": 947,
@@ -2425,10 +2424,10 @@
       "rankings": {
         "bfi": 53,
         "imdb": 84,
-        "letterboxd": 62,
+        "letterboxd": 63,
         "rottenTomatoes": 68
       },
-      "position": 4.01498127340824
+      "position": 4.014925373134329
     },
     "961": {
       "id": 961,
@@ -2491,10 +2490,10 @@
       "tagline": "It explodes in the no-man's land no picture ever dared cross before!",
       "rankings": {
         "imdb": 58,
-        "letterboxd": 51,
+        "letterboxd": 52,
         "tmdb": 49
       },
-      "position": 3.018987341772152
+      "position": 3.018867924528302
     },
     "981": {
       "id": 981,
@@ -2524,10 +2523,10 @@
       "runtime": 49,
       "tagline": "Every inch of footage holds such a laugh!",
       "rankings": {
-        "letterboxd": 90,
-        "tmdb": 67
+        "letterboxd": 91,
+        "tmdb": 68
       },
-      "position": 2.0127388535031847
+      "position": 2.0125786163522013
     },
     "996": {
       "id": 996,
@@ -2590,9 +2589,9 @@
       "runtime": 109,
       "tagline": "Man is The Warmest Place to Hide.",
       "rankings": {
-        "letterboxd": 93
+        "letterboxd": 96
       },
-      "position": 1.010752688172043
+      "position": 1.0104166666666667
     },
     "1092": {
       "id": 1092,
@@ -2639,9 +2638,9 @@
       "runtime": 106,
       "tagline": "",
       "rankings": {
-        "letterboxd": 91
+        "letterboxd": 93
       },
-      "position": 1.010989010989011
+      "position": 1.010752688172043
     },
     "1398": {
       "id": 1398,
@@ -2656,10 +2655,10 @@
       "tagline": "",
       "rankings": {
         "bfi": 30,
-        "letterboxd": 34,
+        "letterboxd": 35,
         "mubi": 44
       },
-      "position": 3.0277777777777777
+      "position": 3.0275229357798166
     },
     "1417": {
       "id": 1417,
@@ -2706,9 +2705,9 @@
       "tagline": "THE STRANGEST VENGEANCE EVER PLANNED!",
       "rankings": {
         "bfi": 26,
-        "rottenTomatoes": 65
+        "rottenTomatoes": 66
       },
-      "position": 2.021978021978022
+      "position": 2.0217391304347827
     },
     "1563": {
       "id": 1563,
@@ -2756,9 +2755,9 @@
       "tagline": "It's a wonderful laugh! It's a wonderful love!",
       "rankings": {
         "imdb": 24,
-        "letterboxd": 99
+        "letterboxd": 100
       },
-      "position": 2.016260162601626
+      "position": 2.0161290322580645
     },
     "1626": {
       "id": 1626,
@@ -2789,11 +2788,11 @@
       "tagline": "The Adventure Continues...",
       "rankings": {
         "imdb": 13,
-        "letterboxd": 13,
+        "letterboxd": 14,
         "mubi": 96,
         "tmdb": 31
       },
-      "position": 4.026143790849673
+      "position": 4.025974025974026
     },
     "1892": {
       "id": 1892,
@@ -2937,12 +2936,12 @@
       "rankings": {
         "bfi": 22,
         "imdb": 38,
-        "letterboxd": 94,
+        "letterboxd": 95,
         "mubi": 80,
         "rottenTomatoes": 13,
         "tmdb": 63
       },
-      "position": 6.019354838709678
+      "position": 6.019292604501608
     },
     "3090": {
       "id": 3090,
@@ -3037,9 +3036,9 @@
       "runtime": 143,
       "tagline": "One of the Great Films of Our Time!",
       "rankings": {
-        "letterboxd": 38
+        "letterboxd": 39
       },
-      "position": 1.0263157894736843
+      "position": 1.0256410256410255
     },
     "4024": {
       "id": 4024,
@@ -3096,7 +3095,7 @@
       "language": "it",
       "originalTitle": "Ladri di biciclette",
       "overview": "Antonio, an unemployed man in the depressed post-WWII economy of Italy, at last finds a good job hanging up posters, the only requirement for which is that he must have his own bicycle. When Antonio's bicycle is stolen, he and his son are forced to walk the streets of Rome in search of it, or else face ruin.",
-      "poster": "/8ipMMbjgAA9M4wpoPc9yxFEiIeA.jpg",
+      "poster": "/a8OKLrk1H9S5yaFKUqSMkyP4FRb.jpg",
       "releaseDate": "1948-11-24",
       "runtime": 93,
       "tagline": "A man and his son search for a stolen bicycle vital for his job.",
@@ -3105,9 +3104,9 @@
         "imdb": 99,
         "mubi": 59,
         "rottenTomatoes": 53,
-        "tmdb": 89
+        "tmdb": 82
       },
-      "position": 5.016129032258065
+      "position": 5.016501650165017
     },
     "5165": {
       "id": 5165,
@@ -3170,9 +3169,9 @@
       "tagline": "",
       "rankings": {
         "bfi": 56,
-        "letterboxd": 77
+        "letterboxd": 78
       },
-      "position": 2.0150375939849625
+      "position": 2.014925373134328
     },
     "5961": {
       "id": 5961,
@@ -3187,9 +3186,9 @@
       "tagline": "",
       "rankings": {
         "bfi": 16,
-        "letterboxd": 56
+        "letterboxd": 57
       },
-      "position": 2.0277777777777777
+      "position": 2.0273972602739727
     },
     "6977": {
       "id": 6977,
@@ -3220,10 +3219,10 @@
       "tagline": "There Will Be Greed. There Will Be Vengeance.",
       "rankings": {
         "bfi": 79,
-        "letterboxd": 48,
+        "letterboxd": 49,
         "mubi": 19
       },
-      "position": 3.0205479452054793
+      "position": 3.020408163265306
     },
     "7508": {
       "id": 7508,
@@ -3415,9 +3414,9 @@
       "runtime": 170,
       "tagline": "A beatiful story of a man who could do anything... except be ordinary.",
       "rankings": {
-        "tmdb": 83
+        "tmdb": 85
       },
-      "position": 1.0120481927710843
+      "position": 1.011764705882353
     },
     "10681": {
       "id": 10681,
@@ -3497,9 +3496,9 @@
       "tagline": "A celebration of youth, friendship, and the everlasting magic of the movies.",
       "rankings": {
         "imdb": 55,
-        "tmdb": 30
+        "tmdb": 29
       },
-      "position": 2.023529411764706
+      "position": 2.0238095238095237
     },
     "11481": {
       "id": 11481,
@@ -3545,9 +3544,9 @@
       "runtime": 162,
       "tagline": "The Greatest Shakespeare Film",
       "rankings": {
-        "letterboxd": 66
+        "letterboxd": 67
       },
-      "position": 1.0151515151515151
+      "position": 1.0149253731343284
     },
     "11659": {
       "id": 11659,
@@ -3561,9 +3560,9 @@
       "runtime": 366,
       "tagline": "The Possibilities Were Endless...",
       "rankings": {
-        "tmdb": 92
+        "tmdb": 67
       },
-      "position": 1.0108695652173914
+      "position": 1.0149253731343284
     },
     "11778": {
       "id": 11778,
@@ -3609,9 +3608,9 @@
       "runtime": 130,
       "tagline": "It all ends here.",
       "rankings": {
-        "rottenTomatoes": 97
+        "rottenTomatoes": 96
       },
-      "position": 1.0103092783505154
+      "position": 1.0104166666666667
     },
     "12477": {
       "id": 12477,
@@ -3642,10 +3641,10 @@
       "runtime": 142,
       "tagline": "From Akira Kurosawa, director of \"Yojimbo\" and \"Sanjuro\" comes a tense, taut film of a modern \"perfect crime\" with more excitement than even Hitchcock could create.",
       "rankings": {
-        "letterboxd": 17,
+        "letterboxd": 18,
         "tmdb": 34
       },
-      "position": 2.0392156862745097
+      "position": 2.0384615384615383
     },
     "13310": {
       "id": 13310,
@@ -3691,9 +3690,9 @@
       "runtime": 94,
       "tagline": "1974. 1350 feet up. The artistic crime of the century.",
       "rankings": {
-        "rottenTomatoes": 99
+        "rottenTomatoes": 98
       },
-      "position": 1.0101010101010102
+      "position": 1.010204081632653
     },
     "14160": {
       "id": 14160,
@@ -3758,9 +3757,9 @@
       "tagline": "",
       "rankings": {
         "bfi": 70,
-        "tmdb": 68
+        "tmdb": 69
       },
-      "position": 2.0144927536231885
+      "position": 2.014388489208633
     },
     "15244": {
       "id": 15244,
@@ -3806,9 +3805,9 @@
       "runtime": 237,
       "tagline": "",
       "rankings": {
-        "letterboxd": 18
+        "letterboxd": 19
       },
-      "position": 1.0555555555555556
+      "position": 1.0526315789473684
     },
     "16672": {
       "id": 16672,
@@ -3822,9 +3821,9 @@
       "runtime": 147,
       "tagline": "Haunting. Erotic. Unforgettable.",
       "rankings": {
-        "letterboxd": 54
+        "letterboxd": 56
       },
-      "position": 1.0185185185185186
+      "position": 1.0178571428571428
     },
     "16869": {
       "id": 16869,
@@ -3873,11 +3872,11 @@
       "tagline": "Isn't Life Depressing?",
       "rankings": {
         "bfi": 1,
-        "letterboxd": 42,
+        "letterboxd": 43,
         "rottenTomatoes": 88,
         "tmdb": 27
       },
-      "position": 4.025316455696203
+      "position": 4.0251572327044025
     },
     "18333": {
       "id": 18333,
@@ -3907,9 +3906,9 @@
       "runtime": 119,
       "tagline": "Once in a life time, There comes a moment that you live in HOPE",
       "rankings": {
-        "tmdb": 76
+        "tmdb": 77
       },
-      "position": 1.013157894736842
+      "position": 1.0129870129870129
     },
     "18491": {
       "id": 18491,
@@ -3955,10 +3954,10 @@
       "runtime": 133,
       "tagline": "Dance she did, and dance she must - between her two loves",
       "rankings": {
-        "letterboxd": 65,
+        "letterboxd": 66,
         "tmdb": 60
       },
-      "position": 2.016
+      "position": 2.015873015873016
     },
     "20108": {
       "id": 20108,
@@ -4004,9 +4003,9 @@
       "runtime": 108,
       "tagline": "",
       "rankings": {
-        "letterboxd": 79
+        "letterboxd": 80
       },
-      "position": 1.0126582278481013
+      "position": 1.0125
     },
     "20532": {
       "id": 20532,
@@ -4020,9 +4019,9 @@
       "runtime": 124,
       "tagline": "A film of unparalleled beauty by the great Japanese Master Kenji Mizoguchi",
       "rankings": {
-        "letterboxd": 72
+        "letterboxd": 74
       },
-      "position": 1.0138888888888888
+      "position": 1.0135135135135136
     },
     "21135": {
       "id": 21135,
@@ -4052,9 +4051,9 @@
       "runtime": 145,
       "tagline": "",
       "rankings": {
-        "letterboxd": 92
+        "letterboxd": 94
       },
-      "position": 1.0108695652173914
+      "position": 1.0106382978723405
     },
     "24128": {
       "id": 24128,
@@ -4132,9 +4131,9 @@
       "runtime": 106,
       "tagline": "",
       "rankings": {
-        "tmdb": 70
+        "tmdb": 71
       },
-      "position": 1.0142857142857142
+      "position": 1.0140845070422535
     },
     "25188": {
       "id": 25188,
@@ -4148,9 +4147,9 @@
       "runtime": 118,
       "tagline": "Anarene, Texas, 1951. Nothing much has changed...",
       "rankings": {
-        "rottenTomatoes": 96
+        "rottenTomatoes": 97
       },
-      "position": 1.0104166666666667
+      "position": 1.0103092783505154
     },
     "25237": {
       "id": 25237,
@@ -4165,10 +4164,10 @@
       "tagline": "",
       "rankings": {
         "bfi": 36,
-        "letterboxd": 15,
-        "tmdb": 77
+        "letterboxd": 16,
+        "tmdb": 78
       },
-      "position": 3.0234375
+      "position": 3.023076923076923
     },
     "25538": {
       "id": 25538,
@@ -4182,9 +4181,9 @@
       "runtime": 173,
       "tagline": "",
       "rankings": {
-        "letterboxd": 61
+        "letterboxd": 62
       },
-      "position": 1.0163934426229508
+      "position": 1.0161290322580645
     },
     "26317": {
       "id": 26317,
@@ -4214,9 +4213,9 @@
       "runtime": 680,
       "tagline": "It divided a country. It created a nation.",
       "rankings": {
-        "letterboxd": 32
+        "letterboxd": 33
       },
-      "position": 1.03125
+      "position": 1.0303030303030303
     },
     "27205": {
       "id": 27205,
@@ -4232,9 +4231,9 @@
       "rankings": {
         "imdb": 14,
         "mubi": 79,
-        "tmdb": 71
+        "tmdb": 72
       },
-      "position": 3.018292682926829
+      "position": 3.018181818181818
     },
     "28422": {
       "id": 28422,
@@ -4264,10 +4263,10 @@
       "runtime": 132,
       "tagline": "The greatest film about prison life",
       "rankings": {
-        "letterboxd": 58,
+        "letterboxd": 59,
         "tmdb": 46
       },
-      "position": 2.019230769230769
+      "position": 2.019047619047619
     },
     "29845": {
       "id": 29845,
@@ -4299,9 +4298,9 @@
       "tagline": "",
       "rankings": {
         "bfi": 37,
-        "letterboxd": 86
+        "letterboxd": 87
       },
-      "position": 2.016260162601626
+      "position": 2.0161290322580645
     },
     "31217": {
       "id": 31217,
@@ -4331,9 +4330,9 @@
       "runtime": 450,
       "tagline": "",
       "rankings": {
-        "letterboxd": 45
+        "letterboxd": 44
       },
-      "position": 1.0222222222222221
+      "position": 1.0227272727272727
     },
     "32015": {
       "id": 32015,
@@ -4411,9 +4410,9 @@
       "runtime": 191,
       "tagline": "Love is the Condition for Being Human",
       "rankings": {
-        "letterboxd": 59
+        "letterboxd": 61
       },
-      "position": 1.0169491525423728
+      "position": 1.0163934426229508
     },
     "37247": {
       "id": 37247,
@@ -4509,9 +4508,9 @@
       "tagline": "",
       "rankings": {
         "bfi": 52,
-        "letterboxd": 27
+        "letterboxd": 28
       },
-      "position": 2.0253164556962027
+      "position": 2.025
     },
     "43904": {
       "id": 43904,
@@ -4574,9 +4573,9 @@
       "tagline": "",
       "rankings": {
         "bfi": 20,
-        "letterboxd": 75
+        "letterboxd": 76
       },
-      "position": 2.0210526315789474
+      "position": 2.0208333333333335
     },
     "48693": {
       "id": 48693,
@@ -4654,9 +4653,9 @@
       "runtime": 7,
       "tagline": "",
       "rankings": {
-        "letterboxd": 85
+        "letterboxd": 86
       },
-      "position": 1.011764705882353
+      "position": 1.0116279069767442
     },
     "63935": {
       "id": 63935,
@@ -4783,9 +4782,9 @@
       "runtime": 125,
       "tagline": "The hideous truth, concealed far too long.",
       "rankings": {
-        "tmdb": 98
+        "tmdb": 99
       },
-      "position": 1.010204081632653
+      "position": 1.0101010101010102
     },
     "85350": {
       "id": 85350,
@@ -4815,9 +4814,9 @@
       "runtime": 119,
       "tagline": "",
       "rankings": {
-        "letterboxd": 33
+        "letterboxd": 34
       },
-      "position": 1.0303030303030303
+      "position": 1.0294117647058822
     },
     "92060": {
       "id": 92060,
@@ -4831,9 +4830,9 @@
       "runtime": 13,
       "tagline": "",
       "rankings": {
-        "tmdb": 72
+        "tmdb": 73
       },
-      "position": 1.0138888888888888
+      "position": 1.0136986301369864
     },
     "92321": {
       "id": 92321,
@@ -4847,9 +4846,9 @@
       "runtime": 45,
       "tagline": "",
       "rankings": {
-        "tmdb": 78
+        "tmdb": 79
       },
-      "position": 1.0128205128205128
+      "position": 1.0126582278481013
     },
     "110416": {
       "id": 110416,
@@ -4879,9 +4878,9 @@
       "runtime": 117,
       "tagline": "Love wildly",
       "rankings": {
-        "tmdb": 87
+        "tmdb": 90
       },
-      "position": 1.0114942528735633
+      "position": 1.011111111111111
     },
     "126820": {
       "id": 126820,
@@ -4895,9 +4894,9 @@
       "runtime": 1140,
       "tagline": "",
       "rankings": {
-        "letterboxd": 89
+        "letterboxd": 90
       },
-      "position": 1.0112359550561798
+      "position": 1.011111111111111
     },
     "139505": {
       "id": 139505,
@@ -4911,9 +4910,9 @@
       "runtime": 93,
       "tagline": "",
       "rankings": {
-        "letterboxd": 39
+        "letterboxd": 40
       },
-      "position": 1.0256410256410255
+      "position": 1.025
     },
     "140607": {
       "id": 140607,
@@ -4960,9 +4959,9 @@
       "tagline": "Mankind was born on Earth. It was never meant to die here.",
       "rankings": {
         "imdb": 32,
-        "tmdb": 73
+        "tmdb": 74
       },
-      "position": 2.019047619047619
+      "position": 2.018867924528302
     },
     "160885": {
       "id": 160885,
@@ -5024,9 +5023,9 @@
       "runtime": 100,
       "tagline": "Not every love happens at first sight",
       "rankings": {
-        "tmdb": 81
+        "tmdb": 84
       },
-      "position": 1.0123456790123457
+      "position": 1.0119047619047619
     },
     "239459": {
       "id": 239459,
@@ -5056,9 +5055,9 @@
       "runtime": 93,
       "tagline": "If it's in a word, or it's in a look, you can't get rid of the Babadook.",
       "rankings": {
-        "rottenTomatoes": 66
+        "rottenTomatoes": 67
       },
-      "position": 1.0151515151515151
+      "position": 1.0149253731343284
     },
     "244786": {
       "id": 244786,
@@ -5106,9 +5105,9 @@
       "runtime": 117,
       "tagline": "Love knows no boundaries",
       "rankings": {
-        "tmdb": 74
+        "tmdb": 75
       },
-      "position": 1.0135135135135136
+      "position": 1.0133333333333334
     },
     "265177": {
       "id": 265177,
@@ -5250,9 +5249,9 @@
       "runtime": 141,
       "tagline": "Power. Grace. Wisdom. Wonder.",
       "rankings": {
-        "rottenTomatoes": 22
+        "rottenTomatoes": 23
       },
-      "position": 1.0454545454545454
+      "position": 1.0434782608695652
     },
     "313106": {
       "id": 313106,
@@ -5282,9 +5281,9 @@
       "runtime": 128,
       "tagline": "Here's to the fools who dream.",
       "rankings": {
-        "rottenTomatoes": 67
+        "rottenTomatoes": 65
       },
-      "position": 1.0149253731343284
+      "position": 1.0153846153846153
     },
     "314365": {
       "id": 314365,
@@ -5314,9 +5313,9 @@
       "runtime": 133,
       "tagline": "Homework can wait. The city can't.",
       "rankings": {
-        "rottenTomatoes": 80
+        "rottenTomatoes": 81
       },
-      "position": 1.0125
+      "position": 1.0123456790123457
     },
     "325553": {
       "id": 325553,
@@ -5362,10 +5361,10 @@
       "runtime": 705,
       "tagline": "Ordinary men. Extraordinary times.",
       "rankings": {
-        "letterboxd": 3,
+        "letterboxd": 4,
         "tmdb": 38
       },
-      "position": 2.048780487804878
+      "position": 2.0476190476190474
     },
     "334541": {
       "id": 334541,
@@ -5427,9 +5426,9 @@
       "runtime": 113,
       "tagline": "All you need is one killer track.",
       "rankings": {
-        "rottenTomatoes": 54
+        "rottenTomatoes": 55
       },
-      "position": 1.0185185185185186
+      "position": 1.018181818181818
     },
     "343824": {
       "id": 343824,
@@ -5443,9 +5442,9 @@
       "runtime": 572,
       "tagline": "",
       "rankings": {
-        "letterboxd": 4
+        "letterboxd": 3
       },
-      "position": 1.25
+      "position": 1.3333333333333333
     },
     "360814": {
       "id": 360814,
@@ -5475,10 +5474,10 @@
       "runtime": 106,
       "tagline": "",
       "rankings": {
-        "imdb": 83,
+        "imdb": 82,
         "tmdb": 3
       },
-      "position": 2.0232558139534884
+      "position": 2.023529411764706
     },
     "374430": {
       "id": 374430,
@@ -5573,9 +5572,9 @@
       "runtime": 93,
       "tagline": "Fly away home.",
       "rankings": {
-        "letterboxd": 95
+        "letterboxd": 92
       },
-      "position": 1.0105263157894737
+      "position": 1.0108695652173914
     },
     "393729": {
       "id": 393729,
@@ -5589,9 +5588,9 @@
       "runtime": 105,
       "tagline": "",
       "rankings": {
-        "tmdb": 86
+        "tmdb": 88
       },
-      "position": 1.0116279069767442
+      "position": 1.0113636363636365
     },
     "397794": {
       "id": 397794,
@@ -5621,9 +5620,9 @@
       "runtime": 130,
       "tagline": "",
       "rankings": {
-        "letterboxd": 20
+        "letterboxd": 23
       },
-      "position": 1.05
+      "position": 1.0434782608695652
     },
     "399106": {
       "id": 399106,
@@ -5653,9 +5652,9 @@
       "runtime": 436,
       "tagline": "",
       "rankings": {
-        "letterboxd": 28
+        "letterboxd": 31
       },
-      "position": 1.0357142857142858
+      "position": 1.032258064516129
     },
     "409696": {
       "id": 409696,
@@ -5669,9 +5668,9 @@
       "runtime": 110,
       "tagline": "",
       "rankings": {
-        "letterboxd": 14
+        "letterboxd": 15
       },
-      "position": 1.0714285714285714
+      "position": 1.0666666666666667
     },
     "411019": {
       "id": 411019,
@@ -5685,9 +5684,9 @@
       "runtime": 95,
       "tagline": "",
       "rankings": {
-        "rottenTomatoes": 98
+        "rottenTomatoes": 99
       },
-      "position": 1.010204081632653
+      "position": 1.0101010101010102
     },
     "411088": {
       "id": 411088,
@@ -5701,9 +5700,9 @@
       "runtime": 106,
       "tagline": "",
       "rankings": {
-        "tmdb": 69
+        "tmdb": 70
       },
-      "position": 1.0144927536231885
+      "position": 1.0142857142857142
     },
     "414419": {
       "id": 414419,
@@ -5829,9 +5828,9 @@
       "runtime": 135,
       "tagline": "",
       "rankings": {
-        "tmdb": 29
+        "tmdb": 30
       },
-      "position": 1.0344827586206897
+      "position": 1.0333333333333334
     },
     "452522": {
       "id": 452522,
@@ -5877,9 +5876,9 @@
       "runtime": 50,
       "tagline": "",
       "rankings": {
-        "letterboxd": 80
+        "letterboxd": 81
       },
-      "position": 1.0125
+      "position": 1.0123456790123457
     },
     "476618": {
       "id": 476618,
@@ -5893,9 +5892,25 @@
       "runtime": 1080,
       "tagline": "There Is No Single Truth In War",
       "rankings": {
-        "letterboxd": 36
+        "letterboxd": 37
       },
-      "position": 1.0277777777777777
+      "position": 1.027027027027027
+    },
+    "486294": {
+      "id": 486294,
+      "title": "Nathan for You: Finding Frances",
+      "backdrop": "/tNqRSDfOtvnOYZ7WWLH2fFsBdtI.jpg",
+      "language": "en",
+      "originalTitle": "Nathan for You: Finding Frances",
+      "overview": "Nathan attempts to help a Bill Gates impersonator reunite with his long-lost love.",
+      "poster": "/86b72pqM7V6PB58pHw9QBeGBRXl.jpg",
+      "releaseDate": "2017-11-09",
+      "runtime": 85,
+      "tagline": "A Bill Gates impersonator’s confession will change everything.",
+      "rankings": {
+        "letterboxd": 13
+      },
+      "position": 1.0769230769230769
     }
   }
 }
