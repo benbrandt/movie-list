@@ -12,9 +12,10 @@ function runtime(mins: number) {
 }
 
 type PropsT = { data: { movie: MovieT } };
-export default class BlogPostTemplate extends React.Component<PropsT> {
+class MovieTemplate extends React.Component<PropsT> {
   render() {
-    const { movie, site } = this.props.data;
+    console.log(this.props.data);
+    const { moviesJson: movie, site } = this.props.data;
 
     return (
       <section
@@ -62,15 +63,16 @@ export default class BlogPostTemplate extends React.Component<PropsT> {
   }
 }
 
+export default MovieTemplate;
+
 export const pageQuery = graphql`
-  query MovieById($id: ID!) {
+  query MovieById($id: String!) {
     site {
       siteMetadata {
         title
-        author
       }
     }
-    movie(fields: { id: { eq: $id } }) {
+    moviesJson(id: { eq: $id }) {
       id
       backdrop
       originalTitle
@@ -80,15 +82,6 @@ export const pageQuery = graphql`
       runtime
       tagline
       title
-      ranking {
-        bfi
-        imdb
-        letterboxd
-        metacritic
-        mubi
-        rottenTomatoes
-        tmdb
-      }
     }
   }
 `;

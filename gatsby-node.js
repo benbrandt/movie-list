@@ -1,4 +1,5 @@
 const path = require("path");
+const slugify = require("slugify");
 
 // Implement the Gatsby API “createPages”. This is called once the
 // data layer is bootstrapped to let plugins create pages from data.
@@ -14,7 +15,11 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
           {
             allMoviesJson {
               edges {
-                node
+                node {
+                  id
+                  title
+                  releaseDate
+                }
               }
             }
           }
@@ -24,9 +29,10 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
 
         // Create pages for each markdown file.
         result.data.allMoviesJson.edges.forEach(({ node }) => {
-          const path = node.id;
           createPage({
-            path,
+            path: `/${slugify(
+              `${node.title} ${node.releaseDate.substr(0, 4)}`
+            )}`,
             component: movieTemplate,
             // If you have a layout component at src/layouts/blog-layout.js
             // layout: "movie",

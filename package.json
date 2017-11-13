@@ -23,7 +23,8 @@
     "lokka-transport-http": "^1.6.1",
     "lowdb": "^1.0.0",
     "ramda": "^0.25.0",
-    "scrape-it": "^4.0.0"
+    "scrape-it": "^4.0.0",
+    "slugify": "^1.2.2"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

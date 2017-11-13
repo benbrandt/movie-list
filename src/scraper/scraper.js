@@ -40,7 +40,7 @@ const updateOrCreateMovie = async (
   rankings: { [id: string]: number }
 ) => {
   const jsonMovie = {
-    id: movie.id,
+    id: `${movie.id}`,
     title: movie.title,
     backdrop: movie.backdrop_path || "",
     language: movie.original_language,
