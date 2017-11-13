@@ -5,7 +5,7 @@ import type {
   SearchResult,
   SearchResults
 } from "../types";
-const { delayedRequest } = require("../lib/request");
+const { delayedRequest } = require("./request");
 const R = require("ramda");
 
 // TMDB API URLS

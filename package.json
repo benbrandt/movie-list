@@ -6,7 +6,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "build:node": "babel src --out-dir dist",
+    "build:node": "babel src/scraper --out-dir dist",
     "flow": "flow",
     "flow-typed": "flow-typed",
     "start": "yarn build:node && node dist/main.js"

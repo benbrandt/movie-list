@@ -1,13 +1,15 @@
 // @flow
-import type { Rankings, SearchInfo, Sources, TmdbMovie } from "./types";
+import type { Rankings, SearchInfo, Sources, TmdbMovie } from "../types";
+const fs = require("fs");
+const path = require("path");
 const R = require("ramda");
-const bfi = require("./scrapers/bfi");
-const imdb = require("./scrapers/imdb");
-const letterboxd = require("./scrapers/letterboxd");
-const metacritic = require("./scrapers/metacritic");
-const mubi = require("./scrapers/mubi");
-const rottenTomatoes = require("./scrapers/rottenTomatoes");
-const tmdb = require("./scrapers/tmdb");
+const bfi = require("./bfi");
+const imdb = require("./imdb");
+const letterboxd = require("./letterboxd");
+const metacritic = require("./metacritic");
+const mubi = require("./mubi");
+const rottenTomatoes = require("./rottenTomatoes");
+const tmdb = require("./tmdb");
 
 function avgRank({
   bfi,
@@ -34,26 +36,30 @@ function avgRank({
 }
 
 const updateOrCreateMovie = async (
-  db,
   movie: TmdbMovie,
   rankings: { [id: string]: number }
 ) => {
-  db
-    .set(`movies.${movie.id}`, {
-      id: movie.id,
-      title: movie.title,
-      backdrop: movie.backdrop_path || "",
-      language: movie.original_language,
-      originalTitle: movie.original_title,
-      overview: movie.overview,
-      poster: movie.poster_path || "",
-      releaseDate: movie.release_date,
-      runtime: movie.runtime,
-      tagline: movie.tagline ? movie.tagline : "",
-      rankings,
-      position: avgRank(rankings)
-    })
-    .write();
+  const jsonMovie = {
+    id: movie.id,
+    title: movie.title,
+    backdrop: movie.backdrop_path || "",
+    language: movie.original_language,
+    originalTitle: movie.original_title,
+    overview: movie.overview,
+    poster: movie.poster_path || "",
+    releaseDate: movie.release_date,
+    runtime: movie.runtime,
+    tagline: movie.tagline ? movie.tagline : "",
+    rankings,
+    position: avgRank(rankings)
+  };
+  fs.writeFile(
+    path.resolve(`./src/data/movies/${movie.id}.json`),
+    JSON.stringify(jsonMovie, null, 2),
+    err => {
+      if (err) throw err;
+    }
+  );
 
   return movie.id;
 };
@@ -95,7 +101,7 @@ const scrapeMovieFuncs: Array<{
   { scrape: tmdb.getTopMovies, source: "tmdb" }
 ];
 
-const scrapeMovies = async (db: *) => {
+const scrapeMovies = async () => {
   const movieList = {};
   const rankingList = {};
 
@@ -115,9 +121,7 @@ const scrapeMovies = async (db: *) => {
   const movieIds = [];
 
   for (let id of tmdbIds) {
-    movieIds.push(
-      await updateOrCreateMovie(db, movieList[id], rankingList[id])
-    );
+    movieIds.push(await updateOrCreateMovie(movieList[id], rankingList[id]));
   }
 
   console.log(`Updated ${movieIds.length} movies`);
