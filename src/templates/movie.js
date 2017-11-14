@@ -11,11 +11,11 @@ function runtime(mins: number) {
   }`;
 }
 
-type PropsT = { data: { movie: MovieT } };
+type PropsT = { data: { moviesJson: MovieT } };
 class MovieTemplate extends React.Component<PropsT> {
   render() {
     console.log(this.props.data);
-    const { moviesJson: movie, site } = this.props.data;
+    const { moviesJson: movie } = this.props.data;
 
     return (
       <section
@@ -29,7 +29,7 @@ class MovieTemplate extends React.Component<PropsT> {
             : { backgroundColor: "#333" }
         }
       >
-        <Helmet title={`${movie.title} | ${site.siteMetadata.title}`} />
+        <Helmet title={movie.title} />
         <div>
           <img
             src={`https://image.tmdb.org/t/p/w500${movie.poster || ""}`}
@@ -67,11 +67,6 @@ export default MovieTemplate;
 
 export const pageQuery = graphql`
   query MovieById($id: String!) {
-    site {
-      siteMetadata {
-        title
-      }
-    }
     moviesJson(id: { eq: $id }) {
       id
       backdrop
@@ -82,6 +77,15 @@ export const pageQuery = graphql`
       runtime
       tagline
       title
+      rankings {
+        bfi
+        imdb
+        letterboxd
+        metacritic
+        mubi
+        rottenTomatoes
+        tmdb
+      }
     }
   }
 `;
