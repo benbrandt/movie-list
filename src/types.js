@@ -47,6 +47,7 @@ export type MovieT = {
   originalTitle: string,
   overview: string,
   poster: ?string,
+  score: number,
   rankings: Rankings,
   releaseDate: string,
   runtime: number,

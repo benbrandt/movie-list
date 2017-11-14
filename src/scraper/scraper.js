@@ -58,7 +58,7 @@ const updateOrCreateMovie = async (movie: TmdbMovie, rankings: Rankings) => {
     runtime: movie.runtime,
     tagline: movie.tagline ? movie.tagline : "",
     rankings: Object.assign({}, defaultRankings, rankings),
-    position: avgRank(rankings)
+    score: avgRank(rankings)
   };
   fs.writeFile(
     path.resolve(`./src/data/movies/${movie.id}.json`),

@@ -3,7 +3,7 @@
 import GatsbyLink from "gatsby-link";
 import React from "react";
 import styled from "react-emotion";
-import slugify from "slugify";
+import { slug } from "../utils";
 
 type Props = {
   data: {
@@ -65,7 +65,7 @@ const Position = styled("span")`
 export default ({ data: { allMoviesJson: { edges } } }: Props) => (
   <Section>
     {edges.map(({ node: { id, title, poster, releaseDate } }, index) => (
-      <Link key={id} to={`/${slugify(`${title} ${releaseDate.substr(0, 4)}`)}`}>
+      <Link key={id} to={slug(title, releaseDate)}>
         <Poster
           title={title}
           style={{
@@ -84,7 +84,7 @@ export default ({ data: { allMoviesJson: { edges } } }: Props) => (
 // $FlowFixMe
 export const query = graphql`
   query AllMovies {
-    allMoviesJson(sort: { fields: position, order: DESC }) {
+    allMoviesJson(sort: { fields: score, order: DESC }) {
       edges {
         node {
           id
