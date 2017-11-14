@@ -1,5 +1,4 @@
 // @flow
-
 import slugify from "slugify";
 
 export const slug = (title: string, releaseDate: string) =>

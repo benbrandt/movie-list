@@ -1761,12 +1761,12 @@ caniuse-api@^1.5.2, caniuse-api@^1.5.3:
     lodash.uniq "^4.5.0"
 
 caniuse-db@^1.0.30000529, caniuse-db@^1.0.30000634, caniuse-db@^1.0.30000639:
-  version "1.0.30000760"
-  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000760.tgz#3ea29473eb78a6ccb09f2eb73ac9e1debfec528d"
+  version "1.0.30000764"
+  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000764.tgz#d73ab11ae62f6a9e2f69867d6d9c23ae3f2e5d8d"
 
 caniuse-lite@^1.0.30000760:
-  version "1.0.30000760"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000760.tgz#ec720395742f1c7ec8947fd6dd2604e77a8f98ff"
+  version "1.0.30000762"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000762.tgz#0591eaee7e1fc3d95399a8869f2e00092c16ecd9"
 
 capture-stack-trace@^1.0.0:
   version "1.0.0"
@@ -3773,17 +3773,17 @@ gatsby-cli@^1.1.20:
     yargs "^8.0.2"
     yurnalist "^0.2.1"
 
-gatsby-link@^1.6.26:
-  version "1.6.26"
-  resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-1.6.26.tgz#5aa7eb2652c6669b49efdf2c01ee588a2fb2f362"
+gatsby-link@^1.6.27:
+  version "1.6.27"
+  resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-1.6.27.tgz#6111fbe7a32badd92eee95185c21d5a434109a3d"
   dependencies:
     babel-runtime "^6.26.0"
     prop-types "^15.5.8"
     ric "^1.3.0"
 
-gatsby-module-loader@^1.0.7:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/gatsby-module-loader/-/gatsby-module-loader-1.0.7.tgz#c103ca41765d21453cc104e77190e491210abc75"
+gatsby-module-loader@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/gatsby-module-loader/-/gatsby-module-loader-1.0.8.tgz#426800c29b9b67cae2b6181317cd300d823e7428"
   dependencies:
     babel-runtime "^6.26.0"
     loader-utils "^0.2.16"
@@ -3801,9 +3801,9 @@ gatsby-plugin-react-helmet@^1.0.8:
     babel-runtime "^6.26.0"
     react-helmet "^5.1.3"
 
-gatsby-react-router-scroll@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/gatsby-react-router-scroll/-/gatsby-react-router-scroll-1.0.3.tgz#b4b7850850d078b1816a15abf332c93b4d42e3f1"
+gatsby-react-router-scroll@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/gatsby-react-router-scroll/-/gatsby-react-router-scroll-1.0.4.tgz#01f953406f5bca5df03f7d345077b159d7702f3c"
   dependencies:
     babel-runtime "^6.26.0"
     scroll-behavior "^0.9.1"
@@ -3832,9 +3832,9 @@ gatsby-transformer-json@^1.0.12:
     babel-runtime "^6.26.0"
     bluebird "^3.5.0"
 
-gatsby@^1.9.108:
-  version "1.9.108"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-1.9.108.tgz#82c89f5d5c03a7f0c57b787ee3eba416008518b4"
+gatsby@^1.9.112:
+  version "1.9.112"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-1.9.112.tgz#30beff04a715baeed58f401a428f4a33a3bebed3"
   dependencies:
     async "^2.1.2"
     babel-code-frame "^6.22.0"
@@ -3874,8 +3874,8 @@ gatsby@^1.9.108:
     fs-extra "^4.0.1"
     gatsby-1-config-css-modules "^1.0.6"
     gatsby-cli "^1.1.20"
-    gatsby-module-loader "^1.0.7"
-    gatsby-react-router-scroll "^1.0.3"
+    gatsby-module-loader "^1.0.8"
+    gatsby-react-router-scroll "^1.0.4"
     glob "^7.1.1"
     graphql "^0.11.7"
     graphql-relay "^0.5.1"
@@ -5745,8 +5745,8 @@ loglevel-colored-level-prefix@^1.0.0:
     loglevel "^1.4.1"
 
 loglevel@^1.4.1:
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/loglevel/-/loglevel-1.5.1.tgz#189078c94ab9053ee215a0acdbf24244ea0f6502"
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/loglevel/-/loglevel-1.6.0.tgz#ae0caa561111498c5ba13723d6fb631d24003934"
 
 longest@^1.0.1:
   version "1.0.1"
@@ -8470,9 +8470,9 @@ sliced@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/sliced/-/sliced-1.0.1.tgz#0b3a662b5d04c3177b1926bea82b03f837a2ef41"
 
-slugify@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/slugify/-/slugify-1.2.2.tgz#1e00de11c744b7c1d89e6bd89e8d862831836453"
+slugify@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/slugify/-/slugify-1.2.3.tgz#632f4127a5b3cd4a31d888a6ce006d621a83fc16"
 
 snapdragon-node@^2.0.1:
   version "2.1.1"
@@ -8980,8 +8980,8 @@ tar-pack@^3.4.0:
     uid-number "^0.0.6"
 
 tar-stream@^1.1.2:
-  version "1.5.4"
-  resolved "https://registry.yarnpkg.com/tar-stream/-/tar-stream-1.5.4.tgz#36549cf04ed1aee9b2a30c0143252238daf94016"
+  version "1.5.5"
+  resolved "https://registry.yarnpkg.com/tar-stream/-/tar-stream-1.5.5.tgz#5cad84779f45c83b1f2508d96b09d88c7218af55"
   dependencies:
     bl "^1.0.0"
     end-of-stream "^1.0.0"

@@ -14,8 +14,8 @@
   "dependencies": {
     "emotion": "^8.0.10",
     "emotion-server": "^8.0.10",
-    "gatsby": "^1.9.108",
-    "gatsby-link": "^1.6.26",
+    "gatsby": "^1.9.112",
+    "gatsby-link": "^1.6.27",
     "gatsby-plugin-emotion": "^1.1.8",
     "gatsby-plugin-react-helmet": "^1.0.8",
     "gatsby-source-filesystem": "^1.5.8",
@@ -25,7 +25,7 @@
     "ramda": "^0.25.0",
     "react-emotion": "^8.0.10",
     "scrape-it": "^4.0.0",
-    "slugify": "^1.2.2"
+    "slugify": "^1.2.3"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
