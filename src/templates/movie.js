@@ -1,6 +1,9 @@
 // @flow
+/* eslint-disable no-undef */
 import React from "react";
+import styled from "react-emotion";
 import Helmet from "react-helmet";
+import Rankings from "../components/Rankings";
 import type { MovieT } from "../types";
 
 function runtime(mins: number) {
@@ -11,61 +14,114 @@ function runtime(mins: number) {
   }`;
 }
 
-type PropsT = { data: { moviesJson: MovieT } };
-class MovieTemplate extends React.Component<PropsT> {
-  render() {
-    console.log(this.props.data);
-    const { moviesJson: movie } = this.props.data;
+const Section = styled("section")`
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  display: flex;
+  flex: 1 1 67%;
+`;
 
-    return (
-      <section
-        style={
-          movie.backdrop != null
-            ? {
-                backgroundImage: `url('https://image.tmdb.org/t/p/w1280${
-                  movie.backdrop
-                }')`
-              }
-            : { backgroundColor: "#333" }
-        }
-      >
-        <Helmet title={movie.title} />
-        <div>
-          <img
-            src={`https://image.tmdb.org/t/p/w500${movie.poster || ""}`}
-            alt={movie.title}
-            style={{ width: "calc(100% / 3)" }}
-          />
-          <div>
-            <div className="description">
-              <h1>
-                {movie.title}
-                {movie.title !== movie.originalTitle && (
-                  <small>({movie.originalTitle})</small>
-                )}
-              </h1>
-              <h3>
-                {movie.releaseDate.substr(0, 4)}
-                {` / `}
-                {runtime(movie.runtime)}
-              </h3>
-              {/* <Rankings rankings={movie.ranking} /> */}
-              {movie.tagline != null && <h5>{movie.tagline}</h5>}
-              <p>{movie.overview}</p>
-              <span className="tmdb">
-                Film data from <a href="https://www.themoviedb.org/">TMDb</a>.
-              </span>
-            </div>
-          </div>
-        </div>
-      </section>
-    );
+const Overlay = styled("div")`
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 1rem 0.5rem;
+`;
+
+const Poster = styled("img")`
+  max-width: 200px;
+  width: 100%;
+`;
+
+const Description = styled("div")`
+  color: #fff;
+  max-width: 42em;
+  width: 100%;
+`;
+
+const Title = styled("h1")`
+  line-height: 1;
+  margin-bottom: 0;
+  text-transform: uppercase;
+
+  small {
+    display: block;
+    line-height: 1;
+    margin-bottom: 0.5rem;
   }
-}
+`;
 
-export default MovieTemplate;
+const Subtitle = styled("h3")`
+  line-height: 1.25;
+  margin-top: 0;
+`;
 
-export const pageQuery = graphql`
+const Tagline = styled("h5")`
+  font-size: 1rem;
+  line-height: 1.25;
+  margin-bottom: 0;
+`;
+
+const Overview = styled("p")`
+  line-height: 1.5;
+`;
+
+const Tmdb = styled("span")`
+  color: #ddd;
+  font-size: 0.75rem;
+  font-style: italic;
+
+  a {
+    color: #eee;
+  }
+`;
+
+type PropsT = { data: { moviesJson: MovieT } };
+export default ({ data: { moviesJson: movie } }: PropsT) => (
+  <Section
+    style={
+      movie.backdrop != null && {
+        backgroundImage: `url('https://image.tmdb.org/t/p/w1280${
+          movie.backdrop
+        }')`
+      }
+    }
+  >
+    <Helmet title={movie.title} />
+    <Overlay>
+      {movie.poster != null && (
+        <Poster
+          src={`https://image.tmdb.org/t/p/w500${movie.poster}`}
+          alt={movie.title}
+        />
+      )}
+      <Description>
+        <Title>
+          {movie.title}
+          {movie.title !== movie.originalTitle && (
+            <small>({movie.originalTitle})</small>
+          )}
+        </Title>
+        <Subtitle>
+          {movie.releaseDate.substr(0, 4)}
+          {` / `}
+          {runtime(movie.runtime)}
+        </Subtitle>
+        <Rankings rankings={movie.rankings} />
+        {movie.tagline != null && <Tagline>{movie.tagline}</Tagline>}
+        <Overview>{movie.overview}</Overview>
+        <Tmdb>
+          Film data from <a href="https://www.themoviedb.org/">TMDb</a>.
+        </Tmdb>
+      </Description>
+    </Overlay>
+  </Section>
+);
+
+// $FlowFixMe
+export const query = graphql`
   query MovieById($id: String!) {
     moviesJson(id: { eq: $id }) {
       id
@@ -81,7 +137,7 @@ export const pageQuery = graphql`
         bfi
         imdb
         letterboxd
-        metacritic
+        # metacritic
         mubi
         rottenTomatoes
         tmdb

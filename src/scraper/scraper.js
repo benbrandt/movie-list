@@ -45,10 +45,7 @@ const defaultRankings = {
   tmdb: null
 };
 
-const updateOrCreateMovie = async (
-  movie: TmdbMovie,
-  rankings: { [id: string]: number }
-) => {
+const updateOrCreateMovie = async (movie: TmdbMovie, rankings: Rankings) => {
   const jsonMovie = {
     id: `${movie.id}`,
     title: movie.title,

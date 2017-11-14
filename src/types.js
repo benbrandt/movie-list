@@ -9,13 +9,13 @@ export type Sources =
   | "tmdb";
 
 export type Rankings = {
-  bfi?: number,
-  imdb?: number,
-  letterboxd?: number,
-  metacritic?: number,
-  mubi?: number,
-  rottenTomatoes?: number,
-  tmdb?: number
+  bfi?: ?number,
+  imdb?: ?number,
+  letterboxd?: ?number,
+  metacritic?: ?number,
+  mubi?: ?number,
+  rottenTomatoes?: ?number,
+  tmdb?: ?number
 };
 
 export type SearchInfo = {
@@ -39,52 +39,6 @@ export type TmdbMovie = {
   backdrop_path: ?string
 };
 
-type RankingNoMovieT = {
-  bfi: ?number,
-  createdAt: string,
-  id: number,
-  imdb: ?number,
-  letterboxd: ?number,
-  metacritic: ?number,
-  mubi: ?number,
-  position: number,
-  rottenTomatoes: ?number,
-  tmdb: ?number,
-  updatedAt: string
-};
-
-type MovieNoRankingT = {
-  backdrop: ?string,
-  createdAt: string,
-  id: string,
-  language: string,
-  originalTitle: string,
-  overview: string,
-  poster: ?string,
-  releaseDate: string,
-  runtime: number,
-  tagline: ?string,
-  title: string,
-  tmdbId: number,
-  updatedAt: string
-  // users: Array<>
-};
-
-export type RankingT = {
-  bfi: ?number,
-  createdAt: string,
-  id: number,
-  imdb: ?number,
-  letterboxd: ?number,
-  metacritic: ?number,
-  movie: MovieNoRankingT,
-  mubi: ?number,
-  position: number,
-  rottenTomatoes: ?number,
-  tmdb: ?number,
-  updatedAt: string
-};
-
 export type MovieT = {
   backdrop: ?string,
   createdAt: string,
@@ -93,12 +47,10 @@ export type MovieT = {
   originalTitle: string,
   overview: string,
   poster: ?string,
-  ranking: RankingNoMovieT,
+  rankings: Rankings,
   releaseDate: string,
   runtime: number,
   tagline: ?string,
   title: string,
-  tmdbId: number,
-  updatedAt: string
-  // users: Array<>
+  tmdbId: number
 };
