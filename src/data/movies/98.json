@@ -10,7 +10,13 @@
   "runtime": 155,
   "tagline": "A Hero Will Rise.",
   "rankings": {
-    "imdb": 46
+    "bfi": null,
+    "imdb": 46,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.0217391304347827
 }

@@ -10,7 +10,13 @@
   "runtime": 93,
   "tagline": "If it's in a word, or it's in a look, you can't get rid of the Babadook.",
   "rankings": {
-    "rottenTomatoes": 67
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 67,
+    "tmdb": null
   },
   "position": 1.0149253731343284
 }

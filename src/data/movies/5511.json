@@ -10,7 +10,13 @@
   "runtime": 105,
   "tagline": "There is no solitude greater than that of the Samurai",
   "rankings": {
-    "bfi": 106
+    "bfi": 106,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.009433962264151
 }

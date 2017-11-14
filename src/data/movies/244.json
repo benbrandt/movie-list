@@ -10,7 +10,13 @@
   "runtime": 100,
   "tagline": "A Monster of Creation's Dawn Breaks Loose in Our World Today!",
   "rankings": {
-    "rottenTomatoes": 32
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 32,
+    "tmdb": null
   },
   "position": 1.03125
 }

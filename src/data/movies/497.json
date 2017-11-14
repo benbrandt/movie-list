@@ -10,7 +10,12 @@
   "runtime": 189,
   "tagline": "Miracles do happen.",
   "rankings": {
+    "bfi": null,
     "imdb": 33,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
     "tmdb": 23
   },
   "position": 2.0357142857142856

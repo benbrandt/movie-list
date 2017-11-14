@@ -10,7 +10,13 @@
   "runtime": 102,
   "tagline": "We're off to see the Wizard, the wonderful Wizard of Oz!",
   "rankings": {
-    "rottenTomatoes": 1
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 1,
+    "tmdb": null
   },
   "position": 2
 }

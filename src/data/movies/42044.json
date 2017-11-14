@@ -11,7 +11,12 @@
   "tagline": "",
   "rankings": {
     "bfi": 52,
-    "letterboxd": 28
+    "imdb": null,
+    "letterboxd": 28,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 2.025
 }

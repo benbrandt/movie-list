@@ -10,7 +10,13 @@
   "runtime": 135,
   "tagline": "The Empire Falls...",
   "rankings": {
-    "imdb": 75
+    "bfi": null,
+    "imdb": 75,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.0133333333333334
 }

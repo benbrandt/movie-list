@@ -10,8 +10,13 @@
   "runtime": 116,
   "tagline": "Vietnam can kill me, but it can’t make me care.",
   "rankings": {
+    "bfi": null,
     "imdb": 90,
-    "mubi": 46
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": 46,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 2.014705882352941
 }

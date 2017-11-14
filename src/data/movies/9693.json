@@ -10,7 +10,13 @@
   "runtime": 109,
   "tagline": "The future's a thing of the past.",
   "rankings": {
-    "mubi": 98
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": 98,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.010204081632653
 }

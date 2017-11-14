@@ -10,7 +10,13 @@
   "runtime": 133,
   "tagline": "Homework can wait. The city can't.",
   "rankings": {
-    "rottenTomatoes": 81
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 82,
+    "tmdb": null
   },
-  "position": 1.0123456790123457
+  "position": 1.0121951219512195
 }

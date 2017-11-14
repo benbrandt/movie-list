@@ -10,7 +10,13 @@
   "runtime": 94,
   "tagline": "In 1959 a lot of people were killing time. Kit and Holly were killing people.",
   "rankings": {
-    "bfi": 67
+    "bfi": 67,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.0149253731343284
 }

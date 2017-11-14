@@ -10,7 +10,13 @@
   "runtime": 130,
   "tagline": "It all ends here.",
   "rankings": {
-    "rottenTomatoes": 96
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 96,
+    "tmdb": null
   },
   "position": 1.0104166666666667
 }

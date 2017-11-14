@@ -10,10 +10,13 @@
   "runtime": 95,
   "tagline": "The hot-line suspense comedy",
   "rankings": {
+    "bfi": null,
     "imdb": 54,
     "letterboxd": 97,
+    "metacritic": null,
     "mubi": 9,
-    "rottenTomatoes": 73
+    "rottenTomatoes": 73,
+    "tmdb": null
   },
   "position": 4.017167381974249
 }

@@ -10,7 +10,13 @@
   "runtime": 89,
   "tagline": "Life's greatest adventure is finding your place in the Circle of Life.",
   "rankings": {
-    "imdb": 48
+    "bfi": null,
+    "imdb": 48,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.0208333333333333
 }

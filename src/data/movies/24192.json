@@ -10,7 +10,13 @@
   "runtime": 137,
   "tagline": "A Motion Picture which will be seen by the entire world - up to the end of the world!",
   "rankings": {
-    "bfi": 34
+    "bfi": 34,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.0294117647058822
 }

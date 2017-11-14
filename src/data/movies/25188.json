@@ -10,7 +10,13 @@
   "runtime": 118,
   "tagline": "Anarene, Texas, 1951. Nothing much has changed...",
   "rankings": {
-    "rottenTomatoes": 97
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 97,
+    "tmdb": null
   },
   "position": 1.0103092783505154
 }

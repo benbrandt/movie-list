@@ -10,7 +10,13 @@
   "runtime": 165,
   "tagline": "Life, liberty and the pursuit of vengeance.",
   "rankings": {
-    "imdb": 59
+    "bfi": null,
+    "imdb": 59,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.0169491525423728
 }

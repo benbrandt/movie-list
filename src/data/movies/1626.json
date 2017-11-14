@@ -10,7 +10,13 @@
   "runtime": 85,
   "tagline": "The many faces of a woman trying to find herself in a world of men.",
   "rankings": {
-    "bfi": 74
+    "bfi": 74,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.0135135135135136
 }

@@ -10,7 +10,12 @@
   "runtime": 169,
   "tagline": "Mankind was born on Earth. It was never meant to die here.",
   "rankings": {
+    "bfi": null,
     "imdb": 32,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
     "tmdb": 74
   },
   "position": 2.018867924528302

@@ -10,7 +10,13 @@
   "runtime": 113,
   "tagline": "All you need is one killer track.",
   "rankings": {
-    "rottenTomatoes": 55
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 55,
+    "tmdb": null
   },
   "position": 1.018181818181818
 }

@@ -10,7 +10,13 @@
   "runtime": 113,
   "tagline": "Why are they here?",
   "rankings": {
-    "rottenTomatoes": 50
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 50,
+    "tmdb": null
   },
   "position": 1.02
 }

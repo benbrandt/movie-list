@@ -10,8 +10,12 @@
   "runtime": 110,
   "tagline": "If you want a job done well, hire a professional.",
   "rankings": {
+    "bfi": null,
     "imdb": 27,
+    "letterboxd": null,
+    "metacritic": null,
     "mubi": 69,
+    "rottenTomatoes": null,
     "tmdb": 40
   },
   "position": 3.0220588235294117

@@ -10,7 +10,13 @@
   "runtime": 117,
   "tagline": "Times like these call for a Big Lebowski.",
   "rankings": {
-    "mubi": 17
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": 17,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.0588235294117647
 }

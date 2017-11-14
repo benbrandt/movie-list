@@ -10,7 +10,12 @@
   "runtime": 142,
   "tagline": "From Akira Kurosawa, director of \"Yojimbo\" and \"Sanjuro\" comes a tense, taut film of a modern \"perfect crime\" with more excitement than even Hitchcock could create.",
   "rankings": {
+    "bfi": null,
+    "imdb": null,
     "letterboxd": 17,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
     "tmdb": 34
   },
   "position": 2.0392156862745097

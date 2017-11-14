@@ -10,7 +10,13 @@
   "runtime": 162,
   "tagline": "The Greatest Shakespeare Film",
   "rankings": {
-    "letterboxd": 67
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": 67,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.0149253731343284
 }

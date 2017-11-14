@@ -10,7 +10,13 @@
   "runtime": 108,
   "tagline": "Welcome to the urban jungle.",
   "rankings": {
-    "rottenTomatoes": 42
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 42,
+    "tmdb": null
   },
   "position": 1.0238095238095237
 }

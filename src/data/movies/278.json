@@ -10,9 +10,12 @@
   "runtime": 142,
   "tagline": "Fear can hold you prisoner. Hope can set you free.",
   "rankings": {
+    "bfi": null,
     "imdb": 1,
     "letterboxd": 25,
+    "metacritic": null,
     "mubi": 68,
+    "rottenTomatoes": null,
     "tmdb": 2
   },
   "position": 4.041666666666667

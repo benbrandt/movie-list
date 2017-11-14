@@ -10,7 +10,13 @@
   "runtime": 88,
   "tagline": "The Beatles, starring in their first full-length, hilarious, action-packed film!",
   "rankings": {
-    "rottenTomatoes": 25
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 25,
+    "tmdb": null
   },
   "position": 1.04
 }

@@ -10,8 +10,10 @@
   "runtime": 152,
   "tagline": "Why So Serious?",
   "rankings": {
+    "bfi": null,
     "imdb": 4,
     "letterboxd": 38,
+    "metacritic": null,
     "mubi": 31,
     "rottenTomatoes": 70,
     "tmdb": 19

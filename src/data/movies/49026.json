@@ -10,7 +10,13 @@
   "runtime": 165,
   "tagline": "The Legend Ends",
   "rankings": {
-    "imdb": 64
+    "bfi": null,
+    "imdb": 64,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.015625
 }

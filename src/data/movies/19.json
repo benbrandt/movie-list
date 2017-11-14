@@ -10,6 +10,10 @@
   "runtime": 153,
   "tagline": "There can be no understanding between the hands and the brain unless the heart acts as mediator.",
   "rankings": {
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
     "mubi": 64,
     "rottenTomatoes": 9,
     "tmdb": 97

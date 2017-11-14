@@ -10,10 +10,13 @@
   "runtime": 130,
   "tagline": "If you run you're dead... if you stay, you're dead again. Period.",
   "rankings": {
+    "bfi": null,
     "imdb": 21,
-    "letterboxd": 79,
+    "letterboxd": 78,
+    "metacritic": null,
     "mubi": 38,
+    "rottenTomatoes": null,
     "tmdb": 55
   },
-  "position": 4.020725388601036
+  "position": 4.020833333333333
 }

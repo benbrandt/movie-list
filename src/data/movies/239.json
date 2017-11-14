@@ -10,7 +10,13 @@
   "runtime": 122,
   "tagline": "The movie too HOT for words!",
   "rankings": {
-    "bfi": 38
+    "bfi": 38,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.0263157894736843
 }

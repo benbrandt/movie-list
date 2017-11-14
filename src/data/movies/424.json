@@ -10,10 +10,13 @@
   "runtime": 195,
   "tagline": "Whoever saves one life, saves the world entire.",
   "rankings": {
+    "bfi": null,
     "imdb": 6,
-    "letterboxd": 42,
+    "letterboxd": 43,
+    "metacritic": null,
     "mubi": 67,
+    "rottenTomatoes": null,
     "tmdb": 6
   },
-  "position": 4.033057851239669
+  "position": 4.032786885245901
 }

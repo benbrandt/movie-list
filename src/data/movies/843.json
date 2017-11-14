@@ -11,8 +11,12 @@
   "tagline": "Feel the heat, keep the feeling burning, let the sensation explode.",
   "rankings": {
     "bfi": 72,
+    "imdb": null,
     "letterboxd": 54,
-    "mubi": 36
+    "metacritic": null,
+    "mubi": 36,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 3.0185185185185186
 }

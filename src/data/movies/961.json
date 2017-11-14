@@ -10,7 +10,13 @@
   "runtime": 79,
   "tagline": "Buster drives \"The General\" to trainload of laughter. (Trade paper ad).",
   "rankings": {
-    "bfi": 81
+    "bfi": 81,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.0123456790123457
 }

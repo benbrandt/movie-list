@@ -10,7 +10,13 @@
   "runtime": 111,
   "tagline": "This is the story of a lifetime",
   "rankings": {
-    "rottenTomatoes": 12
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 12,
+    "tmdb": null
   },
   "position": 1.0833333333333333
 }

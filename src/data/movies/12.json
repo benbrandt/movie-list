@@ -10,7 +10,13 @@
   "runtime": 100,
   "tagline": "There are 3.7 trillion fish in the ocean. They're looking for one.",
   "rankings": {
-    "rottenTomatoes": 75
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 75,
+    "tmdb": null
   },
   "position": 1.0133333333333334
 }

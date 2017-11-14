@@ -10,8 +10,13 @@
   "runtime": 136,
   "tagline": "Pray for Rosemary's Baby",
   "rankings": {
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
     "mubi": 85,
-    "rottenTomatoes": 76
+    "rottenTomatoes": 76,
+    "tmdb": null
   },
   "position": 2.012422360248447
 }

@@ -10,7 +10,13 @@
   "runtime": 138,
   "tagline": "It's all about women... and their men!",
   "rankings": {
-    "rottenTomatoes": 7
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 7,
+    "tmdb": null
   },
   "position": 1.1428571428571428
 }

@@ -10,6 +10,12 @@
   "runtime": 62,
   "tagline": "Buy The Thing",
   "rankings": {
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
     "tmdb": 66
   },
   "position": 1.0151515151515151

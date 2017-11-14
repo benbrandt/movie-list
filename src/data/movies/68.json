@@ -10,7 +10,13 @@
   "runtime": 132,
   "tagline": "It's only a state of mind.",
   "rankings": {
-    "mubi": 72
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": 72,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.0138888888888888
 }

@@ -10,7 +10,12 @@
   "runtime": 116,
   "tagline": "An unforgettable fable that proves love, family and imagination conquer all.",
   "rankings": {
+    "bfi": null,
     "imdb": 25,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
     "tmdb": 15
   },
   "position": 2.05

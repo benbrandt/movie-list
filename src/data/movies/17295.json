@@ -11,7 +11,12 @@
   "tagline": "The Revolt that Stirred the World!",
   "rankings": {
     "bfi": 28,
-    "rottenTomatoes": 28
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 28,
+    "tmdb": null
   },
   "position": 2.0357142857142856
 }

@@ -11,8 +11,12 @@
   "tagline": "Angel faces hell-bent for violence.",
   "rankings": {
     "bfi": 14,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
     "mubi": 33,
-    "rottenTomatoes": 59
+    "rottenTomatoes": 59,
+    "tmdb": null
   },
   "position": 3.0283018867924527
 }

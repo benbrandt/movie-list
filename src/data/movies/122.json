@@ -10,10 +10,13 @@
   "runtime": 201,
   "tagline": "The eye of the enemy is moving.",
   "rankings": {
+    "bfi": null,
     "imdb": 8,
-    "letterboxd": 85,
+    "letterboxd": 86,
+    "metacritic": null,
     "mubi": 75,
+    "rottenTomatoes": null,
     "tmdb": 50
   },
-  "position": 4.018348623853211
+  "position": 4.018264840182648
 }

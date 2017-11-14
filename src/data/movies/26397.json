@@ -10,7 +10,13 @@
   "runtime": 680,
   "tagline": "It divided a country. It created a nation.",
   "rankings": {
-    "letterboxd": 33
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": 33,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.0303030303030303
 }

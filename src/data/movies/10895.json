@@ -10,7 +10,13 @@
   "runtime": 88,
   "tagline": "For anyone who has ever wished upon a star.",
   "rankings": {
-    "rottenTomatoes": 89
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 89,
+    "tmdb": null
   },
   "position": 1.0112359550561798
 }

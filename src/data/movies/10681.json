@@ -10,8 +10,13 @@
   "runtime": 98,
   "tagline": "An adventure beyond the ordinar-E.",
   "rankings": {
+    "bfi": null,
     "imdb": 61,
-    "mubi": 56
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": 56,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 2.017094017094017
 }

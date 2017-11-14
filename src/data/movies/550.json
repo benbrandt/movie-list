@@ -10,8 +10,12 @@
   "runtime": 139,
   "tagline": "Mischief. Mayhem. Soap.",
   "rankings": {
+    "bfi": null,
     "imdb": 10,
+    "letterboxd": null,
+    "metacritic": null,
     "mubi": 11,
+    "rottenTomatoes": null,
     "tmdb": 12
   },
   "position": 3.090909090909091

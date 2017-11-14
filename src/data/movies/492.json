@@ -10,7 +10,13 @@
   "runtime": 112,
   "tagline": "Ever wanted to be someone else? Now you can.",
   "rankings": {
-    "mubi": 81
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": 81,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.0123456790123457
 }

@@ -10,7 +10,13 @@
   "runtime": 1080,
   "tagline": "There Is No Single Truth In War",
   "rankings": {
-    "letterboxd": 37
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": 37,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.027027027027027
 }

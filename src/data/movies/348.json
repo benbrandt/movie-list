@@ -10,10 +10,13 @@
   "runtime": 117,
   "tagline": "In space no one can hear you scream.",
   "rankings": {
+    "bfi": null,
     "imdb": 51,
     "letterboxd": 50,
+    "metacritic": null,
     "mubi": 42,
-    "rottenTomatoes": 51
+    "rottenTomatoes": 51,
+    "tmdb": null
   },
   "position": 4.020618556701031
 }

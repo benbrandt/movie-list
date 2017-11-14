@@ -10,6 +10,12 @@
   "runtime": 247,
   "tagline": "The bride is back for the final cut",
   "rankings": {
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
     "tmdb": 5
   },
   "position": 1.2

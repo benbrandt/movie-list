@@ -10,7 +10,13 @@
   "runtime": 116,
   "tagline": "The final vision of a controversial filmmaker.",
   "rankings": {
-    "bfi": 88
+    "bfi": 88,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.0113636363636365
 }

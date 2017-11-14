@@ -10,7 +10,13 @@
   "runtime": 127,
   "tagline": "One dream can change the world.",
   "rankings": {
-    "rottenTomatoes": 38
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 38,
+    "tmdb": null
   },
   "position": 1.0263157894736843
 }

@@ -10,7 +10,13 @@
   "runtime": 147,
   "tagline": "Dynamic Tremendous Shattering",
   "rankings": {
-    "rottenTomatoes": 92
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 92,
+    "tmdb": null
   },
   "position": 1.0108695652173914
 }

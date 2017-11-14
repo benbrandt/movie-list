@@ -11,8 +11,12 @@
   "tagline": "There Will Be Greed. There Will Be Vengeance.",
   "rankings": {
     "bfi": 79,
+    "imdb": null,
     "letterboxd": 49,
-    "mubi": 19
+    "metacritic": null,
+    "mubi": 19,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 3.020408163265306
 }

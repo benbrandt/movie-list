@@ -10,7 +10,12 @@
   "runtime": 142,
   "tagline": "The world will never be the same, once you've seen it through the eyes of Forrest Gump.",
   "rankings": {
+    "bfi": null,
     "imdb": 12,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
     "tmdb": 22
   },
   "position": 2.0588235294117645

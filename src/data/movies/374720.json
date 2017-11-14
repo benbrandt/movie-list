@@ -10,8 +10,13 @@
   "runtime": 107,
   "tagline": "The event that shaped our world",
   "rankings": {
+    "bfi": null,
     "imdb": 97,
-    "rottenTomatoes": 21
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 21,
+    "tmdb": null
   },
   "position": 2.016949152542373
 }

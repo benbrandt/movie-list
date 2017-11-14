@@ -10,10 +10,13 @@
   "runtime": 119,
   "tagline": "To enter the mind of a killer she must challenge the mind of a madman.",
   "rankings": {
+    "bfi": null,
     "imdb": 23,
-    "letterboxd": 82,
+    "letterboxd": 83,
+    "metacritic": null,
     "mubi": 58,
+    "rottenTomatoes": null,
     "tmdb": 76
   },
-  "position": 4.01673640167364
+  "position": 4.016666666666667
 }

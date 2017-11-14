@@ -10,7 +10,13 @@
   "runtime": 170,
   "tagline": "Don't BE A STUPID BE AN I.D.I.O.T.",
   "rankings": {
-    "imdb": 96
+    "bfi": null,
+    "imdb": 96,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.0104166666666667
 }

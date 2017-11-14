@@ -10,7 +10,13 @@
   "runtime": 92,
   "tagline": "The toys are back!",
   "rankings": {
-    "rottenTomatoes": 46
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 46,
+    "tmdb": null
   },
   "position": 1.0217391304347827
 }

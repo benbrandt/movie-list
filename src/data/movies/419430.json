@@ -10,7 +10,13 @@
   "runtime": 104,
   "tagline": "Just because you're invited, doesn't mean you're welcome.",
   "rankings": {
-    "rottenTomatoes": 4
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 4,
+    "tmdb": null
   },
   "position": 1.25
 }

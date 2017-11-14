@@ -10,7 +10,13 @@
   "runtime": 75,
   "tagline": "The monster demands a mate.",
   "rankings": {
-    "rottenTomatoes": 47
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 47,
+    "tmdb": null
   },
   "position": 1.0212765957446808
 }

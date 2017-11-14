@@ -10,9 +10,13 @@
   "runtime": 99,
   "tagline": "Every dog has his day.",
   "rankings": {
+    "bfi": null,
     "imdb": 77,
+    "letterboxd": null,
+    "metacritic": null,
     "mubi": 30,
-    "tmdb": 87
+    "rottenTomatoes": null,
+    "tmdb": 88
   },
-  "position": 3.015463917525773
+  "position": 3.0153846153846153
 }

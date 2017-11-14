@@ -10,7 +10,13 @@
   "runtime": 191,
   "tagline": "Love is the Condition for Being Human",
   "rankings": {
-    "letterboxd": 58
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": 57,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
-  "position": 1.0172413793103448
+  "position": 1.0175438596491229
 }

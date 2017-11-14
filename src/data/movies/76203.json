@@ -10,7 +10,13 @@
   "runtime": 134,
   "tagline": "The extraordinary true story of Solomon Northup",
   "rankings": {
-    "rottenTomatoes": 31
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 31,
+    "tmdb": null
   },
   "position": 1.032258064516129
 }

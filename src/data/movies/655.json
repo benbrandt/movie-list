@@ -10,8 +10,13 @@
   "runtime": 145,
   "tagline": "A place for dreams. A place for heartbreak. A place to pick up the pieces.",
   "rankings": {
+    "bfi": null,
+    "imdb": null,
     "letterboxd": 72,
-    "mubi": 100
+    "metacritic": null,
+    "mubi": 100,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 2.011627906976744
 }

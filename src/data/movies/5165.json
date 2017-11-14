@@ -10,7 +10,13 @@
   "runtime": 143,
   "tagline": "A new adventure in filmmaking...",
   "rankings": {
-    "bfi": 32
+    "bfi": 32,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.03125
 }

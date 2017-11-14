@@ -11,7 +11,12 @@
   "tagline": "Bertolucci's Masterpiece about Sex and Politics",
   "rankings": {
     "bfi": 60,
-    "rottenTomatoes": 71
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 71,
+    "tmdb": null
   },
   "position": 2.015267175572519
 }

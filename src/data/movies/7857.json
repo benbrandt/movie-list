@@ -10,7 +10,13 @@
   "runtime": 123,
   "tagline": "The Fantastic World of Fellini!",
   "rankings": {
-    "bfi": 33
+    "bfi": 33,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.0303030303030303
 }

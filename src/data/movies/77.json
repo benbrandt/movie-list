@@ -10,8 +10,12 @@
   "runtime": 113,
   "tagline": "Some memories are best forgotten.",
   "rankings": {
+    "bfi": null,
     "imdb": 49,
+    "letterboxd": null,
+    "metacritic": null,
     "mubi": 57,
+    "rottenTomatoes": null,
     "tmdb": 80
   },
   "position": 3.0161290322580645

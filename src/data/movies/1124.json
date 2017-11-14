@@ -10,7 +10,13 @@
   "runtime": 130,
   "tagline": "Are You Watching Closely?",
   "rankings": {
-    "imdb": 47
+    "bfi": null,
+    "imdb": 47,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.0212765957446808
 }

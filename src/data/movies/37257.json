@@ -10,7 +10,12 @@
   "runtime": 116,
   "tagline": "The most electrifying entertainment of our time!",
   "rankings": {
+    "bfi": null,
     "imdb": 68,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
     "tmdb": 53
   },
   "position": 2.0165289256198347

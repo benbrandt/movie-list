@@ -10,10 +10,13 @@
   "runtime": 121,
   "tagline": "A long time ago in a galaxy far, far away...",
   "rankings": {
+    "bfi": null,
     "imdb": 20,
-    "letterboxd": 99,
+    "letterboxd": 100,
+    "metacritic": null,
     "mubi": 43,
+    "rottenTomatoes": null,
     "tmdb": 91
   },
-  "position": 4.015810276679842
+  "position": 4.015748031496063
 }

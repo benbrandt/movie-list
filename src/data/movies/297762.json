@@ -10,7 +10,13 @@
   "runtime": 141,
   "tagline": "Power. Grace. Wisdom. Wonder.",
   "rankings": {
-    "rottenTomatoes": 23
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 23,
+    "tmdb": null
   },
   "position": 1.0434782608695652
 }

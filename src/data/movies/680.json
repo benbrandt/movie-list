@@ -10,9 +10,12 @@
   "runtime": 154,
   "tagline": "Just because you are a character doesn't mean you have character.",
   "rankings": {
+    "bfi": null,
     "imdb": 7,
     "letterboxd": 20,
+    "metacritic": null,
     "mubi": 1,
+    "rottenTomatoes": null,
     "tmdb": 14
   },
   "position": 4.095238095238095

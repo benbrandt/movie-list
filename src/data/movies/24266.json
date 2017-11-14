@@ -10,7 +10,13 @@
   "runtime": 104,
   "tagline": "The story of a boy suddenly alone in the world. The men who challenge him. And the girl who helps him become a man.",
   "rankings": {
-    "bfi": 100
+    "bfi": 100,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.01
 }

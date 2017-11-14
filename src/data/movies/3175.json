@@ -10,7 +10,13 @@
   "runtime": 184,
   "tagline": "At long last Redmond Barry became a gentleman - and that was his tragedy.",
   "rankings": {
-    "bfi": 19
+    "bfi": 19,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.0526315789473684
 }

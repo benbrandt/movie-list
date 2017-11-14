@@ -10,8 +10,12 @@
   "runtime": 134,
   "tagline": "The Fate Of The World Rests On The Courage Of One Warrior.",
   "rankings": {
+    "bfi": null,
     "imdb": 65,
+    "letterboxd": null,
+    "metacritic": null,
     "mubi": 77,
+    "rottenTomatoes": null,
     "tmdb": 35
   },
   "position": 3.016949152542373

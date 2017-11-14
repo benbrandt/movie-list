@@ -10,7 +10,13 @@
   "runtime": 93,
   "tagline": "A breathtaking journey into the heart of darkness",
   "rankings": {
-    "bfi": 61
+    "bfi": 61,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.0163934426229508
 }

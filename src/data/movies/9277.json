@@ -10,7 +10,13 @@
   "runtime": 129,
   "tagline": "...all it takes is a little confidence.",
   "rankings": {
-    "imdb": 94
+    "bfi": null,
+    "imdb": 94,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.0106382978723405
 }

@@ -10,8 +10,13 @@
   "runtime": 153,
   "tagline": "Once upon a time in Nazi occupied France...",
   "rankings": {
+    "bfi": null,
     "imdb": 98,
-    "mubi": 35
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": 35,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 2.0150375939849625
 }

@@ -10,7 +10,13 @@
   "runtime": 145,
   "tagline": "If you only want to spend two hours in a movie theatre and go home and forget it, stay away from THE WILD BUNCH.",
   "rankings": {
-    "bfi": 87
+    "bfi": 87,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.0114942528735633
 }

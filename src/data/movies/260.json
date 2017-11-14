@@ -10,7 +10,13 @@
   "runtime": 86,
   "tagline": "Handcuffed to the girl who double-crossed him",
   "rankings": {
-    "rottenTomatoes": 85
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 85,
+    "tmdb": null
   },
   "position": 1.011764705882353
 }

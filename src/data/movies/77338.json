@@ -10,7 +10,12 @@
   "runtime": 112,
   "tagline": "Sometimes you have to reach into someone else's world to find out what's missing in your own.",
   "rankings": {
+    "bfi": null,
     "imdb": 37,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
     "tmdb": 52
   },
   "position": 2.0224719101123596

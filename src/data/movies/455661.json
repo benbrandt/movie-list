@@ -10,6 +10,12 @@
   "runtime": 4,
   "tagline": "The Heart Wants What The Heart Wants",
   "rankings": {
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
     "tmdb": 13
   },
   "position": 1.0769230769230769

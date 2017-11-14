@@ -10,7 +10,13 @@
   "runtime": 94,
   "tagline": "Meet the little voices inside your head.",
   "rankings": {
-    "rottenTomatoes": 8
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 8,
+    "tmdb": null
   },
   "position": 1.125
 }

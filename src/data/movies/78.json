@@ -11,7 +11,12 @@
   "tagline": "Man has made his match... now it's his problem.",
   "rankings": {
     "bfi": 68,
-    "mubi": 13
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": 13,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 2.0246913580246915
 }

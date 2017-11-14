@@ -10,7 +10,13 @@
   "runtime": 137,
   "tagline": "Before the Fall of the Berlin Wall, East Germany's Secret Police Listened to Your Secrets.",
   "rankings": {
-    "imdb": 56
+    "bfi": null,
+    "imdb": 56,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.0178571428571428
 }

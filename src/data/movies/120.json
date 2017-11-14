@@ -10,9 +10,13 @@
   "runtime": 178,
   "tagline": "One ring to rule them all",
   "rankings": {
+    "bfi": null,
     "imdb": 11,
+    "letterboxd": null,
+    "metacritic": null,
     "mubi": 66,
-    "tmdb": 89
+    "rottenTomatoes": null,
+    "tmdb": 90
   },
-  "position": 3.0180722891566263
+  "position": 3.0179640718562872
 }

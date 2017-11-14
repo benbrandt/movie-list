@@ -10,7 +10,13 @@
   "runtime": 147,
   "tagline": "Haunting. Erotic. Unforgettable.",
   "rankings": {
-    "letterboxd": 56
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": 56,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.0178571428571428
 }

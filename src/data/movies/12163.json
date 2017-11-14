@@ -10,7 +10,13 @@
   "runtime": 109,
   "tagline": "Love. Pain. Glory.",
   "rankings": {
-    "rottenTomatoes": 79
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 78,
+    "tmdb": null
   },
-  "position": 1.0126582278481013
+  "position": 1.0128205128205128
 }

@@ -10,8 +10,13 @@
   "runtime": 130,
   "tagline": "It's a wonderful laugh! It's a wonderful love!",
   "rankings": {
+    "bfi": null,
     "imdb": 24,
-    "letterboxd": 100
+    "letterboxd": 99,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
-  "position": 2.0161290322580645
+  "position": 2.016260162601626
 }

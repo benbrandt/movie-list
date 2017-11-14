@@ -10,7 +10,13 @@
   "runtime": 68,
   "tagline": "6 reels of Joy.",
   "rankings": {
-    "imdb": 100
+    "bfi": null,
+    "imdb": 100,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.01
 }

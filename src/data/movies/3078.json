@@ -10,7 +10,13 @@
   "runtime": 105,
   "tagline": "TOGETHER... for the first time",
   "rankings": {
-    "rottenTomatoes": 14
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 14,
+    "tmdb": null
   },
   "position": 1.0714285714285714
 }

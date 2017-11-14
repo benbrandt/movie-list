@@ -10,8 +10,13 @@
   "runtime": 115,
   "tagline": "Indiana Jones - the new hero from the creators of JAWS and STAR WARS.",
   "rankings": {
+    "bfi": null,
     "imdb": 39,
-    "mubi": 89
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": 89,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 2.015625
 }

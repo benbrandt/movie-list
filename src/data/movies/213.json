@@ -10,9 +10,13 @@
   "runtime": 136,
   "tagline": "It's a deadly game of 'tag' and Cary Grant is 'it'...",
   "rankings": {
+    "bfi": null,
     "imdb": 74,
+    "letterboxd": null,
+    "metacritic": null,
     "mubi": 83,
-    "rottenTomatoes": 26
+    "rottenTomatoes": 26,
+    "tmdb": null
   },
   "position": 3.0163934426229506
 }

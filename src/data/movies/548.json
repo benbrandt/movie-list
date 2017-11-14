@@ -11,8 +11,12 @@
   "tagline": "The husband, the wife...or the bandit?",
   "rankings": {
     "bfi": 18,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
     "mubi": 63,
-    "rottenTomatoes": 37
+    "rottenTomatoes": 37,
+    "tmdb": null
   },
   "position": 3.0254237288135593
 }

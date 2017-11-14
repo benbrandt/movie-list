@@ -10,8 +10,13 @@
   "runtime": 120,
   "tagline": "15 years of imprisonment, five days of vengeance",
   "rankings": {
+    "bfi": null,
     "imdb": 66,
-    "mubi": 40
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": 40,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 2.018867924528302
 }

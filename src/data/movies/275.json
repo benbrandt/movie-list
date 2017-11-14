@@ -10,7 +10,13 @@
   "runtime": 98,
   "tagline": "A lot can happen in the middle of nowhere.",
   "rankings": {
-    "mubi": 28
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": 28,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.0357142857142858
 }

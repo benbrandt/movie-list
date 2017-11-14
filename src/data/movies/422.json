@@ -11,7 +11,12 @@
   "tagline": "A picture that goes beyond what men think about - because no man ever thought about it in quite this way!",
   "rankings": {
     "bfi": 4,
-    "mubi": 26
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": 26,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 2.066666666666667
 }

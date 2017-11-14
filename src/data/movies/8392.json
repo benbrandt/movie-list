@@ -10,7 +10,13 @@
   "runtime": 86,
   "tagline": "These strange creatures still exist in Japan. Probably.",
   "rankings": {
-    "mubi": 76
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": 76,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.013157894736842
 }

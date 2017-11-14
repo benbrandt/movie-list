@@ -10,7 +10,13 @@
   "runtime": 149,
   "tagline": "When the hunters become the hunted",
   "rankings": {
-    "imdb": 71
+    "bfi": null,
+    "imdb": 71,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.0140845070422535
 }

@@ -10,7 +10,13 @@
   "runtime": 100,
   "tagline": "Powerful Portrayal of Dignity and Courage",
   "rankings": {
-    "rottenTomatoes": 87
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 87,
+    "tmdb": null
   },
   "position": 1.0114942528735633
 }

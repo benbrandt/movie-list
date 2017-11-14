@@ -10,8 +10,13 @@
   "runtime": 103,
   "tagline": "No toy gets left behind.",
   "rankings": {
+    "bfi": null,
     "imdb": 95,
-    "rottenTomatoes": 45
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 45,
+    "tmdb": null
   },
   "position": 2.0142857142857142
 }

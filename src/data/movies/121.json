@@ -10,7 +10,13 @@
   "runtime": 179,
   "tagline": "A New Power Is Rising.",
   "rankings": {
-    "imdb": 15
+    "bfi": null,
+    "imdb": 15,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.0666666666666667
 }

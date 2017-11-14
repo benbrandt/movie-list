@@ -10,8 +10,13 @@
   "runtime": 122,
   "tagline": "One person can change your life forever.",
   "rankings": {
+    "bfi": null,
     "imdb": 80,
-    "mubi": 23
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": 23,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 2.0194174757281553
 }

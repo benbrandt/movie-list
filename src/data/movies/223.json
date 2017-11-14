@@ -10,7 +10,13 @@
   "runtime": 130,
   "tagline": "The shadow of this woman darkened their love.",
   "rankings": {
-    "rottenTomatoes": 77
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 77,
+    "tmdb": null
   },
   "position": 1.0129870129870129
 }

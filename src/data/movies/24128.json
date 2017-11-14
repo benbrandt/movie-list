@@ -10,7 +10,13 @@
   "runtime": 88,
   "tagline": "Why stop making sense? Why a movie? Why a big suit? Where do the odd movements come from? What will the band do next?",
   "rankings": {
-    "letterboxd": 23
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": 22,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
-  "position": 1.0434782608695652
+  "position": 1.0454545454545454
 }

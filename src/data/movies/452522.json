@@ -10,7 +10,13 @@
   "runtime": 113,
   "tagline": "",
   "rankings": {
-    "letterboxd": 21
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": 21,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.0476190476190477
 }

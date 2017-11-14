@@ -10,7 +10,13 @@
   "runtime": 95,
   "tagline": "Evocative, compelling, fascinating, different - an important motion picture, an exceptional work of art from the brilliant Alain Resnais",
   "rankings": {
-    "bfi": 105
+    "bfi": 105,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.0095238095238095
 }

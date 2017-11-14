@@ -11,8 +11,12 @@
   "tagline": "An Immortal Screen Classic that will live Forever!",
   "rankings": {
     "bfi": 40,
+    "imdb": null,
     "letterboxd": 24,
-    "tmdb": 28
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": 29
   },
-  "position": 3.032608695652174
+  "position": 3.032258064516129
 }

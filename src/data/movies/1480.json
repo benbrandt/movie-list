@@ -11,7 +11,12 @@
   "tagline": "THE STRANGEST VENGEANCE EVER PLANNED!",
   "rankings": {
     "bfi": 26,
-    "rottenTomatoes": 66
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 66,
+    "tmdb": null
   },
   "position": 2.0217391304347827
 }

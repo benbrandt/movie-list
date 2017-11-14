@@ -10,8 +10,12 @@
   "runtime": 127,
   "tagline": "Seven deadly sins. Seven ways to die.",
   "rankings": {
+    "bfi": null,
     "imdb": 22,
+    "letterboxd": null,
+    "metacritic": null,
     "mubi": 51,
+    "rottenTomatoes": null,
     "tmdb": 59
   },
   "position": 3.022727272727273

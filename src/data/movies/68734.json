@@ -10,7 +10,13 @@
   "runtime": 120,
   "tagline": "The movie was fake. The mission was real.",
   "rankings": {
-    "rottenTomatoes": 44
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 44,
+    "tmdb": null
   },
   "position": 1.0227272727272727
 }

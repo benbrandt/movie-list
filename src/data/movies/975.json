@@ -10,8 +10,12 @@
   "runtime": 88,
   "tagline": "It explodes in the no-man's land no picture ever dared cross before!",
   "rankings": {
+    "bfi": null,
     "imdb": 58,
     "letterboxd": 52,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
     "tmdb": 49
   },
   "position": 3.018867924528302

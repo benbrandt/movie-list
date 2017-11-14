@@ -10,7 +10,13 @@
   "runtime": 94,
   "tagline": "1974. 1350 feet up. The artistic crime of the century.",
   "rankings": {
-    "rottenTomatoes": 98
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 98,
+    "tmdb": null
   },
   "position": 1.010204081632653
 }

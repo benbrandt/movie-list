@@ -10,6 +10,12 @@
   "runtime": 119,
   "tagline": "The two lived there",
   "rankings": {
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
     "tmdb": 41
   },
   "position": 1.024390243902439

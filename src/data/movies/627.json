@@ -10,7 +10,13 @@
   "runtime": 93,
   "tagline": "Choose life.",
   "rankings": {
-    "mubi": 49
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": 49,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.0204081632653061
 }

@@ -10,6 +10,12 @@
   "runtime": 129,
   "tagline": "He was their inspiration. He made their lives extraordinary.",
   "rankings": {
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
     "tmdb": 62
   },
   "position": 1.0161290322580645

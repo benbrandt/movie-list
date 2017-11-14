@@ -10,7 +10,13 @@
   "runtime": 434,
   "tagline": "The Godfather - as you've never seen it!",
   "rankings": {
-    "letterboxd": 13
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": 13,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.0769230769230769
 }

@@ -11,7 +11,12 @@
   "tagline": "An actress longing to be a star. A woman searching for herself. Both worlds will collide... on Mulholland Drive.",
   "rankings": {
     "bfi": 82,
-    "mubi": 21
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": 21,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 2.0194174757281553
 }

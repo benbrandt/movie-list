@@ -10,7 +10,13 @@
   "runtime": 100,
   "tagline": "It doesn't think, it doesn't feel, it doesn't give up",
   "rankings": {
-    "rottenTomatoes": 91
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 91,
+    "tmdb": null
   },
   "position": 1.010989010989011
 }

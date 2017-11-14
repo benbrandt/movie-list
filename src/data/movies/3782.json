@@ -10,7 +10,13 @@
   "runtime": 143,
   "tagline": "One of the Great Films of Our Time!",
   "rankings": {
-    "letterboxd": 39
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": 39,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.0256410256410255
 }

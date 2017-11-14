@@ -10,7 +10,12 @@
   "runtime": 150,
   "tagline": "Music was his passion. Survival was his masterpiece.",
   "rankings": {
+    "bfi": null,
     "imdb": 40,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
     "tmdb": 96
   },
   "position": 2.014705882352941

@@ -10,11 +10,13 @@
   "runtime": 96,
   "tagline": "Life is in their hands. Death is on their minds.",
   "rankings": {
+    "bfi": null,
     "imdb": 5,
     "letterboxd": 8,
+    "metacritic": null,
     "mubi": 60,
     "rottenTomatoes": 58,
-    "tmdb": 26
+    "tmdb": 27
   },
-  "position": 5.031847133757962
+  "position": 5.031645569620253
 }

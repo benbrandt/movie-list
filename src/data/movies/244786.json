@@ -10,8 +10,12 @@
   "runtime": 105,
   "tagline": "The road to greatness can take you to the edge.",
   "rankings": {
+    "bfi": null,
     "imdb": 45,
     "letterboxd": 55,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
     "tmdb": 9
   },
   "position": 3.0275229357798166

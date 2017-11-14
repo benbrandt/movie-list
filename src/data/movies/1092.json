@@ -10,8 +10,13 @@
   "runtime": 104,
   "tagline": "Hunted by men ... Sought by WOMEN!",
   "rankings": {
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
     "mubi": 84,
-    "rottenTomatoes": 3
+    "rottenTomatoes": 3,
+    "tmdb": null
   },
   "position": 2.0229885057471266
 }

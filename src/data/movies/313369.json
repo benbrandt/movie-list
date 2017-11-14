@@ -10,7 +10,13 @@
   "runtime": 128,
   "tagline": "Here's to the fools who dream.",
   "rankings": {
-    "rottenTomatoes": 65
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 65,
+    "tmdb": null
   },
   "position": 1.0153846153846153
 }

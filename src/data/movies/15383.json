@@ -10,7 +10,13 @@
   "runtime": 145,
   "tagline": "Betrayal. Loyalty. Collaboration. Resistance.",
   "rankings": {
-    "rottenTomatoes": 61
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 61,
+    "tmdb": null
   },
   "position": 1.0163934426229508
 }

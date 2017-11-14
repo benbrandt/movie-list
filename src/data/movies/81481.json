@@ -10,6 +10,12 @@
   "runtime": 125,
   "tagline": "The hideous truth, concealed far too long.",
   "rankings": {
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
     "tmdb": 99
   },
   "position": 1.0101010101010102

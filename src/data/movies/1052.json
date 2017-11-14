@@ -10,7 +10,13 @@
   "runtime": 111,
   "tagline": "Michelangelo Antonioni's first British film",
   "rankings": {
-    "bfi": 59
+    "bfi": 59,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.0169491525423728
 }

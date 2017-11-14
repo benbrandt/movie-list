@@ -10,7 +10,13 @@
   "runtime": 133,
   "tagline": "They left for war as boys never to return as men.",
   "rankings": {
-    "rottenTomatoes": 60
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 60,
+    "tmdb": null
   },
   "position": 1.0166666666666666
 }

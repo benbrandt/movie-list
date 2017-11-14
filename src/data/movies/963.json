@@ -10,7 +10,13 @@
   "runtime": 100,
   "tagline": "A story as EXPLOSIVE as his BLAZING automatics!",
   "rankings": {
-    "rottenTomatoes": 30
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 30,
+    "tmdb": null
   },
   "position": 1.0333333333333334
 }

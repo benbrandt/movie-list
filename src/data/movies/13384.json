@@ -10,7 +10,13 @@
   "runtime": 110,
   "tagline": "They beat him.  They deprived him. they ridiculed him. They broke his heart but they couldn't break his spirit.",
   "rankings": {
-    "bfi": 85
+    "bfi": 85,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.011764705882353
 }

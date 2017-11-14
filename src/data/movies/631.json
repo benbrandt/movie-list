@@ -11,7 +11,12 @@
   "tagline": "An Artistic Masterpiece And Also A Joy To Watch",
   "rankings": {
     "bfi": 24,
-    "letterboxd": 91
+    "imdb": null,
+    "letterboxd": 90,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
-  "position": 2.017391304347826
+  "position": 2.017543859649123
 }

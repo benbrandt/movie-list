@@ -10,7 +10,13 @@
   "runtime": 83,
   "tagline": "The Happiest, Dopiest, Grumpiest, Sneeziest movie of the year.",
   "rankings": {
-    "rottenTomatoes": 24
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 24,
+    "tmdb": null
   },
   "position": 1.0416666666666667
 }

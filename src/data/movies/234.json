@@ -10,7 +10,13 @@
   "runtime": 78,
   "tagline": "You must become Caligari.",
   "rankings": {
-    "rottenTomatoes": 6
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 6,
+    "tmdb": null
   },
   "position": 1.1666666666666667
 }

@@ -10,10 +10,13 @@
   "runtime": 102,
   "tagline": "They had a date with fate in Casablanca!",
   "rankings": {
+    "bfi": null,
     "imdb": 35,
     "letterboxd": 84,
+    "metacritic": null,
     "mubi": 37,
-    "rottenTomatoes": 17
+    "rottenTomatoes": 17,
+    "tmdb": null
   },
   "position": 4.023121387283237
 }

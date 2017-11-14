@@ -10,7 +10,13 @@
   "runtime": 91,
   "tagline": "And now! At Last! Another film completely different from some of the other films which aren't quite the same as this one is.",
   "rankings": {
-    "mubi": 61
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": 61,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.0163934426229508
 }

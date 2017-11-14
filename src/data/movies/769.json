@@ -13,8 +13,10 @@
     "bfi": 58,
     "imdb": 17,
     "letterboxd": 26,
+    "metacritic": null,
     "mubi": 27,
-    "tmdb": 24
+    "rottenTomatoes": null,
+    "tmdb": 25
   },
-  "position": 5.032894736842105
+  "position": 5.032679738562091
 }

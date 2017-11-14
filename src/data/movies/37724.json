@@ -10,7 +10,13 @@
   "runtime": 143,
   "tagline": "Think on your sins.",
   "rankings": {
-    "rottenTomatoes": 84
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 84,
+    "tmdb": null
   },
   "position": 1.0119047619047619
 }

@@ -11,9 +11,12 @@
   "tagline": "Isn't Life Depressing?",
   "rankings": {
     "bfi": 1,
-    "letterboxd": 43,
+    "imdb": null,
+    "letterboxd": 42,
+    "metacritic": null,
+    "mubi": null,
     "rottenTomatoes": 88,
-    "tmdb": 27
+    "tmdb": 28
   },
   "position": 4.0251572327044025
 }

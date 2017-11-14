@@ -10,9 +10,12 @@
   "runtime": 124,
   "tagline": "The Adventure Continues...",
   "rankings": {
+    "bfi": null,
     "imdb": 13,
     "letterboxd": 14,
+    "metacritic": null,
     "mubi": 96,
+    "rottenTomatoes": null,
     "tmdb": 31
   },
   "position": 4.025974025974026

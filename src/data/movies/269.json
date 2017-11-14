@@ -11,7 +11,12 @@
   "tagline": "The film that was banned for 4 years. Why..?",
   "rankings": {
     "bfi": 11,
-    "mubi": 50
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": 50,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 2.0327868852459017
 }

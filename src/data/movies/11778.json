@@ -10,7 +10,13 @@
   "runtime": 183,
   "tagline": "One of the most important and powerful films of all time!",
   "rankings": {
-    "bfi": 99
+    "bfi": 99,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.0101010101010102
 }

@@ -11,7 +11,12 @@
   "tagline": "A Great Drama of Human Emotions",
   "rankings": {
     "bfi": 66,
-    "rottenTomatoes": 29
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 29,
+    "tmdb": null
   },
   "position": 2.0210526315789474
 }

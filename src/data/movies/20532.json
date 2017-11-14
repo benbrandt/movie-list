@@ -10,7 +10,13 @@
   "runtime": 124,
   "tagline": "A film of unparalleled beauty by the great Japanese Master Kenji Mizoguchi",
   "rankings": {
-    "letterboxd": 74
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": 74,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.0135135135135136
 }

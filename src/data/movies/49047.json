@@ -10,7 +10,13 @@
   "runtime": 91,
   "tagline": "Don't Let Go",
   "rankings": {
-    "rottenTomatoes": 34
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 34,
+    "tmdb": null
   },
   "position": 1.0294117647058822
 }

@@ -10,7 +10,13 @@
   "runtime": 137,
   "tagline": "His time has come",
   "rankings": {
-    "rottenTomatoes": 35
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 35,
+    "tmdb": null
   },
   "position": 1.0285714285714285
 }

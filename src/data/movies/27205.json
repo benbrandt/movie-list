@@ -10,8 +10,12 @@
   "runtime": 148,
   "tagline": "Your mind is the scene of the crime.",
   "rankings": {
+    "bfi": null,
     "imdb": 14,
+    "letterboxd": null,
+    "metacritic": null,
     "mubi": 79,
+    "rottenTomatoes": null,
     "tmdb": 72
   },
   "position": 3.018181818181818

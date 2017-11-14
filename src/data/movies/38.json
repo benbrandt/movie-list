@@ -10,8 +10,13 @@
   "runtime": 108,
   "tagline": "You can erase someone from your mind. Getting them out of your heart is another story.",
   "rankings": {
+    "bfi": null,
     "imdb": 87,
-    "mubi": 7
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": 7,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 2.021276595744681
 }

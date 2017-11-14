@@ -10,6 +10,11 @@
   "runtime": 108,
   "tagline": "The Man Lived by the Jungle Law of the Docks!",
   "rankings": {
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
     "rottenTomatoes": 90,
     "tmdb": 94
   },

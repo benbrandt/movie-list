@@ -10,7 +10,13 @@
   "runtime": 103,
   "tagline": "More Bold! More Brazen! And Much, Much More Bardot!",
   "rankings": {
-    "bfi": 45
+    "bfi": 45,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.0222222222222221
 }

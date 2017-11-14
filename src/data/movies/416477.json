@@ -10,7 +10,13 @@
   "runtime": 120,
   "tagline": "An awkward true story.",
   "rankings": {
-    "rottenTomatoes": 20
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 20,
+    "tmdb": null
   },
   "position": 1.05
 }

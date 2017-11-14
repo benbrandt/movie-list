@@ -10,7 +10,13 @@
   "runtime": 178,
   "tagline": "A quiet little town not far from here.",
   "rankings": {
-    "mubi": 97
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": 97,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.0103092783505154
 }

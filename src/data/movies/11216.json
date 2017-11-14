@@ -10,8 +10,13 @@
   "runtime": 124,
   "tagline": "A celebration of youth, friendship, and the everlasting magic of the movies.",
   "rankings": {
+    "bfi": null,
     "imdb": 55,
-    "tmdb": 29
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": 30
   },
-  "position": 2.0238095238095237
+  "position": 2.023529411764706
 }

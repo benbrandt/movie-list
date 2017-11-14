@@ -10,7 +10,12 @@
   "runtime": 135,
   "tagline": "The world has never understood why the Japanese prefer death to dishonor! Winner of Prix Special du Jury at Cannes 1963 provides the answer!!",
   "rankings": {
+    "bfi": null,
+    "imdb": null,
     "letterboxd": 7,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
     "tmdb": 33
   },
   "position": 2.05

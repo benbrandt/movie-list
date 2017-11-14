@@ -11,7 +11,12 @@
   "tagline": "Don't go in the water.",
   "rankings": {
     "bfi": 89,
-    "rottenTomatoes": 95
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 95,
+    "tmdb": null
   },
   "position": 2.010869565217391
 }

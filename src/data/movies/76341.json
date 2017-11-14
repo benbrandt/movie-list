@@ -10,7 +10,13 @@
   "runtime": 120,
   "tagline": "What a Lovely Day.",
   "rankings": {
-    "rottenTomatoes": 5
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 5,
+    "tmdb": null
   },
   "position": 1.2
 }

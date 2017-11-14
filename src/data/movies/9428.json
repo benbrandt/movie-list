@@ -10,7 +10,13 @@
   "runtime": 110,
   "tagline": "Family isn’t a word, it’s a sentence.",
   "rankings": {
-    "mubi": 53
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": 53,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.0188679245283019
 }

@@ -10,7 +10,13 @@
   "runtime": 102,
   "tagline": "Excitement...Danger...Suspense...as this classic adventure story sweeps across the screen!",
   "rankings": {
-    "rottenTomatoes": 39
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 39,
+    "tmdb": null
   },
   "position": 1.0256410256410255
 }

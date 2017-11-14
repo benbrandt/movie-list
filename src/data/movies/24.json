@@ -10,7 +10,13 @@
   "runtime": 111,
   "tagline": "Go for the kill.",
   "rankings": {
-    "mubi": 47
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": 47,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.0212765957446808
 }

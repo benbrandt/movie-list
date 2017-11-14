@@ -10,7 +10,13 @@
   "runtime": 109,
   "tagline": "Man is The Warmest Place to Hide.",
   "rankings": {
-    "letterboxd": 96
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": 96,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.0104166666666667
 }

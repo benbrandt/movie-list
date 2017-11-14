@@ -10,7 +10,13 @@
   "runtime": 115,
   "tagline": "He is afraid. He is alone. He is three million light years from home.",
   "rankings": {
-    "rottenTomatoes": 11
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 11,
+    "tmdb": null
   },
   "position": 1.0909090909090908
 }

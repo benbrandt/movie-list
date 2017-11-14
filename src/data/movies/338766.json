@@ -10,7 +10,13 @@
   "runtime": 102,
   "tagline": "Blood always follows money.",
   "rankings": {
-    "rottenTomatoes": 49
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 49,
+    "tmdb": null
   },
   "position": 1.0204081632653061
 }

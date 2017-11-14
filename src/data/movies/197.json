@@ -10,7 +10,13 @@
   "runtime": 177,
   "tagline": "Every man dies. Not every man truly lives.",
   "rankings": {
-    "imdb": 76
+    "bfi": null,
+    "imdb": 76,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.013157894736842
 }

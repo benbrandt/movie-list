@@ -10,7 +10,12 @@
   "runtime": 119,
   "tagline": "Some Legacies Must End.",
   "rankings": {
+    "bfi": null,
     "imdb": 30,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
     "tmdb": 39
   },
   "position": 2.028985507246377

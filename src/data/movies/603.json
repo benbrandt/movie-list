@@ -10,8 +10,13 @@
   "runtime": 136,
   "tagline": "Welcome to the Real World.",
   "rankings": {
+    "bfi": null,
     "imdb": 18,
-    "mubi": 71
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": 71,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 2.0224719101123596
 }

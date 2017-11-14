@@ -10,7 +10,13 @@
   "runtime": 136,
   "tagline": "Every generation has a story.",
   "rankings": {
-    "rottenTomatoes": 43
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 43,
+    "tmdb": null
   },
   "position": 1.0232558139534884
 }

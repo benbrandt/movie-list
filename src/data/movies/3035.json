@@ -10,7 +10,13 @@
   "runtime": 71,
   "tagline": "The man who made a monster.",
   "rankings": {
-    "rottenTomatoes": 72
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 72,
+    "tmdb": null
   },
   "position": 1.0138888888888888
 }

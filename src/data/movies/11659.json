@@ -10,6 +10,12 @@
   "runtime": 366,
   "tagline": "The Possibilities Were Endless...",
   "rankings": {
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
     "tmdb": 67
   },
   "position": 1.0149253731343284

@@ -11,7 +11,12 @@
   "tagline": "It's a strange world.",
   "rankings": {
     "bfi": 65,
-    "mubi": 45
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": 45,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 2.018181818181818
 }

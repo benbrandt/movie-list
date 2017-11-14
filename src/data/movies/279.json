@@ -10,7 +10,13 @@
   "runtime": 160,
   "tagline": "...Everything you've heard is true",
   "rankings": {
-    "imdb": 86
+    "bfi": null,
+    "imdb": 86,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.0116279069767442
 }

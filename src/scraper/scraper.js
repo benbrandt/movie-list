@@ -35,6 +35,16 @@ function avgRank({
   return length + 1 / average;
 }
 
+const defaultRankings = {
+  bfi: null,
+  imdb: null,
+  letterboxd: null,
+  metacritic: null,
+  mubi: null,
+  rottenTomatoes: null,
+  tmdb: null
+};
+
 const updateOrCreateMovie = async (
   movie: TmdbMovie,
   rankings: { [id: string]: number }
@@ -50,7 +60,7 @@ const updateOrCreateMovie = async (
     releaseDate: movie.release_date,
     runtime: movie.runtime,
     tagline: movie.tagline ? movie.tagline : "",
-    rankings,
+    rankings: Object.assign({}, defaultRankings, rankings),
     position: avgRank(rankings)
   };
   fs.writeFile(

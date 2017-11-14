@@ -10,7 +10,13 @@
   "runtime": 188,
   "tagline": "Things fall down. People look up. And when it rains, it pours.",
   "rankings": {
-    "mubi": 78
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": 78,
+    "rottenTomatoes": null,
+    "tmdb": null
   },
   "position": 1.0128205128205128
 }

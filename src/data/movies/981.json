@@ -10,7 +10,13 @@
   "runtime": 112,
   "tagline": "Broadway's howling year-run comedy hit of the snooty society beauty who slipped and fell - IN LOVE!",
   "rankings": {
-    "rottenTomatoes": 52
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 52,
+    "tmdb": null
   },
   "position": 1.0192307692307692
 }

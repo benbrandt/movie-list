@@ -10,7 +10,13 @@
   "runtime": 88,
   "tagline": "The story of a love that became the most fearful thing that ever happened to a woman!",
   "rankings": {
-    "rottenTomatoes": 19
+    "bfi": null,
+    "imdb": null,
+    "letterboxd": null,
+    "metacritic": null,
+    "mubi": null,
+    "rottenTomatoes": 19,
+    "tmdb": null
   },
   "position": 1.0526315789473684
 }
