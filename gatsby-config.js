@@ -19,7 +19,6 @@ module.exports = {
         path: `${__dirname}/src/data/`
       }
     },
-    "gatsby-transformer-json",
-    "gatsby-plugin-netlify"
+    "gatsby-transformer-json"
   ]
 };

@@ -1,3 +1,4 @@
+const createPaginatedPages = require("gatsby-paginate");
 const path = require("path");
 const slugify = require("slugify");
 
@@ -13,12 +14,13 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
       graphql(
         `
           {
-            allMoviesJson {
+            allMoviesJson(sort: { fields: [score], order: DESC }) {
               edges {
                 node {
                   id
-                  title
+                  poster
                   releaseDate
+                  title
                 }
               }
             }
@@ -26,7 +28,12 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
         `
       ).then(result => {
         if (result.errors) reject(result.errors);
-
+        createPaginatedPages({
+          edges: result.data.allMoviesJson.edges,
+          createPage,
+          pageTemplate: "src/templates/index.js",
+          pageLength: 48
+        });
         // Create pages for each markdown file.
         result.data.allMoviesJson.edges.forEach(({ node }) => {
           createPage({

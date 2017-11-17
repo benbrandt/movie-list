@@ -6,17 +6,18 @@ import styled from "react-emotion";
 import { slug } from "../utils";
 
 type Props = {
-  data: {
-    allMoviesJson: {
-      edges: Array<{
-        node: {
-          id: string,
-          poster: ?string,
-          releaseDate: string,
-          title: string
-        }
-      }>
-    }
+  pathContext: {
+    group: Array<{
+      node: {
+        id: string,
+        poster: ?string,
+        releaseDate: string,
+        title: string
+      }
+    }>,
+    index: number,
+    first: boolean,
+    last: boolean
   }
 };
 
@@ -29,6 +30,31 @@ const Link = styled(GatsbyLink)`
 
   @media (min-width: 64em) {
     flex-basis: 12.5%;
+  }
+`;
+
+const PageNav = styled("div")`
+  display: flex;
+  width: 100%;
+`;
+
+const PageLink = styled(GatsbyLink)`
+  background: #111;
+  color: #fff;
+  display: block;
+  flex-grow: 1;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.25s background;
+
+  &:hover,
+  &:focus {
+    background: #333;
+  }
+
+  &:active {
+    background: #444;
   }
 `;
 
@@ -69,9 +95,9 @@ const Position = styled("span")`
   width: 2rem;
 `;
 
-export default ({ data: { allMoviesJson: { edges } } }: Props) => (
+export default ({ pathContext: { group, index, first, last } }: Props) => (
   <Section>
-    {edges.map(({ node: { id, title, poster, releaseDate } }, index) => (
+    {group.map(({ node: { id, title, poster, releaseDate } }, index) => (
       <Link key={id} to={slug(title, releaseDate)}>
         <Poster
           title={title}
@@ -82,24 +108,17 @@ export default ({ data: { allMoviesJson: { edges } } }: Props) => (
                 : "black"
           }}
         />
-        <Position>{index + 1}</Position>
+        <Position>{(index - 1) * 48 + index + 1}</Position>
       </Link>
     ))}
+
+    <PageNav>
+      {!first && (
+        <PageLink to={index - 1 === 1 ? "" : (index - 1).toString()}>
+          Prev
+        </PageLink>
+      )}
+      {!last && <PageLink to={(index + 1).toString()}>Next</PageLink>}
+    </PageNav>
   </Section>
 );
-
-// $FlowFixMe
-export const query = graphql`
-  query AllMovies {
-    allMoviesJson(sort: { fields: [score], order: DESC }) {
-      edges {
-        node {
-          id
-          poster
-          releaseDate
-          title
-        }
-      }
-    }
-  }
-`;
