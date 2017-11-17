@@ -150,7 +150,7 @@ export const query = graphql`
         bfi
         imdb
         letterboxd
-        # metacritic
+        metacritic
         mubi
         rottenTomatoes
         tmdb
