@@ -97,7 +97,7 @@ const Position = styled("span")`
 
 export default ({ pathContext: { group, index, first, last } }: Props) => (
   <Section>
-    {group.map(({ node: { id, title, poster, releaseDate } }, index) => (
+    {group.map(({ node: { id, title, poster, releaseDate } }, i) => (
       <Link key={id} to={slug(title, releaseDate)}>
         <Poster
           title={title}
@@ -108,7 +108,7 @@ export default ({ pathContext: { group, index, first, last } }: Props) => (
                 : "black"
           }}
         />
-        <Position>{(index - 1) * 48 + index + 1}</Position>
+        <Position>{(index - 1) * 48 + i + 1}</Position>
       </Link>
     ))}
 
