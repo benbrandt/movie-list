@@ -33,6 +33,4 @@ async function getTopMovies(): Promise<SearchInfo[]> {
   return R.take(100, movies);
 }
 
-getTopMovies();
-
 module.exports = { getTopMovies };

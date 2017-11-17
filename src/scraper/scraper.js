@@ -96,10 +96,10 @@ const scrapeMovieFuncs: Array<{
   scrape: () => Promise<Array<?TmdbMovie>>,
   source: Sources
 }> = [
+  { scrape: getTmdbMovies(metacritic.getTopMovies), source: "metacritic" },
   { scrape: getTmdbMovies(bfi.getTopMovies), source: "bfi" },
   { scrape: getTmdbMovies(imdb.getTopMovies), source: "imdb" },
   { scrape: getTmdbMovies(letterboxd.getTopMovies), source: "letterboxd" },
-  { scrape: getTmdbMovies(metacritic.getTopMovies), source: "metacritic" },
   { scrape: getTmdbMovies(mubi.getTopMovies), source: "mubi" },
   {
     scrape: getTmdbMovies(rottenTomatoes.getTopMovies),
@@ -115,6 +115,7 @@ const scrapeMovies = async () => {
   for (let scraper of scrapeMovieFuncs) {
     console.log(`\nSCRAPING: ${scraper.source.toUpperCase()}\n===============`);
     const movies = await scraper.scrape();
+    if (!movies.length) throw new Error("Scraper failed for scraper.source");
     movies.forEach((movie, index) => {
       if (movie) {
         movieList[movie.id] = movie;

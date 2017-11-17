@@ -31,7 +31,11 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
         result.data.allMoviesJson.edges.forEach(({ node }) => {
           createPage({
             path: `/${slugify(
-              `${node.title} ${node.releaseDate.substr(0, 4)}`
+              `${node.title} ${node.releaseDate.substr(0, 4)}`,
+              {
+                remove: /[^\w\d\s]/g,
+                lower: true
+              }
             )}`,
             component: movieTemplate,
             // If you have a layout component at src/layouts/blog-layout.js

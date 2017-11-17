@@ -21,14 +21,21 @@ type Props = {
 };
 
 const Link = styled(GatsbyLink)`
+  display: block;
+  flex-basis: 25%;
   overflow: hidden;
   position: relative;
   text-decoration: none;
+
+  @media (min-width: 64em) {
+    flex-basis: 12.5%;
+  }
 `;
 
 const Section = styled("section")`
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
 `;
 
 const Poster = styled("div")`
@@ -84,7 +91,7 @@ export default ({ data: { allMoviesJson: { edges } } }: Props) => (
 // $FlowFixMe
 export const query = graphql`
   query AllMovies {
-    allMoviesJson(sort: { fields: score, order: DESC }) {
+    allMoviesJson(sort: { fields: [score], order: DESC }) {
       edges {
         node {
           id
