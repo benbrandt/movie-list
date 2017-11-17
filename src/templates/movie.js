@@ -19,19 +19,26 @@ const Section = styled("section")`
   background-repeat: no-repeat;
   background-size: cover !important;
   display: flex;
-  flex: 1 1 67%;
+  width: 100%;
 `;
 
 const Overlay = styled("div")`
+  align-items: center;
   background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: column;
   flex: 1;
-  padding: 1rem 0.5rem;
+  padding: 1rem;
+
+  @media (min-width: 48em) {
+    align-items: flex-end;
+    flex-direction: row;
+  }
 `;
 
 const Poster = styled("img")`
-  max-width: 200px;
+  height: auto;
+  max-width: 400px;
   width: 100%;
 `;
 
@@ -39,6 +46,10 @@ const Description = styled("div")`
   color: #fff;
   max-width: 42em;
   width: 100%;
+
+  @media (min-width: 48em) {
+    padding-left: 1rem;
+  }
 `;
 
 const Title = styled("h1")`
@@ -92,10 +103,12 @@ export default ({ data: { moviesJson: movie } }: PropsT) => (
     <Helmet title={movie.title} />
     <Overlay>
       {movie.poster != null && (
-        <Poster
-          src={`https://image.tmdb.org/t/p/w500${movie.poster}`}
-          alt={movie.title}
-        />
+        <div>
+          <Poster
+            src={`https://image.tmdb.org/t/p/w500${movie.poster}`}
+            alt={movie.title}
+          />
+        </div>
       )}
       <Description>
         <Title>

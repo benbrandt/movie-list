@@ -10,6 +10,24 @@ const Header = styled("header")`
   justify-content: space-between;
 `;
 
+const ExternalLink = styled("a")`
+  align-items: center;
+  color: #fff;
+  display: flex;
+  font-size: 0.875rem;
+  font-weight: bold;
+  opacity: 1;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-decoration: none;
+  transition: color 0.15s ease-in, opacity 0.15s ease-in;
+
+  &:hover {
+    opacity: 0.5;
+    transition: opacity 0.15s ease-in;
+  }
+`;
+
 const Link = styled(GatsbyLink)`
   align-items: center;
   color: #fff;
@@ -50,6 +68,7 @@ const Link = styled(GatsbyLink)`
 
 export default () => (
   <Header>
-    <Link to="/">MovieList</Link>
+    <Link to="/">Movie List</Link>
+    <ExternalLink href="https://benjaminbrandt.com">by Ben Brandt</ExternalLink>
   </Header>
 );

@@ -49,6 +49,7 @@ const logos: { [id: string]: Logo } = {
 
 const Wrapper = styled("div")`
   display: flex;
+  flex-wrap: wrap;
 `;
 const Image = styled("img")`
   margin-right: 0.25rem;
@@ -61,6 +62,7 @@ const Position = styled("span")`
   color: #333;
   display: flex;
   margin-right: 0.5rem;
+  margin-top: 0.5rem;
   padding-right: 0.33rem;
 `;
 
