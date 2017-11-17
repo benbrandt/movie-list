@@ -1,5 +1,5 @@
 {
-  "name": "movie-list-scraper",
+  "name": "movie-list",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -17,6 +17,7 @@
     "gatsby": "^1.9.114",
     "gatsby-link": "^1.6.28",
     "gatsby-plugin-emotion": "^1.1.8",
+    "gatsby-plugin-google-analytics": "^1.0.12",
     "gatsby-plugin-react-helmet": "^1.0.8",
     "gatsby-source-filesystem": "^1.5.8",
     "gatsby-transformer-json": "^1.0.12",

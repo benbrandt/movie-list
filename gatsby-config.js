@@ -3,6 +3,13 @@ module.exports = {
     title: "Movie List"
   },
   plugins: [
+    {
+      resolve: "gatsby-plugin-google-analytics",
+      options: {
+        trackingId: "UA-98611098-1",
+        anonymize: true
+      }
+    },
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-emotion",
     {
