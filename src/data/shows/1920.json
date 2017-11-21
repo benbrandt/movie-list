@@ -12,8 +12,8 @@
   "lastAirDate": "2017-09-03",
   "rankings": {
     "imdb": 85,
-    "metacritic": null,
+    "metacritic": 10,
     "tmdb": null
   },
-  "score": 1.011764705882353
+  "score": 2.0210526315789474
 }

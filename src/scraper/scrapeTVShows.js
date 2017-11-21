@@ -74,7 +74,7 @@ const scrapeShowFuncs: Array<{
   scrape: () => Promise<Array<?TmdbTVShow>>,
   source: Sources
 }> = [
-  // { scrape: getTmdbTVShows(metacritic.getTopShows), source: "metacritic" },
+  { scrape: getTmdbTVShows(metacritic.getTopShows), source: "metacritic" },
   { scrape: getTmdbTVShows(imdb.getTopShows), source: "imdb" },
   { scrape: tmdb.getTopTVShows, source: "tmdb" }
 ];

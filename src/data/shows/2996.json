@@ -12,8 +12,8 @@
   "lastAirDate": "2002-11-04",
   "rankings": {
     "imdb": null,
-    "metacritic": null,
+    "metacritic": 5,
     "tmdb": 53
   },
-  "score": 1.0188679245283019
+  "score": 2.0344827586206895
 }
