@@ -39,6 +39,20 @@ export type TmdbMovie = {
   backdrop_path: ?string
 };
 
+export type TmdbTVShow = {
+  id: number,
+  name: string,
+  original_name: string,
+  overview: string,
+  number_of_episodes: number,
+  number_of_seasons: number,
+  original_language: string,
+  poster_path: ?string,
+  backdrop_path: ?string,
+  first_air_date: string,
+  last_air_date: string
+};
+
 export type MovieT = {
   backdrop: ?string,
   createdAt: string,
