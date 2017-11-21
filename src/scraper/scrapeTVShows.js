@@ -1,14 +1,9 @@
 // @flow
-import type {
-  TVRankings,
-  // SearchInfo,
-  Sources,
-  TmdbTVShow
-} from "../types";
+import type { TVRankings, SearchInfo, Sources, TmdbTVShow } from "../types";
 const fs = require("fs");
 const path = require("path");
 // const imdb = require("./imdb");
-// const metacritic = require("./metacritic");
+const metacritic = require("./metacritic");
 const tmdb = require("./tmdb");
 const { avgRank } = require("./utils");
 
@@ -54,32 +49,32 @@ const updateOrCreateShow = async (show: TmdbTVShow, rankings: TVRankings) => {
   return show.id;
 };
 
-// const searchShows = async (
-//   searchItems: SearchInfo[]
-// ): Promise<Array<?TmdbTVShow>> => {
-//   const shows = [];
-//
-//   for (let item of searchItems) {
-//     console.log(`Searching: ${item.title != null ? item.title : "no title"}`);
-//     shows.push(await tmdb.searchTVShows(item));
-//   }
-//
-//   return shows;
-// };
+const searchShows = async (
+  searchItems: SearchInfo[]
+): Promise<Array<?TmdbTVShow>> => {
+  const shows = [];
 
-// const getTmdbTVShows = (
-//   scrapeShowsFunc: () => Promise<SearchInfo[]>
-// ) => async (): $await<Array<?TmdbShow>> => {
-//   const items = await scrapeShowsFunc();
-//   const shows = await searchShows(items);
-//   return shows;
-// };
+  for (let item of searchItems) {
+    console.log(`Searching: ${item.title != null ? item.title : "no title"}`);
+    shows.push(await tmdb.searchTVShows(item));
+  }
+
+  return shows;
+};
+
+const getTmdbTVShows = (
+  scrapeShowsFunc: () => Promise<SearchInfo[]>
+) => async (): $await<Array<?TmdbTVShow>> => {
+  const items = await scrapeShowsFunc();
+  const shows = await searchShows(items);
+  return shows;
+};
 
 const scrapeShowFuncs: Array<{
   scrape: () => Promise<Array<?TmdbTVShow>>,
   source: Sources
 }> = [
-  // { scrape: getTmdbShows(metacritic.getTopShows), source: "metacritic" },
+  { scrape: getTmdbTVShows(metacritic.getTopShows), source: "metacritic" },
   // { scrape: getTmdbShows(imdb.getTopShows), source: "imdb" },
   { scrape: tmdb.getTopTVShows, source: "tmdb" }
 ];

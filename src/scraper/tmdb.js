@@ -60,7 +60,7 @@ const getTVShow = async (tvShow: ?SearchResult): Promise<?TmdbTVShow> =>
 
 async function searchMovies(info: SearchInfo): $await<?TmdbMovie> {
   let resp = await searchMovie(info);
-  if (resp.results.length === 0) {
+  if (info.year != null && resp.results.length === 0) {
     resp = await searchMovie({ title: info.title, year: null });
   }
   return getMovie(resp.results[0]);
@@ -68,7 +68,7 @@ async function searchMovies(info: SearchInfo): $await<?TmdbMovie> {
 
 async function searchTVShows(info: SearchInfo): $await<?TmdbTVShow> {
   let resp = await searchTVShow(info);
-  if (resp.results.length === 0) {
+  if (info.year != null && resp.results.length === 0) {
     resp = await searchTVShow({ title: info.title, year: null });
   }
   return getTVShow(resp.results[0]);
