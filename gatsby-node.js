@@ -24,6 +24,15 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
                 }
               }
             }
+            allShowsJson(sort: { fields: [score], order: DESC }) {
+              edges {
+                node {
+                  id
+                  name
+                  poster
+                }
+              }
+            }
           }
         `
       ).then(result => {
@@ -33,6 +42,13 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
           createPage,
           pageTemplate: "src/templates/index.js",
           pageLength: 48
+        });
+        createPaginatedPages({
+          edges: result.data.allShowsJson.edges,
+          createPage,
+          pageTemplate: "src/templates/shows.js",
+          pageLength: 48,
+          paginatePost: "shows"
         });
         // Create pages for each markdown file.
         result.data.allMoviesJson.edges.forEach(({ node }) => {

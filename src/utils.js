@@ -6,3 +6,9 @@ export const slug = (title: string, releaseDate: string) =>
     remove: /[^\w\d\s]/g,
     lower: true
   })}`;
+
+export const showSlug = (title: string) =>
+  `/show/${slugify(`${title}`, {
+    remove: /[^\w\d\s]/g,
+    lower: true
+  })}`;
