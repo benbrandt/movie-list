@@ -1,8 +1,10 @@
 // @flow
-const { scrapeMovies } = require("./scraper");
+// const { scrapeMovies } = require("./scrapeMovies");
+const { scrapeTVShows } = require("./scrapeTVShows");
 
 const main = async () => {
-  await scrapeMovies();
+  // await scrapeMovies();
+  await scrapeTVShows();
 };
 
 main().catch((e: Error) => console.error(e));

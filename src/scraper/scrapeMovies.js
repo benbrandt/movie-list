@@ -2,7 +2,6 @@
 import type { Rankings, SearchInfo, Sources, TmdbMovie } from "../types";
 const fs = require("fs");
 const path = require("path");
-const R = require("ramda");
 const bfi = require("./bfi");
 const imdb = require("./imdb");
 const letterboxd = require("./letterboxd");
@@ -10,8 +9,9 @@ const metacritic = require("./metacritic");
 const mubi = require("./mubi");
 const rottenTomatoes = require("./rottenTomatoes");
 const tmdb = require("./tmdb");
+const { avgRank } = require("./utils");
 
-function avgRank({
+function avgMovieRank({
   bfi,
   imdb,
   letterboxd,
@@ -29,10 +29,7 @@ function avgRank({
   if (rottenTomatoes != null) rankings.push(rottenTomatoes);
   if (tmdb != null) rankings.push(tmdb);
 
-  const length = rankings.length;
-  const average = length > 0 ? R.sum(rankings) / length : 0;
-
-  return length + 1 / average;
+  return avgRank(rankings);
 }
 
 const defaultRankings = {
@@ -58,7 +55,7 @@ const updateOrCreateMovie = async (movie: TmdbMovie, rankings: Rankings) => {
     runtime: movie.runtime,
     tagline: movie.tagline ? movie.tagline : "",
     rankings: Object.assign({}, defaultRankings, rankings),
-    score: avgRank(rankings)
+    score: avgMovieRank(rankings)
   };
   fs.writeFile(
     path.resolve(`./src/data/movies/${movie.id}.json`),

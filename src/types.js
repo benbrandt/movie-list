@@ -17,6 +17,11 @@ export type Rankings = {
   rottenTomatoes?: ?number,
   tmdb?: ?number
 };
+export type TVRankings = {
+  imdb?: ?number,
+  metacritic?: ?number,
+  tmdb?: ?number
+};
 
 export type SearchInfo = {
   title: ?string,
@@ -68,4 +73,20 @@ export type MovieT = {
   tagline: ?string,
   title: string,
   tmdbId: number
+};
+
+export type TVShowT = {
+  id: string,
+  name: string,
+  originalName: string,
+  overview: string,
+  episodes: number,
+  seasons: number,
+  language: string,
+  poster: ?string,
+  backdrop: ?string,
+  firstAirDate: string,
+  lastAirDate: string,
+  rankings: TVRankings,
+  score: number
 };
