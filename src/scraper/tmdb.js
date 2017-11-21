@@ -30,7 +30,7 @@ const searchTVUrl = (query: string, year: ?number) => {
     year != null
       ? `&first_air_date_year=${encodeURIComponent(year.toString())}`
       : "";
-  return `${baseUrl}search/tv{apiKey}&query=${encodeURIComponent(query)}${
+  return `${baseUrl}search/tv${apiKey}&query=${encodeURIComponent(query)}${
     yearParam
   }`;
 };

@@ -11,9 +11,9 @@
   "firstAirDate": "2013-02-01",
   "lastAirDate": "2017-05-30",
   "rankings": {
-    "imdb": null,
+    "imdb": 25,
     "metacritic": null,
     "tmdb": 31
   },
-  "score": 1.032258064516129
+  "score": 2.0357142857142856
 }

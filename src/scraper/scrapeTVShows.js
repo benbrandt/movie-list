@@ -2,7 +2,7 @@
 import type { TVRankings, SearchInfo, Sources, TmdbTVShow } from "../types";
 const fs = require("fs");
 const path = require("path");
-// const imdb = require("./imdb");
+const imdb = require("./imdb");
 const metacritic = require("./metacritic");
 const tmdb = require("./tmdb");
 const { avgRank } = require("./utils");
@@ -74,8 +74,8 @@ const scrapeShowFuncs: Array<{
   scrape: () => Promise<Array<?TmdbTVShow>>,
   source: Sources
 }> = [
-  { scrape: getTmdbTVShows(metacritic.getTopShows), source: "metacritic" },
-  // { scrape: getTmdbShows(imdb.getTopShows), source: "imdb" },
+  // { scrape: getTmdbTVShows(metacritic.getTopShows), source: "metacritic" },
+  { scrape: getTmdbTVShows(imdb.getTopShows), source: "imdb" },
   { scrape: tmdb.getTopTVShows, source: "tmdb" }
 ];
 
