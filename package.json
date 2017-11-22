@@ -12,10 +12,10 @@
     "start": "yarn build:node && node dist/main.js"
   },
   "dependencies": {
-    "caniuse-db": "^1.0.30000766",
+    "caniuse-db": "1.0.30000769",
     "emotion": "^8.0.10",
     "emotion-server": "^8.0.10",
-    "gatsby": "^1.9.118",
+    "gatsby": "1.9.119",
     "gatsby-link": "^1.6.28",
     "gatsby-paginate": "^1.0.6",
     "gatsby-plugin-emotion": "^1.1.8",
