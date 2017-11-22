@@ -4,9 +4,9 @@ import sortBy from "ramda/src/sortBy";
 import toPairs from "ramda/src/toPairs";
 import React from "react";
 import styled from "react-emotion";
-import type { Rankings } from "../types";
+import type { Rankings, TVRankings } from "../types";
 
-type Props = { rankings: Rankings };
+type Props = { rankings: Rankings | TVRankings };
 
 type Logo = { label: string, img: string };
 const logos: { [id: string]: Logo } = {

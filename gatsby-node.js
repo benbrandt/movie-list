@@ -9,6 +9,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
 
   return new Promise((resolve, reject) => {
     const movieTemplate = path.resolve(`src/templates/movie.js`);
+    const showTemplate = path.resolve(`src/templates/show.js`);
     // Query for markdown nodes to use in creating pages.
     resolve(
       graphql(
@@ -28,6 +29,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
               edges {
                 node {
                   id
+                  firstAirDate
                   name
                   poster
                 }
@@ -40,8 +42,9 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
         createPaginatedPages({
           edges: result.data.allMoviesJson.edges,
           createPage,
-          pageTemplate: "src/templates/index.js",
-          pageLength: 48
+          pageTemplate: "src/templates/movies.js",
+          pageLength: 48,
+          paginatePost: "movies"
         });
         createPaginatedPages({
           edges: result.data.allShowsJson.edges,
@@ -53,7 +56,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
         // Create pages for each markdown file.
         result.data.allMoviesJson.edges.forEach(({ node }) => {
           createPage({
-            path: `/${slugify(
+            path: `/movies/${slugify(
               `${node.title} ${node.releaseDate.substr(0, 4)}`,
               {
                 remove: /[^\w\d\s]/g,
@@ -61,6 +64,25 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
               }
             )}`,
             component: movieTemplate,
+            // If you have a layout component at src/layouts/blog-layout.js
+            // layout: "movie",
+            // In your blog post template's graphql query, you can use path
+            // as a GraphQL variable to query for data from the markdown file.
+            context: {
+              id: node.id
+            }
+          });
+        });
+        result.data.allShowsJson.edges.forEach(({ node }) => {
+          createPage({
+            path: `/shows/${slugify(
+              `${node.name} ${node.firstAirDate.substr(0, 4)}`,
+              {
+                remove: /[^\w\d\s]/g,
+                lower: true
+              }
+            )}`,
+            component: showTemplate,
             // If you have a layout component at src/layouts/blog-layout.js
             // layout: "movie",
             // In your blog post template's graphql query, you can use path

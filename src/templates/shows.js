@@ -3,13 +3,14 @@
 import GatsbyLink from "gatsby-link";
 import React from "react";
 import styled from "react-emotion";
-import { showSlug } from "../utils";
+import { slug } from "../utils";
 
 type Props = {
   pathContext: {
     group: Array<{
       node: {
         id: string,
+        firstAirDate: string,
         poster: ?string,
         name: string
       }
@@ -96,8 +97,8 @@ const Position = styled("span")`
 
 export default ({ pathContext: { group, index, first, last } }: Props) => (
   <Section>
-    {group.map(({ node: { id, name, poster } }, i) => (
-      <Link key={id} to={showSlug(name)}>
+    {group.map(({ node: { id, firstAirDate, name, poster } }, i) => (
+      <Link key={id} to={slug(name, firstAirDate, "shows")}>
         <Poster
           title={name}
           style={{
