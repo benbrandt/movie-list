@@ -68,7 +68,6 @@ const Link = styled(GatsbyLink)`
 
 export default () => (
   <Header>
-    <Link to="/">Home</Link>
     <Link to="/movies">Movies</Link>
     <Link to="/shows">TV Shows</Link>
     <ExternalLink href="https://benjaminbrandt.com">by Ben Brandt</ExternalLink>
