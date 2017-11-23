@@ -132,4 +132,4 @@ const scrapeMovies = async () => {
   console.log(`Updated ${movieIds.length} movies`);
 };
 
-module.exports = { scrapeMovies };
+scrapeMovies().catch((e: Error) => console.error(e));

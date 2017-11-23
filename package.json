@@ -9,7 +9,9 @@
     "build:node": "babel src/scraper --out-dir dist",
     "flow": "flow",
     "flow-typed": "flow-typed",
-    "start": "yarn build:node && node dist/main.js"
+    "start:movies": "yarn build:node && node dist/scrapeMovies.js",
+    "start:shows": "yarn build:node && node dist/scrapeTVShows.js",
+    "start": "yarn start:movies && yarn start:shows"
   },
   "dependencies": {
     "caniuse-db": "1.0.30000769",

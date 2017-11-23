@@ -106,4 +106,4 @@ const scrapeTVShows = async () => {
   console.log(`Updated ${showIds.length} shows`);
 };
 
-module.exports = { scrapeTVShows };
+scrapeTVShows().catch((e: Error) => console.error(e));
