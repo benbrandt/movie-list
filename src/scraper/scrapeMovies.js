@@ -112,7 +112,7 @@ const scrapeMovies = async () => {
   for (let scraper of scrapeMovieFuncs) {
     console.log(`\nSCRAPING: ${scraper.source.toUpperCase()}\n===============`);
     const movies = await scraper.scrape();
-    if (!movies.length) throw new Error("Scraper failed for scraper.source");
+    if (!movies.length) throw new Error(`Scraper failed for ${scraper.source}`);
     movies.forEach((movie, index) => {
       if (movie) {
         movieList[movie.id] = movie;

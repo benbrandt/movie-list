@@ -86,7 +86,7 @@ const scrapeTVShows = async () => {
   for (let scraper of scrapeShowFuncs) {
     console.log(`\nSCRAPING: ${scraper.source.toUpperCase()}\n===============`);
     const shows = await scraper.scrape();
-    if (!shows.length) throw new Error("Scraper failed for scraper.source");
+    if (!shows.length) throw new Error(`Scraper failed for ${scraper.source}`);
     shows.forEach((show, index) => {
       if (show) {
         showList[show.id] = show;

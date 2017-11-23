@@ -45,16 +45,13 @@ async function getTopShowList(url): Promise<SearchInfo[]> {
 
 async function getTopShows(): $await<SearchInfo[]> {
   let shows = [];
-  const pages = [0, 1, 2, 3, 4];
+  const pages = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
   for (let page of pages) {
-    const newPage = await getTopShowList(topTVUrl(page));
-    shows.push(newPage);
-    shows = R.uniq(R.flatten(shows));
-    if (shows.length > 100) break;
+    shows.push(await getTopShowList(topTVUrl(page)));
   }
 
-  return R.take(100, shows);
+  return R.take(100, R.uniq(R.flatten(shows)));
 }
 
 module.exports = { getTopMovies, getTopShows };
