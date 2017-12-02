@@ -49,7 +49,7 @@ async function getTopShows(): $await<SearchInfo[]> {
 
   for (let page of pages) {
     const list = await getTopShowList(topTVUrl(page));
-    if (!list.length) console.log(`Page ${page} failed.`);
+    if (!list.length) throw new Error(`Page ${page} failed.`);
     shows.push(list);
   }
 
