@@ -25,12 +25,17 @@ async function getMovieList(url): Promise<SearchInfo[]> {
   return movies;
 }
 
-async function getTopMovies(): Promise<SearchInfo[]> {
-  const movies1 = await getMovieList(topMoviesUrl(1));
-  const movies2 = await getMovieList(topMoviesUrl(2));
+async function getTopMovies(): $await<SearchInfo[]> {
+  let movies = [];
+  const pages = [1, 2];
 
-  const movies = [...movies1, ...movies2];
-  return R.take(100, movies);
+  for (let page of pages) {
+    const list = await getMovieList(topMoviesUrl(page));
+    if (!list.length) console.log(`Page ${page} failed.`);
+    movies.push(list);
+  }
+
+  return R.take(100, R.flatten(movies));
 }
 
 module.exports = { getTopMovies };

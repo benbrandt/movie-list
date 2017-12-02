@@ -74,8 +74,10 @@ const searchMovies = async (
   const movies = [];
 
   for (let item of searchItems) {
-    console.log(`Searching: ${item.title != null ? item.title : "no title"}`);
-    movies.push(await tmdb.searchMovies(item));
+    const movie = await tmdb
+      .searchMovies(item)
+      .catch(e => console.log(e.toString()));
+    if (movie) movies.push(movie);
   }
 
   return movies;

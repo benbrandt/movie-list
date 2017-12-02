@@ -55,8 +55,8 @@ const searchShows = async (
   const shows = [];
 
   for (let item of searchItems) {
-    console.log(`Searching: ${item.title != null ? item.title : "no title"}`);
-    shows.push(await tmdb.searchTVShows(item));
+    const show = await tmdb.searchTVShows(item);
+    shows.push(show);
   }
 
   return shows;

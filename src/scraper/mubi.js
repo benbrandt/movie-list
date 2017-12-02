@@ -29,7 +29,9 @@ async function getTopMovies(): $await<SearchInfo[]> {
   const pages = [1, 2, 3, 4, 5];
 
   for (let page of pages) {
-    movies.push(await getMovieList(topMoviesUrl(page)));
+    const list = await getMovieList(topMoviesUrl(page));
+    if (!list.length) console.log(`Page ${page} failed.`);
+    movies.push(list);
   }
 
   return R.take(100, R.flatten(movies));

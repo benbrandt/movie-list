@@ -63,6 +63,11 @@ async function searchMovies(info: SearchInfo): $await<?TmdbMovie> {
   if (info.year != null && resp.results.length === 0) {
     resp = await searchMovie({ title: info.title, year: null });
   }
+  console.log(
+    `${info.title != null ? info.title : "no title"}: ${
+      resp.results.length
+    } results`
+  );
   return getMovie(resp.results[0]);
 }
 
@@ -71,6 +76,11 @@ async function searchTVShows(info: SearchInfo): $await<?TmdbTVShow> {
   if (info.year != null && resp.results.length === 0) {
     resp = await searchTVShow({ title: info.title, year: null });
   }
+  console.log(
+    `${info.title != null ? info.title : "no title"}: ${
+      resp.results.length
+    } results`
+  );
   return getTVShow(resp.results[0]);
 }
 
@@ -79,7 +89,8 @@ async function getTopList(urlFn: number => string): $await<SearchResult[]> {
   const results = [];
 
   for (let url of urls) {
-    results.push(await delayedRequest(url));
+    const list = await delayedRequest(url);
+    results.push(list);
   }
 
   return R.take(100)(
@@ -96,7 +107,8 @@ async function getTopMovies(): $await<?(TmdbMovie[])> {
   const movies = [];
 
   for (let movie of topMovies) {
-    movies.push(await getMovie(movie));
+    const list = await getMovie(movie);
+    movies.push(list);
   }
 
   return movies;
@@ -107,7 +119,8 @@ async function getTopTVShows(): $await<?(TmdbTVShow[])> {
   const tvShows = [];
 
   for (let tvShow of topTVShows) {
-    tvShows.push(await getTVShow(tvShow));
+    const list = await getTVShow(tvShow);
+    tvShows.push(list);
   }
 
   return tvShows;
