@@ -48,7 +48,9 @@ async function getTopShows(): $await<SearchInfo[]> {
   const pages = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
   for (let page of pages) {
-    shows.push(await getTopShowList(topTVUrl(page)));
+    const list = await getTopShowList(topTVUrl(page));
+    if (!list.length) console.log(`Page ${page} failed.`);
+    shows.push(list);
   }
 
   return R.take(100, R.uniq(R.flatten(shows)));

@@ -7,7 +7,7 @@ const imdb = require("./imdb");
 const letterboxd = require("./letterboxd");
 const metacritic = require("./metacritic");
 const mubi = require("./mubi");
-const rottenTomatoes = require("./rottenTomatoes");
+const rottenTomatoes = require("./rottentomatoes");
 const tmdb = require("./tmdb");
 const { avgRank } = require("./utils");
 
