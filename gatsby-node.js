@@ -2,6 +2,14 @@ const createPaginatedPages = require("gatsby-paginate");
 const path = require("path");
 const slugify = require("slugify");
 
+// Add babel plugin
+exports.modifyBabelrc = ({ babelrc }) => {
+  return {
+    ...babelrc,
+    plugins: babelrc.plugins.concat(["ramda"])
+  };
+};
+
 // Implement the Gatsby API “createPages”. This is called once the
 // data layer is bootstrapped to let plugins create pages from data.
 exports.createPages = ({ boundActionCreators, graphql }) => {

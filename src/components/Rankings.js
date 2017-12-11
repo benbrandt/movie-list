@@ -1,7 +1,5 @@
 // @flow
-import prop from "ramda/src/prop";
-import sortBy from "ramda/src/sortBy";
-import toPairs from "ramda/src/toPairs";
+import R from "ramda";
 import React from "react";
 import styled from "react-emotion";
 import type { Rankings, TVRankings } from "../types";
@@ -67,7 +65,8 @@ const Position = styled("span")`
 `;
 
 export default ({ rankings }: Props) => {
-  const sortedRankings = sortBy(prop(1), toPairs(rankings));
+  // $FlowFixMe
+  const sortedRankings = R.sortBy(R.prop(1), R.toPairs(rankings));
   return (
     <Wrapper>
       {sortedRankings.map(

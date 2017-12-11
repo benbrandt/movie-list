@@ -21,18 +21,18 @@ const topTVUrl = (page: number) =>
 const searchMoviesUrl = (query: string, year: ?number) => {
   const yearParam =
     year != null ? `&year=${encodeURIComponent(year.toString())}` : "";
-  return `${baseUrl}search/movie${apiKey}&query=${encodeURIComponent(query)}${
-    yearParam
-  }`;
+  return `${baseUrl}search/movie${apiKey}&query=${encodeURIComponent(
+    query
+  )}${yearParam}`;
 };
 const searchTVUrl = (query: string, year: ?number) => {
   const yearParam =
     year != null
       ? `&first_air_date_year=${encodeURIComponent(year.toString())}`
       : "";
-  return `${baseUrl}search/tv${apiKey}&query=${encodeURIComponent(query)}${
-    yearParam
-  }`;
+  return `${baseUrl}search/tv${apiKey}&query=${encodeURIComponent(
+    query
+  )}${yearParam}`;
 };
 
 // TMDB API HELPERS
