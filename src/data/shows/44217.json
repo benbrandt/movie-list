@@ -3,7 +3,7 @@
   "name": "Vikings",
   "originalName": "Vikings",
   "overview": "Vikings follows the adventures of Ragnar Lothbrok, the greatest hero of his age. The series tells the sagas of Ragnar's band of Viking brothers and his family, as he rises to become King of the Viking tribes. As well as being a fearless warrior, Ragnar embodies the Norse traditions of devotion to the gods. Legend has it that he was a direct descendant of Odin, the god of war and warriors.",
-  "episodes": 57,
+  "episodes": 56,
   "seasons": 5,
   "language": "en",
   "poster": "/oktTNFM8PzdseiK1X0E0XhB6LvP.jpg",
@@ -11,9 +11,9 @@
   "firstAirDate": "2013-03-03",
   "lastAirDate": "2018-01-25",
   "rankings": {
-    "imdb": 76,
+    "imdb": 75,
     "metacritic": null,
     "tmdb": null
   },
-  "score": 1.013157894736842
+  "score": 1.0133333333333334
 }

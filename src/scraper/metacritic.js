@@ -8,7 +8,7 @@ const topMoviesUrl =
 const topTVUrl = page =>
   `http://www.metacritic.com/browse/tv/score/metascore/all?page=${page}`;
 
-async function getTopMovies(): Promise<SearchInfo[]> {
+async function getTopMovieList(): Promise<SearchInfo[]> {
   const { movies }: { movies: SearchInfo[] } = await scrapeIt(topMoviesUrl, {
     movies: {
       listItem: ".list.score .summary_row",
@@ -43,21 +43,34 @@ async function getTopShowList(url): Promise<SearchInfo[]> {
   return R.uniq(shows);
 }
 
+async function getTopMovies(): $await<SearchInfo[]> {
+  let movies = [];
+
+  while (!movies.length) {
+    console.log("Trying Metacritic");
+    await new Promise(resolve => setTimeout(resolve, 1000));
+    movies = await getTopMovieList();
+  }
+
+  return movies;
+}
+
 async function getTopShows(): $await<SearchInfo[]> {
   let shows = [];
-  const pages = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+  let page = 0;
 
-  for (let page of pages) {
+  while (shows.length < 100) {
+    page++;
     let list = [];
     while (!list.length) {
       console.log(`Trying page ${page}`);
       await new Promise(resolve => setTimeout(resolve, 1000));
       list = await getTopShowList(topTVUrl(page));
     }
-    shows.push(list);
+    shows = R.uniq(shows.concat(list));
   }
 
-  return R.take(100, R.uniq(R.flatten(shows)));
+  return R.take(100, shows);
 }
 
 module.exports = { getTopMovies, getTopShows };

@@ -1,6 +1,6 @@
 // @flow
 import type { TVRankings, SearchInfo, Sources, TmdbTVShow } from "../types";
-const fs = require("fs");
+const fs = require("fs-extra");
 const path = require("path");
 const imdb = require("./imdb");
 const metacritic = require("./metacritic");
@@ -106,4 +106,5 @@ const scrapeTVShows = async () => {
   console.log(`Updated ${showIds.length} shows`);
 };
 
+// fs.emptyDirSync(path.resolve("./src/data/shows"));
 scrapeTVShows().catch((e: Error) => console.error(e));

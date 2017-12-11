@@ -3,17 +3,17 @@
   "name": "Black Mirror",
   "originalName": "Black Mirror",
   "overview": "A contemporary British re-working of The Twilight Zone with stories that tap into the collective unease about our modern world. \n\nOver the last ten years, technology has transformed almost every aspect of our lives before we've had time to stop and question it. In every home; on every desk; in every palm - a plasma screen; a monitor; a smartphone - a black mirror of our 21st Century existence.",
-  "episodes": 12,
-  "seasons": 3,
+  "episodes": 19,
+  "seasons": 4,
   "language": "en",
   "poster": "/vGrS1mzlSHQQdOcmqH1zlE2iViY.jpg",
   "backdrop": "/zSaEw7H0KpAFXQp8LzoBfoTUhwh.jpg",
   "firstAirDate": "2011-12-04",
-  "lastAirDate": "2016-10-21",
+  "lastAirDate": "2017-12-29",
   "rankings": {
-    "imdb": 24,
+    "imdb": 22,
     "metacritic": null,
-    "tmdb": 8
+    "tmdb": 6
   },
-  "score": 2.0625
+  "score": 2.0714285714285716
 }

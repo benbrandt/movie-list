@@ -1,6 +1,6 @@
 // @flow
 import type { Rankings, SearchInfo, Sources, TmdbMovie } from "../types";
-const fs = require("fs");
+const fs = require("fs-extra");
 const path = require("path");
 const bfi = require("./bfi");
 const imdb = require("./imdb");
@@ -134,4 +134,5 @@ const scrapeMovies = async () => {
   console.log(`Updated ${movieIds.length} movies`);
 };
 
+fs.emptyDirSync(path.resolve("./src/data/movies"));
 scrapeMovies().catch((e: Error) => console.error(e));
