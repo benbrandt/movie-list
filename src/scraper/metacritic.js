@@ -60,7 +60,6 @@ async function getTopShows(): $await<SearchInfo[]> {
   let page = 0;
 
   while (shows.length < 100) {
-    page++;
     let list = [];
     while (!list.length) {
       console.log(`Trying page ${page}`);
@@ -68,6 +67,7 @@ async function getTopShows(): $await<SearchInfo[]> {
       list = await getTopShowList(topTVUrl(page));
     }
     shows = R.uniq(shows.concat(list));
+    page++;
   }
 
   return R.take(100, shows);

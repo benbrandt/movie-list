@@ -106,5 +106,5 @@ const scrapeTVShows = async () => {
   console.log(`Updated ${showIds.length} shows`);
 };
 
-// fs.emptyDirSync(path.resolve("./src/data/shows"));
+fs.emptyDirSync(path.resolve("./src/data/shows"));
 scrapeTVShows().catch((e: Error) => console.error(e));
