@@ -11,12 +11,12 @@
   "tagline": "",
   "rankings": {
     "bfi": null,
-    "imdb": 35,
+    "imdb": 30,
     "letterboxd": null,
     "metacritic": null,
     "mubi": null,
-    "rottenTomatoes": null,
+    "rottenTomatoes": 85,
     "tmdb": null
   },
-  "score": 1.0285714285714285
+  "score": 2.017391304347826
 }
