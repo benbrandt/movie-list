@@ -52,14 +52,14 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
           createPage,
           pageTemplate: "src/templates/movies.js",
           pageLength: 48,
-          paginatePost: "movies"
+          pathPrefix: "movies"
         });
         createPaginatedPages({
           edges: result.data.allShowsJson.edges,
           createPage,
           pageTemplate: "src/templates/shows.js",
           pageLength: 48,
-          paginatePost: "shows"
+          pathPrefix: "shows"
         });
         // Create pages for each markdown file.
         result.data.allMoviesJson.edges.forEach(({ node }) => {
