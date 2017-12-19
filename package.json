@@ -9,6 +9,7 @@
     "build:node": "babel src/scraper --out-dir dist",
     "flow": "flow",
     "flow-typed": "flow-typed",
+    "lint": "eslint ./src",
     "start:movies": "yarn build:node && node dist/scrapeMovies.js",
     "start:shows": "yarn build:node && node dist/scrapeTVShows.js",
     "start": "yarn start:movies && yarn start:shows"
@@ -18,7 +19,7 @@
     "emotion": "^8.0.12",
     "emotion-server": "^8.0.12",
     "fs-extra": "^5.0.0",
-    "gatsby": "^1.9.138",
+    "gatsby": "^1.9.144",
     "gatsby-link": "^1.6.31",
     "gatsby-paginate": "^1.0.9",
     "gatsby-plugin-emotion": "^1.1.10",
@@ -32,13 +33,13 @@
     "react-emotion": "^8.0.12",
     "react-helmet": "^5.2.0",
     "scrape-it": "^4.1.0",
-    "slugify": "^1.2.6"
+    "slugify": "^1.2.7"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.0.3",
-    "babel-jest": "^21.2.0",
+    "babel-jest": "^22.0.3",
     "babel-plugin-ramda": "^1.4.3",
     "babel-plugin-transform-flow-strip-types": "^6.22.0",
     "babel-preset-env": "^1.6.1",
@@ -50,13 +51,13 @@
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.2",
     "eslint-plugin-node": "^5.2.1",
-    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-prettier": "^2.4.0",
     "eslint-plugin-promise": "^3.6.0",
     "eslint-plugin-react": "^7.5.1",
     "eslint-plugin-standard": "^3.0.1",
     "flow-bin": "^0.61.0",
     "flow-typed": "^2.2.3",
-    "jest": "^21.2.1",
+    "jest": "^22.0.3",
     "prettier": "^1.9.1",
     "prettier-standard": "^7.0.3"
   }
