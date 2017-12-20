@@ -3,7 +3,8 @@ import type { SearchInfo } from "../types";
 const scrapeIt = require("scrape-it");
 const R = require("ramda");
 
-const topMoviesUrl = page => `http://mubi.com/films?page=${page}/`;
+const topMoviesUrl = page =>
+  `http://mubi.com/films?page=${page}&sort=popularity`;
 
 async function getMovieList(url): Promise<SearchInfo[]> {
   const { movies }: { movies: SearchInfo[] } = await scrapeIt(url, {

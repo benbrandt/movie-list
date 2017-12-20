@@ -4,7 +4,7 @@
   "backdrop": "/vSDl3hqsxxNaj0tE5ZLsTQeL0dS.jpg",
   "language": "en",
   "originalTitle": "Paths of Glory",
-  "overview": "During World War I, commanding officer General Broulard (Adolphe Menjou) orders his subordinate, General Mireau (George Macready), to attack a German trench position, offering a promotion as an incentive. Though the mission is foolhardy to the point of suicide, Mireau commands his own subordinate, Colonel Dax (Kirk Douglas), to plan the attack. When it ends in disaster, General Mireau demands the court-martial of three random soldiers in order to save face.",
+  "overview": "During World War I, commanding officer General Broulard orders his subordinate, General Mireau, to attack a German trench position, offering a promotion as an incentive. Though the mission is foolhardy to the point of suicide, Mireau commands his own subordinate, Colonel Dax, to plan the attack. When it ends in disaster, General Mireau demands the court-martial of three random soldiers in order to save face.",
   "poster": "/f3DEXseCs3WBtvCv9pVPCtoluuG.jpg",
   "releaseDate": "1957-09-18",
   "runtime": 88,
@@ -12,11 +12,11 @@
   "rankings": {
     "bfi": null,
     "imdb": 59,
-    "letterboxd": 50,
+    "letterboxd": 49,
     "metacritic": null,
     "mubi": null,
     "rottenTomatoes": null,
-    "tmdb": 54
+    "tmdb": 67
   },
-  "score": 3.01840490797546
+  "score": 3.0171428571428573
 }
