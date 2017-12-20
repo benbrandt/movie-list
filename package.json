@@ -15,7 +15,7 @@
     "start": "yarn start:movies && yarn start:shows"
   },
   "dependencies": {
-    "caniuse-db": "^1.0.30000783",
+    "caniuse-db": "^1.0.30000784",
     "emotion": "^8.0.12",
     "emotion-server": "^8.0.12",
     "fs-extra": "^5.0.0",
