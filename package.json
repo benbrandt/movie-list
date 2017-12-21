@@ -19,7 +19,7 @@
     "emotion": "^8.0.12",
     "emotion-server": "^8.0.12",
     "fs-extra": "^5.0.0",
-    "gatsby": "^1.9.144",
+    "gatsby": "^1.9.145",
     "gatsby-link": "^1.6.31",
     "gatsby-paginate": "^1.0.9",
     "gatsby-plugin-emotion": "^1.1.10",
