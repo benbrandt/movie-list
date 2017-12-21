@@ -19,7 +19,7 @@
     "emotion": "^8.0.12",
     "emotion-server": "^8.0.12",
     "fs-extra": "^5.0.0",
-    "gatsby": "^1.9.145",
+    "gatsby": "^1.9.147",
     "gatsby-link": "^1.6.31",
     "gatsby-paginate": "^1.0.9",
     "gatsby-plugin-emotion": "^1.1.10",
@@ -59,6 +59,6 @@
     "flow-typed": "^2.2.3",
     "jest": "^22.0.3",
     "prettier": "^1.9.1",
-    "prettier-standard": "^7.0.3"
+    "prettier-standard": "^8.0.0"
   }
 }
