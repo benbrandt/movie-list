@@ -13,10 +13,10 @@
     "bfi": null,
     "imdb": null,
     "letterboxd": null,
-    "metacritic": null,
+    "metacritic": 100,
     "mubi": 24,
     "rottenTomatoes": null,
     "tmdb": null
   },
-  "score": 1.0416666666666667
+  "score": 2.0161290322580645
 }

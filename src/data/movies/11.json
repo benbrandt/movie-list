@@ -12,11 +12,11 @@
   "rankings": {
     "bfi": null,
     "imdb": 20,
-    "letterboxd": 95,
-    "metacritic": 74,
+    "letterboxd": null,
+    "metacritic": null,
     "mubi": 43,
     "rottenTomatoes": null,
-    "tmdb": 91
+    "tmdb": 89
   },
-  "score": 5.015479876160991
+  "score": 3.0197368421052633
 }

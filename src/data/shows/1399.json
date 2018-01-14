@@ -3,17 +3,17 @@
   "name": "Game of Thrones",
   "originalName": "Game of Thrones",
   "overview": "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond.",
-  "episodes": 81,
-  "seasons": 7,
+  "episodes": 87,
+  "seasons": 8,
   "language": "en",
   "poster": "/gwPSoYUHAKmdyVywgLpKKA4BjRr.jpg",
   "backdrop": "/gX8SYlnL9ZznfZwEH4KJUePBFUM.jpg",
   "firstAirDate": "2011-04-17",
-  "lastAirDate": "2017-08-27",
+  "lastAirDate": "2019-08-29",
   "rankings": {
     "imdb": 2,
     "metacritic": 19,
-    "tmdb": 39
+    "tmdb": 43
   },
-  "score": 3.05
+  "score": 3.046875
 }

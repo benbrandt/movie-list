@@ -3,8 +3,8 @@
   "name": "Planet Earth",
   "originalName": "Planet Earth",
   "overview": "David Attenborough celebrates the amazing variety of the natural world in this epic documentary series, filmed over four years across 64 different countries.",
-  "episodes": 49,
-  "seasons": 2,
+  "episodes": 43,
+  "seasons": 1,
   "language": "en",
   "poster": "/tI5hLHgrfOTOhPjX22vlo9YsdgE.jpg",
   "backdrop": "/4AJnC8L5CXdqb6tMeUBL5jdHfuG.jpg",
@@ -13,7 +13,7 @@
   "rankings": {
     "imdb": null,
     "metacritic": null,
-    "tmdb": 42
+    "tmdb": 40
   },
-  "score": 1.0238095238095237
+  "score": 1.025
 }
