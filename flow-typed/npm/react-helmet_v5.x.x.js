@@ -1,5 +1,5 @@
-// flow-typed signature: fe2ea7000fec5eb66c0762e55100865a
-// flow-typed version: c44c93d4e9/react-helmet_v5.x.x/flow_>=v0.53.x
+// flow-typed signature: 011286c5f647bbe6a0fe93c2faef19f0
+// flow-typed version: e36161f044/react-helmet_v5.x.x/flow_>=v0.53.x
 
 import type { Node, Element } from 'react';
 
@@ -46,6 +46,7 @@ declare module 'react-helmet' {
 
     declare class Helmet extends React$Component<Props> {
       static rewind(): StateOnServer;
+      static renderStatic(): StateOnServer;
       static canUseDom(canUseDOM: boolean): void;
     }
 
