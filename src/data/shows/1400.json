@@ -3,7 +3,7 @@
   "name": "Seinfeld",
   "originalName": "Seinfeld",
   "overview": "Seinfeld is an American television sitcom that originally aired on NBC from July 5, 1989, to May 14, 1998. It lasted nine seasons, and is now in syndication. It was created by Larry David and Jerry Seinfeld, the latter starring as a fictionalized version of himself. Set predominantly in an apartment block in Manhattan's Upper West Side in New York City, the show features a handful of Jerry's friends and acquaintances, particularly best friend George Costanza, former girlfriend Elaine Benes, and neighbor across the hall Cosmo Kramer.",
-  "episodes": 193,
+  "episodes": 180,
   "seasons": 9,
   "language": "en",
   "poster": "/u3mFyqIprL5ou8Ue04Ecac6iDi7.jpg",
@@ -11,9 +11,9 @@
   "firstAirDate": "1989-07-05",
   "lastAirDate": "1998-05-14",
   "rankings": {
-    "imdb": 26,
+    "imdb": 25,
     "metacritic": null,
-    "tmdb": 21
+    "tmdb": 16
   },
-  "score": 2.0425531914893615
+  "score": 2.048780487804878
 }

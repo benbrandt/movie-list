@@ -4,7 +4,7 @@
   "backdrop": "/giTWuKvrwRa57CLFV6QsL1BzHBb.jpg",
   "language": "en",
   "originalTitle": "The Adventures of Robin Hood",
-  "overview": "Robin Hood (Errol Flynn) fights nobly for justice against the evil Sir Guy of Gisbourne (Basil Rathbone) while striving to win the hand of the beautiful Maid Marian (Olivia de Havilland).",
+  "overview": "Robin Hood fights nobly for justice against the evil Sir Guy of Gisbourne while striving to win the hand of the beautiful Maid Marian.",
   "poster": "/lEx5IKjqwYS7PcGnIXivYaDMzQr.jpg",
   "releaseDate": "1938-05-13",
   "runtime": 102,
@@ -15,8 +15,8 @@
     "letterboxd": null,
     "metacritic": null,
     "mubi": null,
-    "rottenTomatoes": 42,
+    "rottenTomatoes": 36,
     "tmdb": null
   },
-  "score": 1.0238095238095237
+  "score": 1.0277777777777777
 }

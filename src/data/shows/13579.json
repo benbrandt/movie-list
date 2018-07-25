@@ -1,0 +1,19 @@
+{
+  "id": "13579",
+  "name": "The Blue Planet",
+  "originalName": "The Blue Planet",
+  "overview": "David Attenborough narrates a natural history of the oceans.",
+  "episodes": 8,
+  "seasons": 1,
+  "language": "en",
+  "poster": "/7nF4PGwpZTRZjrNraB4CpcXtD08.jpg",
+  "backdrop": "/wR0Obs4NKr27uPz0rqFdAtSUSfI.jpg",
+  "firstAirDate": "2001-09-12",
+  "lastAirDate": "2001-10-31",
+  "rankings": {
+    "imdb": null,
+    "metacritic": null,
+    "tmdb": 4
+  },
+  "score": 1.25
+}

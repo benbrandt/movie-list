@@ -2,7 +2,7 @@
   "id": "4607",
   "name": "Lost",
   "originalName": "Lost",
-  "overview": "Lost is an American television series that originally aired on the American Broadcasting Company from September 22, 2004 to May 23, 2010, over six seasons which contained a total of 121 episodes. Lost is a drama series containing elements of science fiction and the supernatural that follows the survivors of the crash of a commercial passenger jet flying between Sydney and Los Angeles, on a mysterious tropical island somewhere in the South Pacific Ocean. The story is told in a heavily serialized manner. Episodes typically feature a primary storyline on the island, as well as a secondary storyline from another point in a character's life.",
+  "overview": "Stripped of everything, the survivors of a horrific plane crash  must work together to stay alive. But the island holds many secrets.",
   "episodes": 120,
   "seasons": 6,
   "language": "en",
@@ -12,8 +12,8 @@
   "lastAirDate": "2010-05-23",
   "rankings": {
     "imdb": null,
-    "metacritic": 76,
+    "metacritic": 81,
     "tmdb": null
   },
-  "score": 1.013157894736842
+  "score": 1.0123456790123457
 }

@@ -7,13 +7,13 @@
   "seasons": 4,
   "language": "en",
   "poster": "/2g0yrwH3wWfGfA6uXUPhtiQZYOx.jpg",
-  "backdrop": "/fZoj7ZMLbBQjC8MvQjZ3XuzqLwp.jpg",
+  "backdrop": "/3uMrWrNJgQn8N5aq29nlrkE6wX7.jpg",
   "firstAirDate": "2006-02-03",
   "lastAirDate": "2010-07-30",
   "rankings": {
-    "imdb": 96,
+    "imdb": null,
     "metacritic": null,
-    "tmdb": 67
+    "tmdb": 51
   },
-  "score": 2.0122699386503067
+  "score": 1.0196078431372548
 }

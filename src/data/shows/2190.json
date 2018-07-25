@@ -3,7 +3,7 @@
   "name": "South Park",
   "originalName": "South Park",
   "overview": "Follows the misadventures of four irreverent grade-schoolers in the quiet, dysfunctional town of South Park, Colorado.",
-  "episodes": 318,
+  "episodes": 287,
   "seasons": 21,
   "language": "en",
   "poster": "/v9zc0cZpy5aPSfAy6Tgb6I1zWgV.jpg",
@@ -11,9 +11,9 @@
   "firstAirDate": "1997-08-13",
   "lastAirDate": "2017-12-06",
   "rankings": {
-    "imdb": 60,
+    "imdb": 59,
     "metacritic": null,
     "tmdb": null
   },
-  "score": 1.0166666666666666
+  "score": 1.0169491525423728
 }

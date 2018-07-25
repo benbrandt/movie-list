@@ -1,7 +1,7 @@
 {
   "id": "599",
   "title": "Sunset Boulevard",
-  "backdrop": "/49OTCCPYlARRe2JS1PAhPJmFkIW.jpg",
+  "backdrop": "/u44VbUuoP6OZYEBv2DRd7ShPTMp.jpg",
   "language": "en",
   "originalTitle": "Sunset Boulevard",
   "overview": "A hack screenwriter writes a screenplay for a former silent-film star who has faded into Hollywood obscurity.",
@@ -11,12 +11,12 @@
   "tagline": "A Hollywood Story",
   "rankings": {
     "bfi": 69,
-    "imdb": 54,
-    "letterboxd": 29,
+    "imdb": 56,
+    "letterboxd": 33,
     "metacritic": null,
     "mubi": 51,
-    "rottenTomatoes": 39,
-    "tmdb": 37
+    "rottenTomatoes": 37,
+    "tmdb": 27
   },
-  "score": 6.021505376344086
+  "score": 6.021978021978022
 }

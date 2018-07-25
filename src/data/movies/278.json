@@ -1,7 +1,7 @@
 {
   "id": "278",
   "title": "The Shawshank Redemption",
-  "backdrop": "/xBKGJQsAIeweesB79KC89FpBrVr.jpg",
+  "backdrop": "/j9XKiZrVeViAixVRzCta7h1VU9W.jpg",
   "language": "en",
   "originalTitle": "The Shawshank Redemption",
   "overview": "Framed in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
@@ -12,11 +12,11 @@
   "rankings": {
     "bfi": null,
     "imdb": 1,
-    "letterboxd": 25,
+    "letterboxd": 23,
     "metacritic": null,
     "mubi": 68,
     "rottenTomatoes": null,
-    "tmdb": 4
+    "tmdb": 2
   },
-  "score": 4.040816326530612
+  "score": 4.042553191489362
 }

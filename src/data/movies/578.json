@@ -1,7 +1,7 @@
 {
   "id": "578",
   "title": "Jaws",
-  "backdrop": "/slkPgAt1IQgxZXNrazEcOzhAK8f.jpg",
+  "backdrop": "/uTVuKo6OTGiead1ncsfH2klqYHC.jpg",
   "language": "en",
   "originalTitle": "Jaws",
   "overview": "An insatiable great white shark terrorizes the townspeople of Amity Island, The police chief, an oceanographer and a grizzled shark hunter seek to destroy the bloodthirsty beast.",
@@ -15,8 +15,8 @@
     "letterboxd": null,
     "metacritic": null,
     "mubi": null,
-    "rottenTomatoes": null,
+    "rottenTomatoes": 85,
     "tmdb": null
   },
-  "score": 1.0112359550561798
+  "score": 2.0114942528735633
 }

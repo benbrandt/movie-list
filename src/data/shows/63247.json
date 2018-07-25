@@ -3,17 +3,17 @@
   "name": "Westworld",
   "originalName": "Westworld",
   "overview": "A dark odyssey about the dawn of artificial consciousness and the evolution of sin. Set at the intersection of the near future and the reimagined past, it explores a world in which every human appetite, no matter how noble or depraved, can be indulged.",
-  "episodes": 10,
-  "seasons": 1,
+  "episodes": 20,
+  "seasons": 2,
   "language": "en",
-  "poster": "/x2WKIbiwhLoWgLFbT2I0Gwq8U1J.jpg",
-  "backdrop": "/45rk1PQjiTvEPzi0yBfYl0bdzz3.jpg",
+  "poster": "/6aj09UTMQNyfSfk0ZX8rYOEsXL2.jpg",
+  "backdrop": "/yp94aOXzuqcQHva90B3jxLfnOO9.jpg",
   "firstAirDate": "2016-10-02",
-  "lastAirDate": "2018-04-01",
+  "lastAirDate": "2018-06-24",
   "rankings": {
-    "imdb": 23,
+    "imdb": 20,
     "metacritic": null,
-    "tmdb": 33
+    "tmdb": 65
   },
-  "score": 2.0357142857142856
+  "score": 2.023529411764706
 }

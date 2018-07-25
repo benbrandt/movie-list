@@ -3,17 +3,17 @@
   "name": "Steins;Gate",
   "originalName": "シュタインズ・ゲート",
   "overview": "A group of friends have customized their microwave so that it can send text messages to the past. As they perform different experiments, an organization named SERN who has been doing their own research on time travel tracks them down and now the characters have to find a way to avoid being captured by them.",
-  "episodes": 25,
-  "seasons": 1,
+  "episodes": 32,
+  "seasons": 2,
   "language": "ja",
   "poster": "/5Ik5u3PGxtyC7TMpweiPyIMRm6e.jpg",
   "backdrop": "/vVEK2zNJ61ySD1Ihx4UcAAbdTPR.jpg",
-  "firstAirDate": "2011-04-05",
-  "lastAirDate": "2011-09-13",
+  "firstAirDate": "2011-04-06",
+  "lastAirDate": "2018-05-30",
   "rankings": {
-    "imdb": 47,
+    "imdb": 74,
     "metacritic": null,
-    "tmdb": 7
+    "tmdb": 35
   },
-  "score": 2.037037037037037
+  "score": 2.018348623853211
 }

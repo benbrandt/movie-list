@@ -1,7 +1,7 @@
 {
   "id": "680",
   "title": "Pulp Fiction",
-  "backdrop": "/9rZg1J6vMQoDVSgRyWcpJa8IAGy.jpg",
+  "backdrop": "/4cDFJr4HnXN5AdPw4AKrmLlMWdO.jpg",
   "language": "en",
   "originalTitle": "Pulp Fiction",
   "overview": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
@@ -11,12 +11,12 @@
   "tagline": "Just because you are a character doesn't mean you have character.",
   "rankings": {
     "bfi": null,
-    "imdb": 7,
-    "letterboxd": 20,
-    "metacritic": 43,
+    "imdb": 8,
+    "letterboxd": 25,
+    "metacritic": 49,
     "mubi": 1,
     "rottenTomatoes": null,
-    "tmdb": 12
+    "tmdb": 13
   },
-  "score": 5.0602409638554215
+  "score": 5.052083333333333
 }

@@ -2,8 +2,8 @@
   "id": "1398",
   "name": "The Sopranos",
   "originalName": "The Sopranos",
-  "overview": "The Sopranos is an American television drama created by David Chase. The series revolves around the New Jersey-based Italian-American mobster Tony Soprano and the difficulties he faces as he tries to balance the conflicting requirements of his home life and the criminal organization he heads. Those difficulties are often highlighted through his ongoing professional relationship with psychiatrist Jennifer Melfi. The show features Tony's family members and Mafia associates in prominent roles and story arcs, most notably his wife Carmela and his cousin and protégé Christopher Moltisanti.",
-  "episodes": 91,
+  "overview": "The story of New Jersey-based Italian-American mobster Tony Soprano and the difficulties he faces as he tries to balance the conflicting requirements of his home life and the criminal organization he heads. Those difficulties are often highlighted through his ongoing professional relationship with psychiatrist Jennifer Melfi. The show features Tony's family members and Mafia associates in prominent roles and story arcs, most notably his wife Carmela and his cousin and protégé Christopher Moltisanti.",
+  "episodes": 86,
   "seasons": 6,
   "language": "en",
   "poster": "/u0cLcBQITrYqfHsn06fxnQwtqiE.jpg",
@@ -13,7 +13,7 @@
   "rankings": {
     "imdb": 8,
     "metacritic": 8,
-    "tmdb": 20
+    "tmdb": 19
   },
-  "score": 3.0833333333333335
+  "score": 3.085714285714286
 }

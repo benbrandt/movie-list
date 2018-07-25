@@ -1,10 +1,10 @@
 {
   "id": "77",
   "title": "Memento",
-  "backdrop": "/oBUznaSdjkY3HtQUzAxgdIZqh4w.jpg",
+  "backdrop": "/puuwLLytKjZuv73SFqBihd6X5ES.jpg",
   "language": "en",
   "originalTitle": "Memento",
-  "overview": "Suffering short-term memory loss after a head injury, Leonard Shelby embarks on a grim quest to find the lowlife who murdered his wife in this gritty, complex thriller that packs more knots than a hangman's noose. To carry out his plan, Shelby snaps Polaroids of people and places, jotting down contextual notes on the backs of photos to aid in his search and jog his memory. He even tattoos his own body in a desperate bid to remember.",
+  "overview": "Leonard Shelby is tracking down the man who raped and murdered his wife. The difficulty, however, of locating his wife's killer is compounded by the fact that he suffers from a rare, untreatable form of memory loss. Although he can recall details of life before his accident, Leonard cannot remember what happened fifteen minutes ago, where he's going, or why.",
   "poster": "/fQMSaP88cf1nz4qwuNEEFtazuDM.jpg",
   "releaseDate": "2000-10-11",
   "runtime": 113,
@@ -14,9 +14,9 @@
     "imdb": 50,
     "letterboxd": null,
     "metacritic": null,
-    "mubi": 57,
+    "mubi": 56,
     "rottenTomatoes": null,
-    "tmdb": 88
+    "tmdb": 99
   },
-  "score": 3.0153846153846153
+  "score": 3.0146341463414634
 }

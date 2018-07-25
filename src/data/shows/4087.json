@@ -3,17 +3,17 @@
   "name": "The X-Files",
   "originalName": "The X-Files",
   "overview": "The exploits of FBI Special Agents Fox Mulder and Dana Scully who investigate X-Files: marginalized, unsolved cases involving paranormal phenomena. Mulder believes in the existence of aliens and the paranormal while Scully, a skeptic, is assigned to make scientific analyses of Mulder's discoveries that debunk Mulder's work and thus return him to mainstream cases.",
-  "episodes": 232,
+  "episodes": 218,
   "seasons": 11,
   "language": "en",
   "poster": "/5BD0kiTGnDxONqdrsswTewnk6WH.jpg",
   "backdrop": "/5Ycqqaf27bNWyxm7XRc9gRVniYe.jpg",
   "firstAirDate": "1993-09-10",
-  "lastAirDate": "2018-02-07",
+  "lastAirDate": "2018-03-21",
   "rankings": {
-    "imdb": 52,
+    "imdb": 56,
     "metacritic": null,
-    "tmdb": 55
+    "tmdb": 84
   },
-  "score": 2.0186915887850465
+  "score": 2.0142857142857142
 }

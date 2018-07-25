@@ -2,7 +2,7 @@
   "id": "2098",
   "name": "Batman: The Animated Series",
   "originalName": "Batman: The Animated Series",
-  "overview": "Batman: The Animated Series is an American animated television series based on the DC Comics superhero Batman. The series was produced by Warner Bros. Animation and originally aired on the Fox Network from September 5, 1992 to September 15, 1995. The visual style of the series, dubbed \"Dark Deco,\" was based on the film noir artwork of producer and artist Bruce Timm. The series was widely praised for its thematic complexity, dark tone, artistic quality, and faithfulness to its title character's crime-fighting origins. The series also won four Emmy Awards, including Outstanding Animated Program.\n\nWhen the first season of the series aired on weekday afternoons, it lacked an on-screen title in the opening theme sequence. When the series' timeslot was moved to weekends during its second season, it was given the on-screen title The Adventures of Batman & Robin. The series was the first in the continuity of the shared DC animated universe, and spawned the theatrical film Batman: Mask of the Phantasm.",
+  "overview": "Batman: The Animated Series is an American animated television series based on the DC Comics superhero Batman. The series was widely praised for its thematic complexity, dark tone, artistic quality, and faithfulness to its title character's crime-fighting origins.",
   "episodes": 85,
   "seasons": 4,
   "language": "en",
@@ -11,9 +11,9 @@
   "firstAirDate": "1992-09-05",
   "lastAirDate": "1995-09-15",
   "rankings": {
-    "imdb": 20,
+    "imdb": 30,
     "metacritic": null,
     "tmdb": null
   },
-  "score": 1.05
+  "score": 1.0333333333333334
 }

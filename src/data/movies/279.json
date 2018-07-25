@@ -1,22 +1,22 @@
 {
   "id": "279",
   "title": "Amadeus",
-  "backdrop": "/6GMcKubg3KmrE8snLOCNAtsZWW2.jpg",
+  "backdrop": "/sHsPEij3nojL34xcnaLdnuKEfmH.jpg",
   "language": "en",
   "originalTitle": "Amadeus",
   "overview": "The incredible story of genius musician Wolfgang Amadeus Mozart, told in flashback by his peer and secret rival Antonio Salieri – now confined to an insane asylum.",
   "poster": "/flnoqdC38mbaulAeptjynOFO7yi.jpg",
-  "releaseDate": "1984-10-26",
+  "releaseDate": "1984-11-13",
   "runtime": 160,
   "tagline": "...Everything you've heard is true",
   "rankings": {
     "bfi": null,
-    "imdb": 85,
+    "imdb": 82,
     "letterboxd": null,
     "metacritic": null,
     "mubi": null,
     "rottenTomatoes": null,
     "tmdb": null
   },
-  "score": 1.011764705882353
+  "score": 1.0121951219512195
 }
