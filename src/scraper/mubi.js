@@ -7,7 +7,9 @@ const topMoviesUrl = page =>
   `http://mubi.com/films?page=${page}&sort=popularity`;
 
 async function getMovieList(url): Promise<SearchInfo[]> {
-  const { movies }: { movies: SearchInfo[] } = await scrapeIt(url, {
+  const {
+    data: { movies }
+  }: { data: { movies: SearchInfo[] } } = await scrapeIt(url, {
     movies: {
       listItem: ".film-title-director-year",
       data: {

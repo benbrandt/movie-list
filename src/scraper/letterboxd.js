@@ -7,7 +7,9 @@ const topMoviesUrl = page =>
   `http://letterboxd.com/films/ajax/by/rating/size/small/page/${page}/`;
 
 async function getMovieList(url): Promise<SearchInfo[]> {
-  const { movies }: { movies: SearchInfo[] } = await scrapeIt(url, {
+  const {
+    data: { movies }
+  }: { data: { movies: SearchInfo[] } } = await scrapeIt(url, {
     movies: {
       listItem: ".film-poster",
       data: {

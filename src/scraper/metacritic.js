@@ -9,7 +9,9 @@ const topTVUrl = page =>
   `http://www.metacritic.com/browse/tv/score/metascore/all?page=${page}`;
 
 async function getTopMovieList(): Promise<SearchInfo[]> {
-  const { movies }: { movies: SearchInfo[] } = await scrapeIt(topMoviesUrl, {
+  const {
+    data: { movies }
+  }: { data: { movies: SearchInfo[] } } = await scrapeIt(topMoviesUrl, {
     movies: {
       listItem: ".list.score .summary_row",
       data: {
@@ -28,7 +30,9 @@ async function getTopMovieList(): Promise<SearchInfo[]> {
 }
 
 async function getTopShowList(url): Promise<SearchInfo[]> {
-  const { shows }: { shows: SearchInfo[] } = await scrapeIt(url, {
+  const {
+    data: { shows }
+  }: { data: { shows: SearchInfo[] } } = await scrapeIt(url, {
     shows: {
       listItem: ".product_rows .product_row.season",
       data: {

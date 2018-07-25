@@ -12,7 +12,9 @@ function splitTitleYear(string: string): SearchInfo {
 }
 
 async function getTopMovies(): Promise<SearchInfo[]> {
-  const { movies }: { movies: { titleAndYear: string }[] } = await scrapeIt(
+  const {
+    data: { movies }
+  }: { data: { movies: { titleAndYear: string }[] } } = await scrapeIt(
     topMoviesUrl,
     {
       movies: {

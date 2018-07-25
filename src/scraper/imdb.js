@@ -8,7 +8,9 @@ const topTVUrl = page =>
   `http://www.imdb.com/search/title?num_votes=25000,&sort=user_rating,desc&title_type=tv_series&page=${page}`;
 
 async function getTopMovies(): Promise<SearchInfo[]> {
-  const { movies }: { movies: SearchInfo[] } = await scrapeIt(topMoviesUrl, {
+  const {
+    data: { movies }
+  }: { data: { movies: SearchInfo[] } } = await scrapeIt(topMoviesUrl, {
     movies: {
       listItem: ".titleColumn",
       data: {
@@ -27,7 +29,9 @@ async function getTopMovies(): Promise<SearchInfo[]> {
 }
 
 async function getTopShowList(url): Promise<SearchInfo[]> {
-  const { shows }: { shows: SearchInfo[] } = await scrapeIt(url, {
+  const {
+    data: { shows }
+  }: { data: { shows: SearchInfo[] } } = await scrapeIt(url, {
     shows: {
       listItem: ".lister-item",
       data: {
