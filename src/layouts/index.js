@@ -7,7 +7,7 @@ import Header from "../components/Header";
 const Wrapper = styled("div")`
   background-color: #333;
   color: #f4f4f4;
-  font-family: 'Courier Next', courier, monospace
+  font-family: "Courier Next", courier, monospace;
   margin: 0;
 `;
 
