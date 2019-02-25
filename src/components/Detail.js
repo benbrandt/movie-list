@@ -1,6 +1,6 @@
 // @flow
 import React from "react";
-import styled from "react-emotion";
+import styled from "@emotion/styled";
 import Helmet from "react-helmet";
 import Rankings from "./Rankings";
 import type { Rankings as MovieRankings, TVRankings } from "../types";

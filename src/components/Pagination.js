@@ -1,7 +1,7 @@
 // @flow
 import GatsbyLink from "gatsby-link";
 import React from "react";
-import styled from "react-emotion";
+import styled from "@emotion/styled";
 
 const PageNav = styled("div")`
   display: flex;

@@ -1,7 +1,7 @@
 // @flow
 import { Link, StaticQuery, graphql } from "gatsby";
 import React from "react";
-import styled from "react-emotion";
+import styled from "@emotion/styled";
 import Layout from "../components/layout";
 
 type LogoT = { name: string, movies: string, shows?: string, img: string };
@@ -135,7 +135,7 @@ export default () => {
   return (
     <StaticQuery
       query={graphql`
-        query Backdrop {
+        query {
           allMoviesJson(limit: 1, sort: { fields: [score], order: DESC }) {
             edges {
               node {

@@ -1,5 +1,5 @@
 // @flow
-import { StaticQuery, graphql } from "gatsby";
+import { graphql } from "gatsby";
 import React from "react";
 import Detail from "../components/Detail";
 import type { MovieT } from "../types";
@@ -13,45 +13,40 @@ function runtime(mins: number) {
 }
 
 type PropsT = { data: { moviesJson: MovieT } };
-export default () => (
-  <StaticQuery
-    query={graphql`
-      query MovieById($id: String!) {
-        moviesJson(id: { eq: $id }) {
-          id
-          backdrop
-          originalTitle
-          overview
-          poster
-          releaseDate
-          runtime
-          tagline
-          title
-          rankings {
-            bfi
-            imdb
-            letterboxd
-            metacritic
-            mubi
-            rottenTomatoes
-            tmdb
-          }
-        }
-      }
-    `}
-    render={({ data: { moviesJson: movie } }: PropsT) => (
-      <Detail
-        backdrop={movie.backdrop}
-        originalTitle={movie.originalTitle}
-        overview={movie.overview}
-        poster={movie.poster}
-        rankings={movie.rankings}
-        subtitle={`${movie.releaseDate.substr(0, 4)} / ${runtime(
-          movie.runtime
-        )}`}
-        tagline={movie.tagline}
-        title={movie.title}
-      />
-    )}
+export default ({ data: { moviesJson: movie } }: PropsT) => (
+  <Detail
+    backdrop={movie.backdrop}
+    originalTitle={movie.originalTitle}
+    overview={movie.overview}
+    poster={movie.poster}
+    rankings={movie.rankings}
+    subtitle={`${movie.releaseDate.substr(0, 4)} / ${runtime(movie.runtime)}`}
+    tagline={movie.tagline}
+    title={movie.title}
   />
 );
+
+export const query = graphql`
+  query($id: String!) {
+    moviesJson(id: { eq: $id }) {
+      id
+      backdrop
+      originalTitle
+      overview
+      poster
+      releaseDate
+      runtime
+      tagline
+      title
+      rankings {
+        bfi
+        imdb
+        letterboxd
+        metacritic
+        mubi
+        rottenTomatoes
+        tmdb
+      }
+    }
+  }
+`;

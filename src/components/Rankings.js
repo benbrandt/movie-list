@@ -1,7 +1,7 @@
 // @flow
 import R from "ramda";
 import React from "react";
-import styled from "react-emotion";
+import styled from "@emotion/styled";
 import type { Rankings, TVRankings } from "../types";
 
 type Props = { rankings: Rankings | TVRankings };

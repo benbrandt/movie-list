@@ -5,7 +5,8 @@ const slugify = require("slugify");
 // Add babel plugin
 exports.onCreateBabelConfig = ({ actions }) => {
   actions.setBabelPlugin({
-    name: "ramda"
+    name: "babel-plugin-ramda",
+    options: { useES: true }
   });
 };
 
