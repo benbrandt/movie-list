@@ -38,8 +38,7 @@ const request = async (url: string, options?: RequestOptions) =>
     .then(checkStatus)
     .then(parseJSON);
 
-type DelayedRequest<T> = string => Promise<T>;
-const delayedRequest: DelayedRequest<*> = async url =>
+const delayedRequest = async (url: string) =>
   new Promise(resolve => setTimeout(() => resolve(request(url)), 250));
 
 module.exports = { request, delayedRequest };

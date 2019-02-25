@@ -7,7 +7,7 @@ import ListSection from "../components/ListSection";
 import { slug } from "../utils";
 
 type Props = {
-  pathContext: {
+  pageContext: {
     group: Array<{
       node: {
         id: string,
@@ -22,7 +22,7 @@ type Props = {
   }
 };
 
-export default ({ pathContext: { group, index, first, last } }: Props) => (
+export default ({ pageContext: { group, index, first, last } }: Props) => (
   <ListSection>
     {group.map(({ node: { id, firstAirDate, name, poster } }, i) => (
       <PosterLink

@@ -2,7 +2,7 @@
 import React, { type Node } from "react";
 import styled from "react-emotion";
 import Helmet from "react-helmet";
-import Header from "../components/Header";
+import Header from "./Header";
 
 const Wrapper = styled("div")`
   background-color: #333;
@@ -18,7 +18,7 @@ const Child = styled("div")`
   min-height: 95vh;
 `;
 
-export default ({ children }: { children: () => Node }) => (
+export default ({ children }: { children: Node }) => (
   <Wrapper>
     <Helmet
       titleTemplate="%s | Movie List"
@@ -34,6 +34,6 @@ export default ({ children }: { children: () => Node }) => (
       />
     </Helmet>
     <Header />
-    <Child>{children()}</Child>
+    <Child>{children}</Child>
   </Wrapper>
 );

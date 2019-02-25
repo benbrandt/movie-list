@@ -1,8 +1,8 @@
 // @flow
-/* eslint-disable no-undef */
-import GatsbyLink from "gatsby-link";
+import { Link, StaticQuery, graphql } from "gatsby";
 import React from "react";
 import styled from "react-emotion";
+import Layout from "../components/layout";
 
 type LogoT = { name: string, movies: string, shows?: string, img: string };
 const logos: LogoT[] = [
@@ -97,7 +97,7 @@ const Header = styled("h1")`
   width: 80%;
 `;
 
-const Overlay = styled(GatsbyLink)`
+const Overlay = styled(Link)`
   align-items: center;
   background-color: rgba(0, 0, 0, 0.5);
   display: flex;
@@ -131,51 +131,59 @@ type PropsT = {
     }
   }
 };
-export default ({ data: { allMoviesJson, allShowsJson } }: PropsT) => {
+export default () => {
   return (
-    <Column>
-      <Section>
-        <Column style={bg(allMoviesJson.edges[0])}>
-          <Overlay to="/movies">
-            <Header>Movies</Header>
-            <Logos>
-              {logos
-                .filter(logo => !!logo.movies)
-                .map(logo => <Logo src={logo.img} alt={logo.name} />)}
-            </Logos>
-          </Overlay>
-        </Column>
-        <Column style={bg(allShowsJson.edges[0])}>
-          <Overlay to="/shows">
-            <Header>TV Shows</Header>
-            <Logos>
-              {logos
-                .filter(logo => !!logo.shows)
-                .map(logo => <Logo src={logo.img} alt={logo.name} />)}
-            </Logos>
-          </Overlay>
-        </Column>
-      </Section>
-    </Column>
+    <StaticQuery
+      query={graphql`
+        query Backdrop {
+          allMoviesJson(limit: 1, sort: { fields: [score], order: DESC }) {
+            edges {
+              node {
+                backdrop
+              }
+            }
+          }
+          allShowsJson(limit: 1, sort: { fields: [score], order: DESC }) {
+            edges {
+              node {
+                backdrop
+              }
+            }
+          }
+        }
+      `}
+      render={({ data: { allMoviesJson, allShowsJson } }: PropsT) => (
+        <Layout>
+          <Column>
+            <Section>
+              <Column style={bg(allMoviesJson.edges[0])}>
+                <Overlay to="/movies">
+                  <Header>Movies</Header>
+                  <Logos>
+                    {logos
+                      .filter(logo => !!logo.movies)
+                      .map(logo => (
+                        <Logo src={logo.img} alt={logo.name} />
+                      ))}
+                  </Logos>
+                </Overlay>
+              </Column>
+              <Column style={bg(allShowsJson.edges[0])}>
+                <Overlay to="/shows">
+                  <Header>TV Shows</Header>
+                  <Logos>
+                    {logos
+                      .filter(logo => !!logo.shows)
+                      .map(logo => (
+                        <Logo src={logo.img} alt={logo.name} />
+                      ))}
+                  </Logos>
+                </Overlay>
+              </Column>
+            </Section>
+          </Column>
+        </Layout>
+      )}
+    />
   );
 };
-
-// $FlowFixMe
-export const query = graphql`
-  query Backdrop {
-    allMoviesJson(limit: 1, sort: { fields: [score], order: DESC }) {
-      edges {
-        node {
-          backdrop
-        }
-      }
-    }
-    allShowsJson(limit: 1, sort: { fields: [score], order: DESC }) {
-      edges {
-        node {
-          backdrop
-        }
-      }
-    }
-  }
-`;

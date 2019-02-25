@@ -45,7 +45,7 @@ async function getTopShowList(url): Promise<SearchInfo[]> {
   return shows;
 }
 
-async function getTopShows(): $await<SearchInfo[]> {
+async function getTopShows(): Promise<SearchInfo[]> {
   let shows = [];
   const pages = [1, 2];
 
@@ -54,7 +54,7 @@ async function getTopShows(): $await<SearchInfo[]> {
     if (!list.length) throw new Error(`Page ${page} failed.`);
     shows.push(list);
   }
-
+  // $FlowFixMe
   return R.take(100, R.flatten(shows));
 }
 

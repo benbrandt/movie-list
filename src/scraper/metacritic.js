@@ -47,7 +47,7 @@ async function getTopShowList(url): Promise<SearchInfo[]> {
   return R.uniq(shows);
 }
 
-async function getTopMovies(): $await<SearchInfo[]> {
+async function getTopMovies(): Promise<SearchInfo[]> {
   let movies = [];
 
   while (!movies.length) {
@@ -59,7 +59,7 @@ async function getTopMovies(): $await<SearchInfo[]> {
   return movies;
 }
 
-async function getTopShows(): $await<SearchInfo[]> {
+async function getTopShows(): Promise<SearchInfo[]> {
   let shows = [];
   let page = 0;
 

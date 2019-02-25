@@ -58,7 +58,7 @@ const getMovie = async (movie: ?SearchResult): Promise<?TmdbMovie> =>
 const getTVShow = async (tvShow: ?SearchResult): Promise<?TmdbTVShow> =>
   tvShow ? delayedRequest(tvUrl(tvShow.id)) : Promise.resolve(null);
 
-async function searchMovies(info: SearchInfo): $await<?TmdbMovie> {
+async function searchMovies(info: SearchInfo): Promise<?TmdbMovie> {
   let resp = await searchMovie(info);
   if (info.year != null && resp.results.length === 0) {
     resp = await searchMovie({ title: info.title, year: null });
@@ -71,7 +71,7 @@ async function searchMovies(info: SearchInfo): $await<?TmdbMovie> {
   return getMovie(resp.results[0]);
 }
 
-async function searchTVShows(info: SearchInfo): $await<?TmdbTVShow> {
+async function searchTVShows(info: SearchInfo): Promise<?TmdbTVShow> {
   let resp = await searchTVShow(info);
   if (info.year != null && resp.results.length === 0) {
     resp = await searchTVShow({ title: info.title, year: null });
@@ -84,7 +84,7 @@ async function searchTVShows(info: SearchInfo): $await<?TmdbTVShow> {
   return getTVShow(resp.results[0]);
 }
 
-async function getTopList(urlFn: number => string): $await<SearchResult[]> {
+async function getTopList(urlFn: number => string): Promise<SearchResult[]> {
   const urls = R.range(1, 6).map(urlFn);
   const results = [];
 
@@ -92,7 +92,7 @@ async function getTopList(urlFn: number => string): $await<SearchResult[]> {
     const list = await delayedRequest(url);
     results.push(list);
   }
-
+  // $FlowFixMe
   return R.take(100)(
     R.pipe(
       R.flatten,
@@ -102,7 +102,7 @@ async function getTopList(urlFn: number => string): $await<SearchResult[]> {
   );
 }
 
-async function getTopMovies(): $await<?(TmdbMovie[])> {
+async function getTopMovies(): Promise<(?TmdbMovie)[]> {
   const topMovies: SearchResult[] = await getTopList(topMoviesUrl);
   const movies = [];
 
@@ -114,7 +114,7 @@ async function getTopMovies(): $await<?(TmdbMovie[])> {
   return movies;
 }
 
-async function getTopTVShows(): $await<?(TmdbTVShow[])> {
+async function getTopTVShows(): Promise<(?TmdbTVShow)[]> {
   const topTVShows: SearchResult[] = await getTopList(topTVUrl);
   const tvShows = [];
 

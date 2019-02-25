@@ -57,6 +57,7 @@ const updateOrCreateMovie = async (movie: TmdbMovie, rankings: Rankings) => {
     rankings: Object.assign({}, defaultRankings, rankings),
     score: avgMovieRank(rankings)
   };
+  // $FlowFixMe
   fs.writeFile(
     path.resolve(`./src/data/movies/${movie.id}.json`),
     JSON.stringify(jsonMovie, null, 2),
@@ -85,7 +86,7 @@ const searchMovies = async (
 
 const getTmdbMovies = (
   scrapeMoviesFunc: () => Promise<SearchInfo[]>
-) => async (): $await<Array<?TmdbMovie>> => {
+) => async (): Promise<Array<?TmdbMovie>> => {
   const items = await scrapeMoviesFunc();
   const movies = await searchMovies(items);
   return movies;

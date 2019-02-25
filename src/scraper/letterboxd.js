@@ -27,7 +27,7 @@ async function getMovieList(url): Promise<SearchInfo[]> {
   return movies;
 }
 
-async function getTopMovies(): $await<SearchInfo[]> {
+async function getTopMovies(): Promise<SearchInfo[]> {
   let movies = [];
   const pages = [1, 2];
 
@@ -37,6 +37,7 @@ async function getTopMovies(): $await<SearchInfo[]> {
     movies.push(list);
   }
 
+  // $FlowFixMe
   return R.take(100, R.flatten(movies));
 }
 
