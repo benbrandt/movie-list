@@ -3,7 +3,7 @@ import type { SearchInfo } from "../types";
 const scrapeIt = require("scrape-it");
 
 const topMoviesUrl =
-  "http://www.bfi.org.uk/films-tv-people/sightandsoundpoll2012/directors/";
+  "https://www.bfi.org.uk/films-tv-people/sightandsoundpoll2012/directors/";
 
 function splitTitleYear(string: string): SearchInfo {
   const parts = string.split("(");

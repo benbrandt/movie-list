@@ -3,9 +3,9 @@ import type { SearchInfo } from "../types";
 const scrapeIt = require("scrape-it");
 const R = require("ramda");
 
-const topMoviesUrl = "http://www.imdb.com/chart/top/";
+const topMoviesUrl = "https://www.imdb.com/chart/top/";
 const topTVUrl = page =>
-  `http://www.imdb.com/search/title?num_votes=25000,&sort=user_rating,desc&title_type=tv_series&page=${page}`;
+  `https://www.imdb.com/search/title?num_votes=25000,&sort=user_rating,desc&title_type=tv_series&page=${page}`;
 
 async function getTopMovies(): Promise<SearchInfo[]> {
   const {

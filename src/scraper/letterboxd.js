@@ -4,7 +4,7 @@ const scrapeIt = require("scrape-it");
 const R = require("ramda");
 
 const topMoviesUrl = page =>
-  `http://letterboxd.com/films/ajax/by/rating/size/small/page/${page}/`;
+  `https://letterboxd.com/films/ajax/by/rating/size/small/page/${page}/`;
 
 async function getMovieList(url): Promise<SearchInfo[]> {
   const {

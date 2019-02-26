@@ -4,9 +4,9 @@ const scrapeIt = require("scrape-it");
 const R = require("ramda");
 
 const topMoviesUrl =
-  "http://www.metacritic.com/browse/movies/score/metascore/all";
+  "https://www.metacritic.com/browse/movies/score/metascore/all";
 const topTVUrl = page =>
-  `http://www.metacritic.com/browse/tv/score/metascore/all?page=${page}`;
+  `https://www.metacritic.com/browse/tv/score/metascore/all?page=${page}`;
 
 async function getTopMovieList(): Promise<SearchInfo[]> {
   const {
