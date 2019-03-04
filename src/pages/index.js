@@ -152,7 +152,7 @@ export default () => {
           }
         }
       `}
-      render={({ data: { allMoviesJson, allShowsJson } }: PropsT) => (
+      render={({ allMoviesJson, allShowsJson }: PropsT) => (
         <Layout>
           <Column>
             <Section>
