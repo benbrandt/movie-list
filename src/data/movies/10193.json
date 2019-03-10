@@ -11,12 +11,12 @@
   "tagline": "No toy gets left behind.",
   "rankings": {
     "bfi": null,
-    "imdb": 100,
+    "imdb": null,
     "letterboxd": null,
-    "metacritic": 96,
+    "metacritic": null,
     "mubi": null,
-    "rottenTomatoes": 43,
+    "rottenTomatoes": 78,
     "tmdb": null
   },
-  "score": 3.01255230125523
+  "score": 1.0128205128205128
 }

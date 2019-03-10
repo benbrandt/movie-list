@@ -13,13 +13,13 @@ async function getTopMovieList(): Promise<SearchInfo[]> {
     data: { movies }
   }: { data: { movies: SearchInfo[] } } = await scrapeIt(topMoviesUrl, {
     movies: {
-      listItem: ".list.score .summary_row",
+      listItem: ".clamp-summary-wrap",
       data: {
         title: {
-          selector: ".title_wrapper .title a"
+          selector: "a.title h3"
         },
         year: {
-          selector: ".date_wrapper span:first-child",
+          selector: ".clamp-details span:nth-child(2)",
           convert: x => parseInt(x.slice(-4))
         }
       }
@@ -34,10 +34,10 @@ async function getTopShowList(url): Promise<SearchInfo[]> {
     data: { shows }
   }: { data: { shows: SearchInfo[] } } = await scrapeIt(url, {
     shows: {
-      listItem: ".product_rows .product_row.season",
+      listItem: ".product.season_product",
       data: {
         title: {
-          selector: ".product_item.product_title a",
+          selector: ".product_title a",
           convert: x => x.split(": Season")[0]
         }
       }

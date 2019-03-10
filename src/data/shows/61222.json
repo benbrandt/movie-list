@@ -3,17 +3,17 @@
   "name": "BoJack Horseman",
   "originalName": "BoJack Horseman",
   "overview": "Meet the most beloved sitcom horse of the 90s - 20 years later. BoJack Horseman was the star of the hit TV show \"Horsin' Around,\" but today he's washed up, living in Hollywood, complaining about everything, and wearing colorful sweaters.",
-  "episodes": 49,
+  "episodes": 60,
   "seasons": 5,
   "language": "en",
   "poster": "/1bnrSsJNejoQq8lGBDECQroGjPz.jpg",
   "backdrop": "/gARnXDr5Y0VZ8tx89DMxBSqWPYt.jpg",
   "firstAirDate": "2014-08-22",
-  "lastAirDate": "2017-09-08",
+  "lastAirDate": "2018-09-14",
   "rankings": {
     "imdb": null,
-    "metacritic": 46,
-    "tmdb": null
+    "metacritic": 49,
+    "tmdb": 99
   },
-  "score": 1.0217391304347827
+  "score": 2.0135135135135136
 }

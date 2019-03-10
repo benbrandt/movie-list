@@ -1,7 +1,7 @@
 {
   "id": "426",
   "title": "Vertigo",
-  "backdrop": "/pkq8oE7siR9pvjZULET47XBz6Hc.jpg",
+  "backdrop": "/c7iSbhSffDkM2yf5cg3D91FuVga.jpg",
   "language": "en",
   "originalTitle": "Vertigo",
   "overview": "A retired San Francisco detective suffering from acrophobia investigates the strange activities of an old friend's wife, all the while becoming dangerously obsessed with her.",
@@ -11,12 +11,12 @@
   "tagline": "Alfred Hitchcock engulfs you in a whirlpool of terror and tension!",
   "rankings": {
     "bfi": 7,
-    "imdb": 73,
+    "imdb": 75,
     "letterboxd": null,
-    "metacritic": null,
+    "metacritic": 7,
     "mubi": 16,
-    "rottenTomatoes": 67,
-    "tmdb": 89
+    "rottenTomatoes": 82,
+    "tmdb": 83
   },
-  "score": 5.01984126984127
+  "score": 6.022222222222222
 }

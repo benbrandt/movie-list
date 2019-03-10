@@ -7,13 +7,13 @@
   "seasons": 8,
   "language": "en",
   "poster": "/lxSzRZ49NXwsiyHuvMsd19QxduC.jpg",
-  "backdrop": "/qvUxoJhfARTmHUmK9StpB7SViPg.jpg",
+  "backdrop": "/ncdS5plsKvO3DLbRX0fBETB6SNS.jpg",
   "firstAirDate": "2004-11-16",
   "lastAirDate": "2012-05-21",
   "rankings": {
-    "imdb": 39,
+    "imdb": null,
     "metacritic": null,
-    "tmdb": 52
+    "tmdb": 40
   },
-  "score": 2.021978021978022
+  "score": 1.025
 }

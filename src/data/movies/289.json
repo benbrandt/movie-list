@@ -1,7 +1,7 @@
 {
   "id": "289",
   "title": "Casablanca",
-  "backdrop": "/xRqsFFteJrvLHxswk78NzU7zOrU.jpg",
+  "backdrop": "/5tE7iKSpBrc4z6LqF5kHutMm6KQ.jpg",
   "language": "en",
   "originalTitle": "Casablanca",
   "overview": "In Casablanca, Morocco in December 1941, a cynical American expatriate meets a former lover, with unforeseen complications.",
@@ -11,12 +11,12 @@
   "tagline": "They had a date with fate in Casablanca!",
   "rankings": {
     "bfi": null,
-    "imdb": 37,
-    "letterboxd": 92,
+    "imdb": 36,
+    "letterboxd": null,
     "metacritic": 4,
     "mubi": 37,
-    "rottenTomatoes": 15,
+    "rottenTomatoes": 21,
     "tmdb": null
   },
-  "score": 5.027027027027027
+  "score": 4.040816326530612
 }

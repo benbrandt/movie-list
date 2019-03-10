@@ -1,11 +1,11 @@
 {
   "id": "398818",
   "title": "Call Me by Your Name",
-  "backdrop": "/64OtTrXNyLwbqWBcd9JBsJmZb7w.jpg",
+  "backdrop": "/cRDJFNKatstX1YsjZgaSa2W1507.jpg",
   "language": "en",
   "originalTitle": "Call Me by Your Name",
   "overview": "Elio Perlman is spending the summer with his family at their vacation home in Lombardy, Italy. When his father hires a handsome doctoral student, the curious 17-year-old finds himself developing a growing attraction to the young man.",
-  "poster": "/tcNniniS4rfqrLH0oORikJfnIwY.jpg",
+  "poster": "/nPTjj6ZfBXXBwOhd7iUy6tyuKWt.jpg",
   "releaseDate": "2017-09-01",
   "runtime": 132,
   "tagline": "Is it better to speak or die?",
@@ -13,10 +13,10 @@
     "bfi": null,
     "imdb": null,
     "letterboxd": null,
-    "metacritic": 69,
+    "metacritic": 86,
     "mubi": null,
-    "rottenTomatoes": null,
-    "tmdb": 48
+    "rottenTomatoes": 29,
+    "tmdb": 60
   },
-  "score": 2.017094017094017
+  "score": 3.0171428571428573
 }

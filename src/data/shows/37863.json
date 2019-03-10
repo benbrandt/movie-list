@@ -6,14 +6,14 @@
   "episodes": 51,
   "seasons": 1,
   "language": "ja",
-  "poster": "/sNpDtjUVNrTIVM1OR4EfEnRi4OH.jpg",
+  "poster": "/wMFZPYHT2z0LHQo38DNAsaKkrcs.jpg",
   "backdrop": "/dshSjE7LZRR7CK58hLDhOz5ANFe.jpg",
   "firstAirDate": "2003-10-04",
   "lastAirDate": "2004-10-02",
   "rankings": {
-    "imdb": 100,
+    "imdb": null,
     "metacritic": null,
-    "tmdb": null
+    "tmdb": 84
   },
-  "score": 1.01
+  "score": 1.0119047619047619
 }

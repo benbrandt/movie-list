@@ -1,7 +1,7 @@
 {
   "id": "30017",
   "title": "Close-Up",
-  "backdrop": "/bKoj3b1ijbc4B0uBoHDQpSmc28T.jpg",
+  "backdrop": "/uvosDEp9iWUfQ0kuWVou8GemDaA.jpg",
   "language": "fa",
   "originalTitle": "کلوزآپ ، نمای نزدیک",
   "overview": "This fiction-documentary hybrid uses a sensational real-life event—the arrest of a young man on charges that he fraudulently impersonated the well-known filmmaker Mohsen Makhmalbaf—as the basis for a stunning, multilayered investigation into movies, identity, artistic creation, and existence, in which the real people from the case play themselves.",
@@ -10,13 +10,13 @@
   "runtime": 98,
   "tagline": "",
   "rankings": {
-    "bfi": null,
+    "bfi": 37,
     "imdb": null,
-    "letterboxd": 84,
+    "letterboxd": 85,
     "metacritic": null,
     "mubi": null,
     "rottenTomatoes": null,
     "tmdb": null
   },
-  "score": 1.0119047619047619
+  "score": 2.0163934426229506
 }

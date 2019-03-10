@@ -3,17 +3,17 @@
   "name": "True Detective",
   "originalName": "True Detective",
   "overview": "An American anthology police detective series utilizing multiple timelines in which investigations seem to unearth personal and professional secrets of those involved, both within or outside the law.",
-  "episodes": 16,
+  "episodes": 24,
   "seasons": 3,
   "language": "en",
-  "poster": "/egrBNjbMKbUao19dJcSNiw4xlft.jpg",
-  "backdrop": "/qDEIZWnyRxWTB9zCjyyj4mbURVp.jpg",
+  "poster": "/aowr4xpLP5sRCL50TkuADomJ98T.jpg",
+  "backdrop": "/2Ahm0YjLNQKuzSf9LOkHrXk8qIE.jpg",
   "firstAirDate": "2014-01-12",
-  "lastAirDate": "2015-08-09",
+  "lastAirDate": "2019-02-24",
   "rankings": {
-    "imdb": 12,
-    "metacritic": 91,
-    "tmdb": 75
+    "imdb": 64,
+    "metacritic": 96,
+    "tmdb": 28
   },
-  "score": 3.0168539325842696
+  "score": 3.015957446808511
 }

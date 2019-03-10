@@ -2,7 +2,7 @@
   "id": "655",
   "name": "Star Trek: The Next Generation",
   "originalName": "Star Trek: The Next Generation",
-  "overview": "Star Trek: The Next Generation is an American science fiction television series created by Gene Roddenberry as part of the Star Trek franchise. The show is set in the nearby regions of the Milky Way galaxy, approximately during the 2360s and features a new crew and a new starship Enterprise.",
+  "overview": "Follow the intergalactic adventures of Capt. Jean-Luc Picard and his loyal crew aboard the all-new USS Enterprise NCC-1701D, as they explore new worlds.",
   "episodes": 178,
   "seasons": 7,
   "language": "en",
@@ -11,9 +11,9 @@
   "firstAirDate": "1987-09-28",
   "lastAirDate": "1994-05-23",
   "rankings": {
-    "imdb": 91,
+    "imdb": null,
     "metacritic": null,
-    "tmdb": 44
+    "tmdb": 33
   },
-  "score": 2.0148148148148146
+  "score": 1.0303030303030303
 }

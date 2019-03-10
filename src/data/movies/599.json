@@ -4,7 +4,7 @@
   "backdrop": "/u44VbUuoP6OZYEBv2DRd7ShPTMp.jpg",
   "language": "en",
   "originalTitle": "Sunset Boulevard",
-  "overview": "A hack screenwriter writes a screenplay for a former silent-film star who has faded into Hollywood obscurity.",
+  "overview": "A hack screenwriter writes a screenplay for a former silent film star who has faded into Hollywood obscurity.",
   "poster": "/oFwzvRgfxJc0FUr2mwYTi10dk3G.jpg",
   "releaseDate": "1950-08-10",
   "runtime": 110,
@@ -12,11 +12,11 @@
   "rankings": {
     "bfi": 69,
     "imdb": 56,
-    "letterboxd": 33,
+    "letterboxd": 45,
     "metacritic": null,
     "mubi": 51,
-    "rottenTomatoes": 37,
-    "tmdb": 27
+    "rottenTomatoes": 49,
+    "tmdb": 33
   },
-  "score": 6.021978021978022
+  "score": 6.01980198019802
 }

@@ -1,7 +1,7 @@
 {
   "id": "490003",
   "title": "Won't You Be My Neighbor?",
-  "backdrop": "/lQaT3rVXshsNNMhGFL8XJEZK51V.jpg",
+  "backdrop": "/yrepQdpreOorLyBJyvZkGn3Izfe.jpg",
   "language": "en",
   "originalTitle": "Won't You Be My Neighbor?",
   "overview": "Fred Rogers used puppets and play to explore complex social issues: race, disability, equality and tragedy, helping form the American concept of childhood. He spoke directly to children and they responded enthusiastically. Yet today, his impact is unclear. Have we lived up to Fred's ideal of good neighbors?",
@@ -12,11 +12,11 @@
   "rankings": {
     "bfi": null,
     "imdb": null,
-    "letterboxd": 66,
+    "letterboxd": null,
     "metacritic": null,
     "mubi": null,
-    "rottenTomatoes": null,
+    "rottenTomatoes": 60,
     "tmdb": null
   },
-  "score": 1.0151515151515151
+  "score": 1.0166666666666666
 }

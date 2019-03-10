@@ -3,17 +3,17 @@
   "name": "Money Heist",
   "originalName": "La casa de papel",
   "overview": "To carry out the biggest heist in history, a mysterious man called The Professor recruits a band of eight robbers who have a single characteristic: none of them has anything to lose. Five months of seclusion - memorizing every step, every detail, every probability - culminate in eleven days locked up in the National Coinage and Stamp Factory of Spain, surrounded by police forces and with dozens of hostages in their power, to find out whether their suicide wager will lead to everything or nothing.",
-  "episodes": 21,
-  "seasons": 2,
+  "episodes": 15,
+  "seasons": 1,
   "language": "es",
   "poster": "/2d0ESa56OesIFAOAl8ZZi0mHlxC.jpg",
   "backdrop": "/flyWT9eIE8vdy1tzEGxBN4RkoeN.jpg",
   "firstAirDate": "2017-05-02",
-  "lastAirDate": "2018-04-06",
+  "lastAirDate": "2017-11-23",
   "rankings": {
-    "imdb": 48,
+    "imdb": null,
     "metacritic": null,
     "tmdb": 70
   },
-  "score": 2.016949152542373
+  "score": 1.0142857142857142
 }

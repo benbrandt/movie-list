@@ -11,12 +11,12 @@
   "tagline": "The celebration of a lifetime",
   "rankings": {
     "bfi": null,
-    "imdb": 63,
+    "imdb": 71,
     "letterboxd": null,
     "metacritic": null,
     "mubi": null,
-    "rottenTomatoes": null,
+    "rottenTomatoes": 17,
     "tmdb": null
   },
-  "score": 1.0158730158730158
+  "score": 2.022727272727273
 }

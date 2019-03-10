@@ -3,7 +3,7 @@
   "name": "Battlestar Galactica",
   "originalName": "Battlestar Galactica",
   "overview": "When an old enemy, the Cylons, resurface and obliterate the 12 colonies, the crew of the aged Galactica protect a small civilian fleet - the last of humanity - as they journey toward the fabled 13th colony, Earth.",
-  "episodes": 74,
+  "episodes": 73,
   "seasons": 4,
   "language": "en",
   "poster": "/kPCJiwQHA4KenTybRbDPIRBlQls.jpg",
@@ -11,9 +11,9 @@
   "firstAirDate": "2004-10-18",
   "lastAirDate": "2009-03-20",
   "rankings": {
-    "imdb": 65,
-    "metacritic": 23,
-    "tmdb": 40
+    "imdb": null,
+    "metacritic": null,
+    "tmdb": 30
   },
-  "score": 3.0234375
+  "score": 1.0333333333333334
 }

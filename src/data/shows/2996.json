@@ -2,7 +2,7 @@
   "id": "2996",
   "name": "The Office",
   "originalName": "The Office",
-  "overview": "The Office is a British sitcom television series that was first broadcast in the United Kingdom on BBC Two on 9 July 2001. Created, written, and directed by Ricky Gervais and Stephen Merchant, the programme is about the day-to-day lives of office employees in the Slough branch of the fictitious Wernham Hogg Paper Company. Gervais also stars in the series, playing the central character, David Brent. Although fictional and scripted, the programme takes the form of a documentary, with the presence of the camera often acknowledged.\n\nTwo six-episode series were made, along with a pair of 45-minute Christmas specials. When it was first shown on BBC Two, it was nearly cancelled due to low ratings, but has since become one of the most successful of all British comedy exports. As well as being shown internationally on BBC Worldwide, channels such as BBC Prime, BBC America and BBC Canada, the series has been sold to broadcasters in over 80 countries, including ABC1 in Australia, The Comedy Network in Canada, TVNZ in New Zealand and the pan-Asian satellite channel STAR World, based in Hong Kong. The show began airing in The United States on Cartoon Network's late night programing block, Adult Swim on 18 September 2009 until 2012.",
+  "overview": "The Office is a British sitcom television series,the programme is about the day-to-day lives of office employees in the Slough branch of the fictitious Wernham Hogg Paper Company. Gervais also stars in the series, playing the central character, David Brent. Although fictional and scripted, the programme takes the form of a documentary, with the presence of the camera often acknowledged.",
   "episodes": 12,
   "seasons": 2,
   "language": "en",
@@ -13,7 +13,7 @@
   "rankings": {
     "imdb": null,
     "metacritic": 5,
-    "tmdb": 86
+    "tmdb": null
   },
-  "score": 2.021978021978022
+  "score": 1.2
 }

@@ -39,6 +39,6 @@ const request = async (url: string, options?: RequestOptions) =>
     .then(parseJSON);
 
 const delayedRequest = async (url: string) =>
-  new Promise(resolve => setTimeout(() => resolve(request(url)), 250));
+  new Promise(resolve => setTimeout(() => resolve(request(url)), 125));
 
 module.exports = { request, delayedRequest };
