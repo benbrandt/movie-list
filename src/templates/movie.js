@@ -2,6 +2,7 @@
 import { graphql } from "gatsby";
 import React from "react";
 import Detail from "../components/Detail";
+import Layout from "../components/layout";
 import type { MovieT } from "../types";
 
 function runtime(mins: number) {
@@ -14,16 +15,18 @@ function runtime(mins: number) {
 
 type PropsT = { data: { moviesJson: MovieT } };
 export default ({ data: { moviesJson: movie } }: PropsT) => (
-  <Detail
-    backdrop={movie.backdrop}
-    originalTitle={movie.originalTitle}
-    overview={movie.overview}
-    poster={movie.poster}
-    rankings={movie.rankings}
-    subtitle={`${movie.releaseDate.substr(0, 4)} / ${runtime(movie.runtime)}`}
-    tagline={movie.tagline}
-    title={movie.title}
-  />
+  <Layout>
+    <Detail
+      backdrop={movie.backdrop}
+      originalTitle={movie.originalTitle}
+      overview={movie.overview}
+      poster={movie.poster}
+      rankings={movie.rankings}
+      subtitle={`${movie.releaseDate.substr(0, 4)} / ${runtime(movie.runtime)}`}
+      tagline={movie.tagline}
+      title={movie.title}
+    />
+  </Layout>
 );
 
 export const query = graphql`
