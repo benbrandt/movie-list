@@ -122,13 +122,11 @@ const bg = (item: ?Item) =>
   };
 
 type PropsT = {
-  data: {
-    allMoviesJson: {
-      edges: Item[]
-    },
-    allShowsJson: {
-      edges: Item[]
-    }
+  allMoviesJson: {
+    edges: Item[]
+  },
+  allShowsJson: {
+    edges: Item[]
   }
 };
 export default () => {
