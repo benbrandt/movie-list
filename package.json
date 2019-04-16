@@ -63,7 +63,7 @@
     "flow-bin": "^0.97.0",
     "flow-typed": "^2.5.1",
     "jest": "^24.7.1",
-    "prettier": "^1.16.4",
+    "prettier": "^1.17.0",
     "prettier-standard": "^9.1.1"
   }
 }
