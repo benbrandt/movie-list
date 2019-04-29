@@ -18,7 +18,7 @@
   "dependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.4",
-    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-env": "^7.4.4",
     "@emotion/core": "^10.0.7",
     "@emotion/styled": "^10.0.7",
     "caniuse-db": "^1.0.30000963",
