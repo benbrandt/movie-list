@@ -21,7 +21,7 @@
     "@babel/preset-env": "^7.4.4",
     "@emotion/core": "^10.0.7",
     "@emotion/styled": "^10.0.11",
-    "caniuse-db": "^1.0.30000967",
+    "caniuse-db": "^1.0.30000969",
     "emotion": "^10.0.7",
     "emotion-server": "^10.0.7",
     "fs-extra": "^8.0.1",
