@@ -61,7 +61,7 @@
     "eslint-plugin-react": "^7.13.0",
     "eslint-plugin-standard": "^4.0.0",
     "flow-bin": "^0.98.1",
-    "flow-typed": "^2.5.1",
+    "flow-typed": "^2.5.2",
     "jest": "^24.8.0",
     "prettier": "^1.17.1",
     "prettier-standard": "^9.1.1"
