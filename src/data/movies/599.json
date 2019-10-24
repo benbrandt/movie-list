@@ -10,13 +10,13 @@
   "runtime": 110,
   "tagline": "A Hollywood Story",
   "rankings": {
-    "bfi": 69,
-    "imdb": 56,
-    "letterboxd": 44,
+    "bfi": 58,
+    "imdb": 68,
+    "letterboxd": 57,
     "metacritic": null,
-    "mubi": 51,
-    "rottenTomatoes": 49,
-    "tmdb": 32
+    "mubi": 49,
+    "rottenTomatoes": 59,
+    "tmdb": 35
   },
-  "score": 6.019933554817276
+  "score": 6.0184049079754605
 }

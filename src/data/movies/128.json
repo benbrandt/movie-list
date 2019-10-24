@@ -1,7 +1,7 @@
 {
   "id": "128",
   "title": "Princess Mononoke",
-  "backdrop": "/fV27iSj7EDz7W3ud0JyfTnzz58R.jpg",
+  "backdrop": "/aZZCMHAoQcCXaAgbDkSD6JcFL9f.jpg",
   "language": "ja",
   "originalTitle": "もののけ姫",
   "overview": "Ashitaka, a prince of the disappearing Ainu tribe, is cursed by a demonized boar god and must journey to the west to find a cure. Along the way, he encounters San, a young human woman fighting to protect the forest, and Lady Eboshi, who is trying to destroy it. Ashitaka must find a way to bring balance to this conflict.",
@@ -11,12 +11,12 @@
   "tagline": "The Fate Of The World Rests On The Courage Of One Warrior.",
   "rankings": {
     "bfi": null,
-    "imdb": 64,
-    "letterboxd": 88,
+    "imdb": 66,
+    "letterboxd": null,
     "metacritic": null,
-    "mubi": 76,
+    "mubi": 74,
     "rottenTomatoes": null,
-    "tmdb": 39
+    "tmdb": 41
   },
-  "score": 4.01498127340824
+  "score": 3.016574585635359
 }

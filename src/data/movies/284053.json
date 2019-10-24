@@ -4,10 +4,10 @@
   "backdrop": "/kaIfm5ryEOwYg8mLbq8HkPuM1Fo.jpg",
   "language": "en",
   "originalTitle": "Thor: Ragnarok",
-  "overview": "Thor is on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the prophecy of destruction to his homeworld and the end of Asgardian civilization, at the hands of an all-powerful new threat, the ruthless Hela.",
+  "overview": "Thor is imprisoned on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the destruction of his home-world and the end of Asgardian civilization, at the hands of an all-powerful new threat, the ruthless Hela.",
   "poster": "/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
   "releaseDate": "2017-10-25",
-  "runtime": 130,
+  "runtime": 131,
   "tagline": "No Hammer. No Problem.",
   "rankings": {
     "bfi": null,
@@ -15,8 +15,8 @@
     "letterboxd": null,
     "metacritic": null,
     "mubi": null,
-    "rottenTomatoes": 44,
+    "rottenTomatoes": 29,
     "tmdb": null
   },
-  "score": 1.0227272727272727
+  "score": 1.0344827586206897
 }

@@ -3,7 +3,7 @@
   "name": "The Crown",
   "originalName": "The Crown",
   "overview": "The gripping, decades-spanning inside story of Her Majesty Queen Elizabeth II and the Prime Ministers who shaped Britain's post-war destiny. \n\nThe Crown tells the inside story of two of the most famous addresses in the world – Buckingham Palace and 10 Downing Street – and the intrigues, love lives and machinations behind the great events that shaped the second half of the 20th century. Two houses, two courts, one Crown.",
-  "episodes": 24,
+  "episodes": 21,
   "seasons": 3,
   "language": "en",
   "poster": "/jkXkaZBg8GhFrnypBnVvGDuMj5c.jpg",
@@ -11,9 +11,9 @@
   "firstAirDate": "2016-11-04",
   "lastAirDate": "2017-12-08",
   "rankings": {
-    "imdb": 99,
-    "metacritic": 94,
-    "tmdb": 87
+    "imdb": null,
+    "metacritic": null,
+    "tmdb": 69
   },
-  "score": 3.0107142857142857
+  "score": 1.0144927536231885
 }

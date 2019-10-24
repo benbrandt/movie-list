@@ -10,13 +10,13 @@
   "runtime": 82,
   "tagline": "An Immortal Screen Classic that will live Forever!",
   "rankings": {
-    "bfi": 40,
+    "bfi": null,
     "imdb": null,
-    "letterboxd": 36,
+    "letterboxd": 49,
     "metacritic": null,
     "mubi": null,
     "rottenTomatoes": null,
-    "tmdb": 97
+    "tmdb": null
   },
-  "score": 3.0173410404624277
+  "score": 1.0204081632653061
 }

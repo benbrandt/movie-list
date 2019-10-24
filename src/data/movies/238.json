@@ -10,13 +10,13 @@
   "runtime": 175,
   "tagline": "An offer you can't refuse.",
   "rankings": {
-    "bfi": 8,
+    "bfi": null,
     "imdb": 2,
-    "letterboxd": 4,
+    "letterboxd": 3,
     "metacritic": 2,
     "mubi": 3,
-    "rottenTomatoes": 27,
+    "rottenTomatoes": 31,
     "tmdb": 3
   },
-  "score": 7.142857142857143
+  "score": 6.136363636363637
 }

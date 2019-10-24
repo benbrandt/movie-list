@@ -1,7 +1,7 @@
 {
   "id": "800",
   "title": "The Young and the Damned",
-  "backdrop": "/sy6AZqQv65LBnMWjYPOye3Z3NYo.jpg",
+  "backdrop": "/b4VAgPHGL33OA5QNZCYi0jU5Nma.jpg",
   "language": "es",
   "originalTitle": "Los olvidados",
   "overview": "A group of juvenile delinquents lives a criminal, violent life in the festering slums of Mexico City, among them the young Pedro, whose morality is gradually corrupted and destroyed by the others.",
@@ -10,7 +10,7 @@
   "runtime": 85,
   "tagline": "",
   "rankings": {
-    "bfi": 90,
+    "bfi": 76,
     "imdb": null,
     "letterboxd": null,
     "metacritic": null,
@@ -18,5 +18,5 @@
     "rottenTomatoes": null,
     "tmdb": null
   },
-  "score": 1.011111111111111
+  "score": 1.013157894736842
 }

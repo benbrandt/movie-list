@@ -10,13 +10,13 @@
   "runtime": 125,
   "tagline": "Movie-wise, there has never been anything like it - laugh-wise, love-wise, or otherwise-wise!",
   "rankings": {
-    "bfi": 46,
+    "bfi": 38,
     "imdb": null,
-    "letterboxd": 86,
-    "metacritic": null,
+    "letterboxd": null,
+    "metacritic": 76,
     "mubi": null,
     "rottenTomatoes": null,
-    "tmdb": 87
+    "tmdb": 85
   },
-  "score": 3.0136986301369864
+  "score": 3.0150753768844223
 }

@@ -6,17 +6,17 @@
   "originalTitle": "City Lights",
   "overview": "City Lights is the first silent film that Charlie Chaplin directed after he established himself with sound accompanied films. The film is about a penniless man who falls in love with a flower girl.",
   "poster": "/bXNvzjULc9jrOVhGfjcc64uKZmZ.jpg",
-  "releaseDate": "1931-02-26",
+  "releaseDate": "1931-02-01",
   "runtime": 87,
   "tagline": "True Blind Love",
   "rankings": {
-    "bfi": 31,
-    "imdb": 34,
-    "letterboxd": 83,
-    "metacritic": null,
-    "mubi": 98,
+    "bfi": 25,
+    "imdb": 43,
+    "letterboxd": null,
+    "metacritic": 10,
+    "mubi": 99,
     "rottenTomatoes": null,
-    "tmdb": 24
+    "tmdb": 26
   },
-  "score": 5.018518518518518
+  "score": 5.024630541871921
 }

@@ -5,12 +5,12 @@
   "language": "it",
   "originalTitle": "La dolce vita",
   "overview": "Episodic journey of an Italian journalist scouring Rome in search of love.",
-  "poster": "/mZJ25Th65B2KXM57uIiEzO3Aw81.jpg",
+  "poster": "/aU7WLwPVCOoonAPWOPBmZ8X0c3c.jpg",
   "releaseDate": "1960-02-05",
   "runtime": 176,
   "tagline": "The world's most talked about movie today!",
   "rankings": {
-    "bfi": 39,
+    "bfi": null,
     "imdb": null,
     "letterboxd": null,
     "metacritic": null,
@@ -18,5 +18,5 @@
     "rottenTomatoes": null,
     "tmdb": null
   },
-  "score": 2.015625
+  "score": 1.0112359550561798
 }

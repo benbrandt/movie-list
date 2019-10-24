@@ -3,17 +3,17 @@
   "name": "Last Week Tonight with John Oliver",
   "originalName": "Last Week Tonight with John Oliver",
   "overview": "A half-hour satirical look at the week in news, politics and current events.",
-  "episodes": 153,
+  "episodes": 176,
   "seasons": 6,
   "language": "en",
-  "poster": "/eu3n68a2k9SF85RbbWrUIocBNqu.jpg",
-  "backdrop": "/iSNJlEYP8gNEyp7e9NpJfU13I6r.jpg",
+  "poster": "/yz8g7Y85hyTPXwd7DfRjEWgYLUr.jpg",
+  "backdrop": "/yWdMvxPg8CcaX2KgWnNEqa2lxmZ.jpg",
   "firstAirDate": "2014-04-27",
-  "lastAirDate": "2019-03-10",
+  "lastAirDate": "2019-10-13",
   "rankings": {
-    "imdb": 62,
+    "imdb": 70,
     "metacritic": null,
-    "tmdb": 99
+    "tmdb": null
   },
-  "score": 2.012422360248447
+  "score": 1.0142857142857142
 }

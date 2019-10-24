@@ -1,7 +1,7 @@
 {
   "id": "510",
   "title": "One Flew Over the Cuckoo's Nest",
-  "backdrop": "/4E7YQcwui0PfNXguf4V2X8YocPC.jpg",
+  "backdrop": "/mtJrV7i76PtXJMmWz3tu6dWav6n.jpg",
   "language": "en",
   "originalTitle": "One Flew Over the Cuckoo's Nest",
   "overview": "While serving time for insanity at a state mental hospital, implacable rabble-rouser, Randle Patrick McMurphy, inspires his fellow patients to rebel against the authoritarian rule of head nurse, Mildred Ratched.",
@@ -10,13 +10,13 @@
   "runtime": 133,
   "tagline": "If he's crazy, what does that make you?",
   "rankings": {
-    "bfi": 48,
-    "imdb": 16,
+    "bfi": 40,
+    "imdb": 18,
     "letterboxd": null,
     "metacritic": null,
     "mubi": 22,
     "rottenTomatoes": null,
-    "tmdb": 21
+    "tmdb": 25
   },
-  "score": 4.037383177570093
+  "score": 4.038095238095238
 }

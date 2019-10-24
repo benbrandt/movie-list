@@ -10,13 +10,13 @@
   "runtime": 130,
   "tagline": "You get tough. You get tender. You get close to each other. Maybe you even get close to the truth.",
   "rankings": {
-    "bfi": 93,
+    "bfi": 78,
     "imdb": null,
     "letterboxd": null,
     "metacritic": null,
     "mubi": 42,
-    "rottenTomatoes": null,
+    "rottenTomatoes": 99,
     "tmdb": null
   },
-  "score": 2.0148148148148146
+  "score": 3.0136986301369864
 }

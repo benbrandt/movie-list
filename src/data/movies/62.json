@@ -1,7 +1,7 @@
 {
   "id": "62",
   "title": "2001: A Space Odyssey",
-  "backdrop": "/6gyZF4SeifiUUYDELkCS8nOqsu2.jpg",
+  "backdrop": "/rkaP7dnHenOr2n2IqMxip6rtT4W.jpg",
   "language": "en",
   "originalTitle": "2001: A Space Odyssey",
   "overview": "Humanity finds a mysterious object buried beneath the lunar surface and sets off to find its origins with the help of HAL 9000, the world's most advanced super computer.",
@@ -11,12 +11,12 @@
   "tagline": "The ultimate trip",
   "rankings": {
     "bfi": 2,
-    "imdb": 87,
-    "letterboxd": 53,
+    "imdb": 90,
+    "letterboxd": 63,
     "metacritic": null,
     "mubi": 2,
     "rottenTomatoes": null,
     "tmdb": null
   },
-  "score": 4.027777777777778
+  "score": 4.025477707006369
 }

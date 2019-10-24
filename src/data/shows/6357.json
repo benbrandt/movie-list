@@ -11,9 +11,9 @@
   "firstAirDate": "1959-10-02",
   "lastAirDate": "1964-06-19",
   "rankings": {
-    "imdb": 68,
+    "imdb": null,
     "metacritic": null,
-    "tmdb": 23
+    "tmdb": 16
   },
-  "score": 2.021978021978022
+  "score": 1.0625
 }

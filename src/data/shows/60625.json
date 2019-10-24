@@ -3,8 +3,8 @@
   "name": "Rick and Morty",
   "originalName": "Rick and Morty",
   "overview": "Rick is a mentally-unbalanced but scientifically-gifted old man who has recently reconnected with his family. He spends most of his time involving his young grandson Morty in dangerous, outlandish adventures throughout space and alternate universes. Compounded with Morty's already unstable family life, these events cause Morty much distress at home and school.",
-  "episodes": 31,
-  "seasons": 3,
+  "episodes": 32,
+  "seasons": 4,
   "language": "en",
   "poster": "/qJdfO3ahgAMf2rcmhoqngjBBZW1.jpg",
   "backdrop": "/mzzHr6g1yvZ05Mc7hNj3tUdy2bM.jpg",
@@ -13,7 +13,7 @@
   "rankings": {
     "imdb": 54,
     "metacritic": null,
-    "tmdb": 2
+    "tmdb": 3
   },
-  "score": 2.0357142857142856
+  "score": 2.0350877192982457
 }

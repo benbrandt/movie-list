@@ -8,9 +8,9 @@
   "poster": "/hIjOdQW7vRHjK3VBEYC3fRTfi52.jpg",
   "releaseDate": "1970-10-21",
   "runtime": 108,
-  "tagline": "A dazzling movie.",
+  "tagline": "A dazzling movie",
   "rankings": {
-    "bfi": 60,
+    "bfi": 52,
     "imdb": null,
     "letterboxd": null,
     "metacritic": null,
@@ -18,5 +18,5 @@
     "rottenTomatoes": null,
     "tmdb": null
   },
-  "score": 1.0166666666666666
+  "score": 1.0192307692307692
 }
