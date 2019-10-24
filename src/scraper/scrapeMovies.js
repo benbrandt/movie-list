@@ -20,7 +20,7 @@ function avgMovieRank({
   rottenTomatoes,
   tmdb
 }: Rankings): number {
-  let rankings = [];
+  const rankings = [];
   if (bfi != null) rankings.push(bfi);
   if (imdb != null) rankings.push(imdb);
   if (letterboxd != null) rankings.push(letterboxd);
@@ -57,7 +57,6 @@ const updateOrCreateMovie = async (movie: TmdbMovie, rankings: Rankings) => {
     rankings: Object.assign({}, defaultRankings, rankings),
     score: avgMovieRank(rankings)
   };
-  // $FlowFixMe
   fs.writeFile(
     path.resolve(`./src/data/movies/${movie.id}.json`),
     JSON.stringify(jsonMovie, null, 2),
@@ -74,7 +73,7 @@ const searchMovies = async (
 ): Promise<Array<?TmdbMovie>> => {
   const movies = [];
 
-  for (let item of searchItems) {
+  for (const item of searchItems) {
     const movie = await tmdb
       .searchMovies(item)
       .catch(e => console.log(e.toString()));
@@ -112,7 +111,7 @@ const scrapeMovies = async () => {
   const movieList = {};
   const rankingList = {};
 
-  for (let scraper of scrapeMovieFuncs) {
+  for (const scraper of scrapeMovieFuncs) {
     console.log(`\nSCRAPING: ${scraper.source.toUpperCase()}\n===============`);
     const movies = await scraper.scrape();
     if (!movies.length) throw new Error(`Scraper failed for ${scraper.source}`);
@@ -128,7 +127,7 @@ const scrapeMovies = async () => {
   const tmdbIds = Object.keys(movieList);
   const movieIds = [];
 
-  for (let id of tmdbIds) {
+  for (const id of tmdbIds) {
     movieIds.push(await updateOrCreateMovie(movieList[id], rankingList[id]));
   }
 

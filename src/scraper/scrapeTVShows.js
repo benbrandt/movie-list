@@ -8,7 +8,7 @@ const tmdb = require("./tmdb");
 const { avgRank } = require("./utils");
 
 function avgTVRank({ imdb, metacritic, tmdb }: TVRankings): number {
-  let rankings = [];
+  const rankings = [];
   if (imdb != null) rankings.push(imdb);
   if (metacritic != null) rankings.push(metacritic);
   if (tmdb != null) rankings.push(tmdb);
@@ -38,7 +38,6 @@ const updateOrCreateShow = async (show: TmdbTVShow, rankings: TVRankings) => {
     rankings: Object.assign({}, defaultRankings, rankings),
     score: avgTVRank(rankings)
   };
-  // $FlowFixMe
   fs.writeFile(
     path.resolve(`./src/data/shows/${show.id}.json`),
     JSON.stringify(jsonShow, null, 2),
@@ -55,7 +54,7 @@ const searchShows = async (
 ): Promise<Array<?TmdbTVShow>> => {
   const shows = [];
 
-  for (let item of searchItems) {
+  for (const item of searchItems) {
     const show = await tmdb.searchTVShows(item);
     shows.push(show);
   }
@@ -84,7 +83,7 @@ const scrapeTVShows = async () => {
   const showList = {};
   const rankingList = {};
 
-  for (let scraper of scrapeShowFuncs) {
+  for (const scraper of scrapeShowFuncs) {
     console.log(`\nSCRAPING: ${scraper.source.toUpperCase()}\n===============`);
     const shows = await scraper.scrape();
     if (!shows.length) throw new Error(`Scraper failed for ${scraper.source}`);
@@ -100,7 +99,7 @@ const scrapeTVShows = async () => {
   const tmdbIds = Object.keys(showList);
   const showIds = [];
 
-  for (let id of tmdbIds) {
+  for (const id of tmdbIds) {
     showIds.push(await updateOrCreateShow(showList[id], rankingList[id]));
   }
 

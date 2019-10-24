@@ -31,7 +31,7 @@ async function getTopMovies(): Promise<SearchInfo[]> {
   const movies = [];
   const pages = [1, 2, 3, 4, 5];
 
-  for (let page of pages) {
+  for (const page of pages) {
     const list = await getMovieList(topMoviesUrl(page));
     if (!list.length) throw new Error(`Page ${page} failed.`);
     movies.push(list);

@@ -161,7 +161,7 @@ export default () => {
                     {logos
                       .filter(logo => !!logo.movies)
                       .map(logo => (
-                        <Logo src={logo.img} alt={logo.name} />
+                        <Logo key={logo.name} src={logo.img} alt={logo.name} />
                       ))}
                   </Logos>
                 </Overlay>
@@ -173,7 +173,7 @@ export default () => {
                     {logos
                       .filter(logo => !!logo.shows)
                       .map(logo => (
-                        <Logo src={logo.img} alt={logo.name} />
+                        <Logo key={logo.name} src={logo.img} alt={logo.name} />
                       ))}
                   </Logos>
                 </Overlay>

@@ -88,7 +88,7 @@ async function getTopList(urlFn: number => string): Promise<SearchResult[]> {
   const urls = R.range(1, 6).map(urlFn);
   const results = [];
 
-  for (let url of urls) {
+  for (const url of urls) {
     const list = await delayedRequest(url);
     results.push(list);
   }
@@ -106,7 +106,7 @@ async function getTopMovies(): Promise<(?TmdbMovie)[]> {
   const topMovies: SearchResult[] = await getTopList(topMoviesUrl);
   const movies = [];
 
-  for (let movie of topMovies) {
+  for (const movie of topMovies) {
     const list = await getMovie(movie);
     movies.push(list);
   }
@@ -118,7 +118,7 @@ async function getTopTVShows(): Promise<(?TmdbTVShow)[]> {
   const topTVShows: SearchResult[] = await getTopList(topTVUrl);
   const tvShows = [];
 
-  for (let tvShow of topTVShows) {
+  for (const tvShow of topTVShows) {
     const list = await getTVShow(tvShow);
     tvShows.push(list);
   }

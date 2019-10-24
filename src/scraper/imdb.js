@@ -46,10 +46,10 @@ async function getTopShowList(url): Promise<SearchInfo[]> {
 }
 
 async function getTopShows(): Promise<SearchInfo[]> {
-  let shows = [];
+  const shows = [];
   const pages = [1, 2];
 
-  for (let page of pages) {
+  for (const page of pages) {
     const list = await getTopShowList(topTVUrl(page));
     if (!list.length) throw new Error(`Page ${page} failed.`);
     shows.push(list);

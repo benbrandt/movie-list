@@ -1,7 +1,6 @@
 [ignore]
 
 [untyped]
-.*node_modules/babel-plugin-emotion/src*.
 
 [include]
 
