@@ -65,5 +65,9 @@
     "jest": "^24.8.0",
     "prettier": "^1.17.1",
     "prettier-standard": "^9.1.1"
+  },
+  "volta": {
+    "node": "12.13.0",
+    "yarn": "1.19.1"
   }
 }
